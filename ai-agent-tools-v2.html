@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#060916">
+  <title>AI 日用工具风向标</title>
+  <style>
+    :root{--bg:#060916;--panel:#0c1427;--line:#253552;--text:#f5f7ff;--muted:#94a1b9;--blue:#4384ff;--purple:#985cff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+    button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}.shell{min-height:100vh;overflow:hidden;position:relative;background:radial-gradient(circle at 88% 22%,rgba(55,89,215,.18),transparent 28%),linear-gradient(rgba(60,87,138,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(60,87,138,.045) 1px,transparent 1px),#060916;background-size:auto,32px 32px,32px 32px,auto}
+    .shell:after{content:"";position:absolute;width:480px;height:480px;right:-160px;top:120px;border-radius:50%;background:repeating-radial-gradient(circle,rgba(74,112,255,.22) 0 1px,transparent 2px 12px);mask-image:radial-gradient(circle,#000,transparent 69%);pointer-events:none}
+    header{height:68px;border-bottom:1px solid rgba(91,114,157,.18);display:flex;align-items:center;justify-content:space-between;padding:0 max(20px,4vw);background:rgba(5,8,19,.78);backdrop-filter:blur(18px);position:relative;z-index:3}.brand{display:flex;align-items:center;gap:11px;font-weight:750}.brand i{font-style:normal;font-size:28px;color:#9b67ff;filter:drop-shadow(0 0 8px #714fff)}.status{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 12px;color:#bbc4d4;font-size:12px}.status:before{content:"";width:7px;height:7px;border-radius:50%;background:#20e49c;box-shadow:0 0 10px #20e49c}
+    main{width:min(1280px,92vw);margin:auto;position:relative;z-index:2}.hero{padding:64px 0 42px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:50px}.eyebrow{font-size:12px;letter-spacing:.25em;color:#b47aff;font-weight:800;margin:0 0 22px}.hero h1{font-size:clamp(46px,6vw,74px);line-height:1.07;letter-spacing:-.055em;margin:0}.hero h1 span{background:linear-gradient(120deg,#c06bff,#4c7eff);background-clip:text;color:transparent}.desc{color:var(--muted);font-size:17px;line-height:1.8;margin:20px 0 0;max-width:680px}.agentJump{display:inline-flex;align-items:center;gap:8px;margin-top:18px;padding:10px 15px;border:1px solid #3b6b68;border-radius:11px;color:#71e5bd;background:rgba(34,116,97,.13);text-decoration:none;font-size:13px;font-weight:800}.refreshBox{display:flex;align-items:center;gap:16px}.refresh{height:66px;padding:0 25px;border:1px solid transparent;border-radius:18px;color:#fff;font-size:17px;font-weight:750;background:linear-gradient(#121b33,#11192e) padding-box,linear-gradient(110deg,#b05cff,#387eff) border-box;box-shadow:0 0 0 3px rgba(123,74,255,.1),0 0 30px rgba(79,96,255,.28);cursor:pointer;display:flex;gap:10px;align-items:center}.refresh:hover{transform:translateY(-2px)}.refresh span{font-size:26px;display:inline-block}.refresh.busy span{animation:spin .5s linear infinite}.refreshBox small{color:#78859d}
+    .filters{display:flex;gap:11px;overflow:auto;padding:3px 2px 22px;scrollbar-width:none}.filters::-webkit-scrollbar{display:none}.filters button{white-space:nowrap;border:1px solid #2b3955;border-radius:999px;padding:10px 19px;background:rgba(10,16,30,.7);color:#98a5ba;cursor:pointer}.filters button.active{color:#fff;border-color:#8d68ff;background:linear-gradient(120deg,#693ace,#2350c4);box-shadow:0 0 20px rgba(105,63,223,.3)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;min-height:420px;align-content:start;transition:.2s}.grid.fade{opacity:.15;transform:translateY(7px)}.card{height:205px;border:1px solid #263653;border-radius:17px;padding:22px;text-decoration:none;color:#fff;background:radial-gradient(circle at 8% 8%,color-mix(in srgb,var(--a) 12%,transparent),transparent 31%),linear-gradient(145deg,rgba(15,26,48,.97),rgba(8,15,29,.98));position:relative;display:flex;flex-direction:column;transition:.18s;animation:in .38s both}.card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--a) 45%,#33425f)}.top{display:flex;gap:14px;align-items:center}.icon{width:49px;height:49px;display:grid;place-items:center;border-radius:13px;color:#07101a;background:var(--a);font-weight:850;font-size:18px;box-shadow:0 0 18px color-mix(in srgb,var(--a) 18%,transparent)}.title{min-width:0}.title h2{font-size:19px;margin:0 0 7px}.title p{font-size:13px;line-height:1.5;color:#9aa6bb;margin:0}.meta{margin-top:auto;border-top:1px solid rgba(83,105,142,.18);padding-top:14px;display:flex;align-items:center;gap:12px;font-size:12px}.cat{color:#5a97ff}.heat{color:#98a5bb;border-left:1px solid #30405b;padding-left:12px}.heat b{color:#ff714e}.arrow{margin-left:auto;width:32px;height:32px;border:1px solid #4a5b76;border-radius:50%;display:grid;place-items:center}.label{position:absolute;right:18px;top:18px;border:1px solid rgba(142,91,255,.18);background:rgba(103,54,190,.11);color:#bd87ff;border-radius:5px;padding:5px 8px;font-size:11px}.hint{color:#697892;font-size:11px;margin:10px 0 0}
+    .agentSection{margin-top:76px;padding-top:58px;border-top:1px solid rgba(75,98,139,.22)}.agentHead{display:flex;align-items:end;justify-content:space-between;gap:26px;margin-bottom:28px}.agentHead .eyebrow{margin-bottom:13px}.agentHead h2{font-size:clamp(32px,4vw,50px);letter-spacing:-.04em;margin:0}.agentHead h2 span{background:linear-gradient(120deg,#4fe4b4,#5f82ff);background-clip:text;color:transparent}.agentDesc{color:var(--muted);font-size:14px;line-height:1.7;margin:12px 0 0;max-width:680px}.agentRefresh{border:1px solid #33506a;border-radius:13px;background:#0d1928;color:#d8f8ed;padding:12px 17px;font-weight:700;cursor:pointer;white-space:nowrap}.agentRefresh.busy span{display:inline-block;animation:spin .5s linear infinite}.agentFilters{display:flex;gap:10px;overflow:auto;margin-bottom:16px;padding:2px;scrollbar-width:none}.agentFilters::-webkit-scrollbar{display:none}.agentFilters button{white-space:nowrap;border:1px solid #2b3955;border-radius:10px;padding:9px 16px;background:#0a111f;color:#92a0b5;cursor:pointer}.agentFilters button.active{color:#06110e;background:#65e0b4;border-color:#65e0b4;font-weight:800}.agentList{display:grid;gap:10px;min-height:250px}.agentRow{display:grid;grid-template-columns:52px minmax(190px,1fr) minmax(210px,1.3fr) 110px 42px;gap:15px;align-items:center;min-height:86px;border:1px solid #22334d;border-radius:15px;padding:13px 17px;color:#fff;text-decoration:none;background:linear-gradient(110deg,rgba(14,26,44,.98),rgba(7,14,27,.98));transition:.18s}.agentRow:hover{transform:translateX(4px);border-color:#416e79}.rank{font-size:22px;font-weight:900;color:#5ee0b4;font-family:var(--font-mono,monospace)}.repo{min-width:0}.repo strong{display:block;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.repo small{display:block;color:#71819a;font-size:11px;margin-top:7px}.agentUse{color:#a7b2c3;font-size:13px;line-height:1.55}.stars{text-align:right;color:#f3ca66;font-weight:800}.stars small{display:block;color:#697892;font-size:10px;font-weight:500;margin-top:5px}.agentArrow{width:34px;height:34px;border:1px solid #3a526d;border-radius:50%;display:grid;place-items:center}.agentState{border:1px dashed #2b405f;border-radius:15px;padding:34px;text-align:center;color:#8492a9}.agentNote{display:flex;justify-content:space-between;gap:15px;color:#65728a;font-size:11px;margin-top:13px}.risk{color:#a9976a}
+    footer{border-top:1px solid rgba(75,98,139,.16);margin-top:45px;padding:24px 0 34px;display:flex;justify-content:space-between;color:#65728a;font-size:11px}.mobileRefresh{display:none}
+    @keyframes spin{to{transform:rotate(360deg)}}@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.refreshBox small{display:none}}
+    @media(max-width:650px){header{height:62px;padding:0 17px}.brand{font-size:15px}.status{font-size:10px;padding:7px 9px}main{width:calc(100% - 30px)}.hero{display:block;padding:46px 0 28px}.hero h1{font-size:clamp(43px,13vw,58px);line-height:1.12}.desc{font-size:14px;line-height:1.7}.refreshBox{display:none}.filters{margin-right:-15px;padding-bottom:17px}.filters button{font-size:12px;padding:9px 15px}.grid{grid-template-columns:1fr;min-height:0}.card{height:198px;padding:20px}.mobileRefresh{display:block;width:100%;height:50px;margin-top:18px;border:1px solid #815cff;border-radius:14px;color:#fff;background:linear-gradient(110deg,#6336bd,#254dc0);font-weight:750}.mobileRefresh span{font-size:21px;margin-right:8px}.agentSection{margin-top:55px;padding-top:42px}.agentHead{display:block}.agentRefresh{width:100%;margin-top:18px}.agentFilters{margin-right:-15px}.agentFilters button{font-size:12px;padding:8px 14px}.agentRow{grid-template-columns:35px 1fr 74px 30px;gap:9px;min-height:94px;padding:13px 12px}.rank{font-size:18px}.repo strong{font-size:14px}.agentUse{grid-column:2/5;font-size:11px;margin-top:-4px}.stars{font-size:12px}.stars small{display:none}.agentArrow{width:29px;height:29px}.agentNote{display:block;line-height:1.6}.risk{display:block;margin-top:4px}footer{flex-direction:column;gap:8px}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <header><div class="brand"><i>✦</i><span>AI 日用工具风向标</span></div><div class="status">2026 精选</div></header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">POPULAR AI TOOLS · 2026</p><h1>把热门 <span>AI</span>，<br>用进每一天</h1><p class="desc">精选真正好用的 AI 工具，帮你写作、学习、创作和处理日常事务。</p><a class="agentJump" href="#agent-ranking">↓ 查看 GitHub AI Agent 排名</a></div>
+      <div class="refreshBox"><button class="refresh" id="refresh"><span>↻</span>刷新推荐</button><small>换一批 6 个工具</small></div>
+    </section>
+    <nav class="filters" id="filters" aria-label="工具分类"></nav>
+    <section class="grid" id="grid" aria-live="polite"></section>
+    <button class="mobileRefresh" id="mobileRefresh"><span>↻</span>再换一批</button>
+    <section class="agentSection" id="agent-ranking">
+      <div class="agentHead">
+        <div><p class="eyebrow">GITHUB AI AGENT · LIVE RANKING</p><h2>最热开源 <span>AI Agent</span></h2><p class="agentDesc">按使用场景精选热门开源项目，并根据 GitHub Star 数实时排序。点击项目可进入仓库查看。</p></div>
+        <button class="agentRefresh" id="agentRefresh"><span>↻</span> 更新 GitHub 热度</button>
+      </div>
+      <nav class="agentFilters" id="agentFilters" aria-label="AI Agent 分类"></nav>
+      <div class="agentList" id="agentList" aria-live="polite"></div>
+      <div class="agentNote"><span id="agentUpdated">等待读取 GitHub 数据</span><span class="risk">投资类项目仅作技术展示，不构成投资建议</span></div>
+    </section>
+    <footer><span>根据全球访问热度与日常实用性人工筛选</span><span>点击工具卡片进入官方网站</span></footer>
+  </main>
+</div>
+<script>
+const tools=[
+['ChatGPT','◎','能写、能查、能分析的全能型 AI 助手','通用助手',99,'https://chatgpt.com','#18d7a1','全球热门','日常问答与复杂任务'],
+['Gemini','✦','与 Google 生态深度配合的智能助手','通用助手',97,'https://gemini.google.com','#718dff','增长热门','搜索、文档与多模态'],
+['Claude','✺','擅长长文阅读、自然写作与深度思考','写作办公',96,'https://claude.ai','#f18a60','本月热门','长文、分析与代码'],
+['DeepSeek','D','中文表现出色的推理与编程助手','通用助手',94,'https://chat.deepseek.com','#4c8dff','高人气','中文问答与逻辑推理'],
+['Grok','G','擅长实时话题与快速信息探索','通用助手',93,'https://grok.com','#aeb8cc','高人气','热点信息与创意问答'],
+['Perplexity','P','回答附带来源，适合快速搜索研究','学习研究',92,'https://www.perplexity.ai','#25c7c9','研究首选','资料检索与事实核查'],
+['Copilot','C','连接 Windows 与 Microsoft 365 的助手','写作办公',90,'https://copilot.microsoft.com','#7082ff','','办公协作与日常搜索'],
+['Notion AI','N','把知识库、笔记和工作流放在一起','写作办公',89,'https://www.notion.so/product/ai','#f1f3f7','','整理笔记与推进项目'],
+['Grammarly','G','润色英文表达并校正语气与语法','写作办公',87,'https://www.grammarly.com','#19c29b','','英文邮件与专业写作'],
+['Canva AI','C','用文字快速生成海报、演示和社交图片','图片设计',93,'https://www.canva.com/ai-assistant/','#25cbe5','设计热门','非设计师快速出图'],
+['Midjourney','M','高质量、强风格的图像生成工具','图片设计',91,'https://www.midjourney.com','#c2c8ff','','创意视觉与概念图'],
+['Adobe Firefly','F','适合商业设计流程的生成式创意工具','图片设计',86,'https://firefly.adobe.com','#ff5d71','','修图与设计素材'],
+['CapCut','⌁','智能剪辑、自动字幕和一键成片','视频音频',92,'https://www.capcut.com','#f5f7ff','创作热门','短视频与日常剪辑'],
+['ElevenLabs','11','自然度很高的 AI 配音与声音生成','视频音频',88,'https://elevenlabs.io','#ad9cff','','配音、播客与有声内容'],
+['NotebookLM','NL','基于自己的资料生成摘要、问答与音频','学习研究',91,'https://notebooklm.google.com','#6ea5ff','学习热门','学习资料与知识梳理'],
+['Gamma','γ','一句话生成结构完整的演示与网页','写作办公',88,'https://gamma.app','#b794ff','','汇报、提案与课程'],
+['Cursor','>_','把 AI 编程助手放进完整的代码编辑器','编程开发',93,'https://www.cursor.com','#d6dcff','开发热门','开发与代码理解'],
+['GitHub Copilot','GH','在开发环境中补全、解释与修改代码','编程开发',91,'https://github.com/features/copilot','#a78bfa','','日常编码与代码评审'],
+['Otter.ai','O','自动记录会议并提炼摘要与待办事项','生活效率',84,'https://otter.ai','#3bd4ff','','会议纪要与语音转写'],
+['Reclaim','R','根据优先级自动安排日程与专注时间','生活效率',82,'https://reclaim.ai','#7f9cff','','时间管理与日程规划']];
+const categories=['全部','通用助手','写作办公','图片设计','学习研究','视频音频','编程开发','生活效率'];let category='全部',round=0,busy=false;
+const initial=['ChatGPT','Gemini','Claude','Perplexity','Canva AI','CapCut'];
+function sample(arr,n){return [...arr].sort((a,b)=>((a[0].charCodeAt(0)+a[0].length*31+round*17)%101)-((b[0].charCodeAt(0)+b[0].length*31+round*17)%101)).slice(0,n)}
+function renderFilters(){document.querySelector('#filters').innerHTML=categories.map(c=>`<button class="${c===category?'active':''}" data-cat="${c}">${c}</button>`).join('');document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{category=b.dataset.cat;round++;renderFilters();render()})}
+function render(){let pool=category==='全部'?tools:tools.filter(t=>t[3]===category);let list=round===0&&category==='全部'?initial.map(n=>tools.find(t=>t[0]===n)):sample(pool,Math.min(6,pool.length));document.querySelector('#grid').innerHTML=list.map((t,i)=>`<a class="card" style="--a:${t[6]};animation-delay:${i*45}ms" href="${t[5]}" target="_blank" rel="noreferrer"><div class="top"><span class="icon">${t[1]}</span><div class="title"><h2>${t[0]}</h2><p>${t[2]}</p></div></div>${t[7]?`<span class="label">${t[7]}</span>`:''}<p class="hint">适合：${t[8]}</p><div class="meta"><span class="cat">${t[3]}</span><span class="heat"><b>◆</b> 热度 ${t[4]}</span><span class="arrow">↗</span></div></a>`).join('')}
+function refresh(btn){if(busy)return;busy=true;btn.classList.add('busy');document.querySelector('#grid').classList.add('fade');setTimeout(()=>{round++;render();document.querySelector('#grid').classList.remove('fade');btn.classList.remove('busy');busy=false},320)}
+document.querySelector('#refresh').onclick=e=>refresh(e.currentTarget);document.querySelector('#mobileRefresh').onclick=e=>refresh(e.currentTarget);renderFilters();render();
+
+const agents=[
+{repo:'microsoft/autogen',cat:'工作',use:'多智能体协作框架，适合自动化复杂办公流程'},
+{repo:'crewAIInc/crewAI',cat:'工作',use:'用角色化 Agent 团队执行研究、写作与运营任务'},
+{repo:'langchain-ai/langgraph',cat:'工作',use:'构建可控、可持续运行的 Agent 工作流'},
+{repo:'n8n-io/n8n',cat:'工作',use:'可视化连接应用、API 与 AI Agent 的自动化平台'},
+{repo:'browser-use/browser-use',cat:'工作',use:'让 AI Agent 操作浏览器完成网页任务'},
+{repo:'openinterpreter/open-interpreter',cat:'生活',use:'让大模型在个人电脑上执行文件与系统任务'},
+{repo:'khoj-ai/khoj',cat:'生活',use:'可自托管的个人 AI 第二大脑与日常助手'},
+{repo:'leon-ai/leon',cat:'生活',use:'注重隐私、可自行部署的个人智能助理'},
+{repo:'mem0ai/mem0',cat:'生活',use:'为长期陪伴型 Agent 提供个性化记忆能力'},
+{repo:'Significant-Gravitas/AutoGPT',cat:'生活',use:'经典通用自主 Agent，可拆解并持续执行目标'},
+{repo:'virattt/ai-hedge-fund',cat:'投资',use:'模拟多位投资风格 Agent 协作研究股票'},
+{repo:'TauricResearch/TradingAgents',cat:'投资',use:'多 Agent 交易研究框架，覆盖分析与风险讨论'},
+{repo:'AI4Finance-Foundation/FinRobot',cat:'投资',use:'面向金融分析、研究与决策的开源 Agent 平台'},
+{repo:'AI4Finance-Foundation/FinGPT',cat:'投资',use:'金融大模型与投研任务工具集合'},
+{repo:'microsoft/qlib',cat:'投资',use:'微软开源的 AI 量化研究与策略实验平台'},
+{repo:'anthropics/claude-code',cat:'编程',use:'在终端中理解代码、修改项目并执行开发任务'},
+{repo:'OpenHands/OpenHands',cat:'编程',use:'可自主完成软件开发任务的开源编码 Agent'},
+{repo:'cline/cline',cat:'编程',use:'可操作编辑器、终端和浏览器的编程 Agent'},
+{repo:'RooCodeInc/Roo-Code',cat:'编程',use:'面向 VS Code 的多模式自主编程 Agent'},
+{repo:'Aider-AI/aider',cat:'编程',use:'在终端里与大模型结对编程并管理代码修改'},
+{repo:'assafelovic/gpt-researcher',cat:'研究',use:'自动搜索多来源资料并生成带引用的研究报告'},
+{repo:'stanford-oval/storm',cat:'研究',use:'斯坦福开源的深度研究与长文生成系统'},
+{repo:'HKUDS/Auto-Deep-Research',cat:'研究',use:'自动规划、搜索与整理资料的深度研究 Agent'},
+{repo:'langchain-ai/open_deep_research',cat:'研究',use:'LangChain 的开放式深度研究 Agent 模板'},
+{repo:'arc53/DocsGPT',cat:'研究',use:'基于资料库问答、检索和总结的开源助手'}
+];
+const agentCats=['工作','生活','投资','编程','研究','全部'];let agentCat='工作',agentBusy=false,agentData={};
+const compact=n=>n>=1000000?(n/1000000).toFixed(1)+'m':n>=1000?(n/1000).toFixed(1)+'k':String(n||0);
+function renderAgentFilters(){document.querySelector('#agentFilters').innerHTML=agentCats.map(c=>`<button class="${c===agentCat?'active':''}" data-agent-cat="${c}">${c}</button>`).join('');document.querySelectorAll('[data-agent-cat]').forEach(b=>b.onclick=()=>{agentCat=b.dataset.agentCat;renderAgentFilters();loadAgents(false)})}
+function currentAgents(){return agentCat==='全部'?agents:agents.filter(a=>a.cat===agentCat)}
+function renderAgents(){const list=currentAgents().map(a=>({...a,...agentData[a.repo]})).sort((a,b)=>(b.stars||0)-(a.stars||0));if(!list.length){document.querySelector('#agentList').innerHTML='<div class="agentState">该分类暂无项目</div>';return}document.querySelector('#agentList').innerHTML=list.map((a,i)=>`<a class="agentRow" href="https://github.com/${a.repo}" target="_blank" rel="noreferrer"><span class="rank">${String(i+1).padStart(2,'0')}</span><span class="repo"><strong>${a.repo}</strong><small>${a.language||'AI Agent'}${a.updated?' · 最近更新 '+a.updated:''}</small></span><span class="agentUse">${a.use}</span><span class="stars">★ ${a.stars==null?'读取中':compact(a.stars)}<small>GitHub Stars</small></span><span class="agentArrow">↗</span></a>`).join('')}
+async function loadAgents(force){if(agentBusy)return;agentBusy=true;const btn=document.querySelector('#agentRefresh');btn.classList.add('busy');btn.disabled=true;renderAgents();let ok=0;const list=currentAgents();for(let i=0;i<list.length;i+=5){await Promise.all(list.slice(i,i+5).map(async a=>{if(!force&&agentData[a.repo]){ok++;return}try{const r=await fetch('https://api.github.com/repos/'+a.repo,{headers:{Accept:'application/vnd.github+json'}});if(!r.ok)throw new Error(r.status);const d=await r.json();agentData[a.repo]={stars:d.stargazers_count,language:d.language||'AI Agent',updated:(d.pushed_at||'').slice(0,10)};ok++}catch(e){if(!agentData[a.repo])agentData[a.repo]={stars:null,language:'暂时无法读取'}}}));renderAgents()}document.querySelector('#agentUpdated').textContent=ok?`已读取 ${ok} 个项目 · ${new Date().toLocaleString('zh-CN')} · GitHub 公开 API`:'读取失败，请检查网络后点击更新';btn.classList.remove('busy');btn.disabled=false;agentBusy=false}
+document.querySelector('#agentRefresh').onclick=()=>loadAgents(true);renderAgentFilters();loadAgents(false);
+</script>
+</body>
+</html>
