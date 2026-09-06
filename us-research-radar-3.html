@@ -30,7 +30,8 @@
       <aside class="manifesto"><b>研究有据，洞见有度。</b><p>截图用于识别原始报告与节目，<br>页面只链接机构官网或研究门户，<br>整张卡片直达机构来源。</p></aside>
     </section>
     <section class="searchrow" aria-label="搜索"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="search" placeholder="搜索机构、市场、行业、报告或访谈" aria-label="搜索内容" /></div><button id="searchBtn">搜索</button></section>
-    <section class="stats"><div class="stat"><strong>5</strong>家入选机构</div><div class="stat"><strong id="totalStat">71</strong>条投研内容</div><div class="stat"><small>资料截止</small> <strong style="font-size:18px">2026-07-17</strong></div></section>
+    <section class="stats"><div class="stat"><strong>5</strong>家入选机构</div><div class="stat"><strong id="totalStat">71</strong>条投研内容</div><div class="stat"><small>最新收录</small> <strong id="latestDate" style="font-size:18px">加载中</strong></div></section>
+    <section class="methodbox" style="margin-bottom:24px"><h2>自动更新 <button id="refreshData" type="button">立即同步</button></h2><p id="syncStatus" role="status" aria-live="polite">正在检查最新数据；当前为历史存档。</p><p>后台每半小时检查公开来源，页面每5分钟同步；调度可能延迟。新增条目保留机构原文，主题由关键词归类。客户研报需机构权限。</p><p id="sourceStatus"></p></section>
     <section class="method">
       <div class="methodbox"><h2>“前5家”如何定义</h2><p>采用 Extel 2025 All-America Equity Research 加权榜口径，前五依次为 J.P. Morgan、Evercore ISI、Morgan Stanley、BofA Securities、Jefferies。Extel 的榜单由机构投资者对卖方研究团队进行评价。<a href="https://www.extelinsights.com/news/latest-rankings/j-p-morgan-wins-extel-s-greatest-research-accolade" target="_blank" rel="noreferrer">查看 Extel 榜单说明</a>。</p></div>
       <div class="accessbox"><h2>来源与访问边界</h2><p>截图中的播客文章仅用于反查原始机构、标题、日期、分析师和内容形式，不作为页面跳转来源。“机构公开”直达机构官网或官方频道；“客户研究门户”直达 Morgan Stanley Matrix、J.P. Morgan Markets、BofA Mercury 或 Jefferies JEFContent，完整正文通常需要机构权限。</p></div>
@@ -48,7 +49,7 @@
       {id:'bofa',name:'BofA Securities',rank:4,note:'Extel 2025 加权榜第4 · 全球研究与自有数据'},
       {id:'jefferies',name:'Jefferies',rank:5,note:'Extel 2025 加权榜第5 · 中型股与行业研究'}
     ];
-    const reports=[
+    const seedReports=[
       {org:'jpm',date:'2026-07-13',dateText:'2026-07-13',type:'客户研报',topic:'科技AI',source:'客户研究门户',access:'需机构权限',title:'Humanoids in the U.S.: Capacity Ramps, Asia Sets the Pace, and the BOM Content Upside',summary:'J.P. Morgan 北美中小盘工业团队研究美国人形机器人产能爬坡、亚洲供应链节奏与零部件价值量机会。',tags:['人形机器人','工业零部件','J.P. Morgan Markets'],url:'https://markets.jpmorgan.com/research-and-insights/global-research'},
       {org:'jpm',date:'2026-07-03',dateText:'2026-07-03',type:'播客',topic:'市场策略',title:'2026年中展望：韧性增长与黏性通胀',summary:'Bruce Kasman、Jay Barry、Ben Ramsey 与主持人 Vanessa Chan 对话，复盘上半年市场并讨论增长、通胀、利率和风险资产的下半年路径。',tags:['Making Sense','全球市场','年中展望'],url:'https://www.jpmorgan.com/insights/podcast-hub/making-sense/global-mid-year-outlook'},
       {org:'jpm',date:'2026-07-01',dateText:'2026-07-01',type:'官方报告',topic:'市场策略',title:'2026年中市场展望：拉锯仍在继续',summary:'围绕增长、通胀、利率、信贷和资产配置梳理下半年主线，并讨论全球扩张与政策约束之间的拉锯。',tags:['美股','宏观','资产配置'],url:'https://www.jpmorgan.com/insights/global-research/outlook/mid-year-outlook'},
@@ -125,17 +126,49 @@
       {org:'jefferies',date:'2026-05-07',dateText:'2026-05-07',type:'会议对话',topic:'科技AI',title:'软件行业的回归之路',summary:'会议观点考察软件板块反弹能否持续，重点关注AI采用、增长质量和企业客户需求。',tags:['软件','AI应用','估值'],url:'https://www.jefferies.com/insights/markets/softwares-road-back/'},
       {org:'jefferies',date:'2026-04-27',dateText:'2026-04-27',type:'访谈对话',topic:'能源',title:'Pete Bowden：中东危机是全球能源市场转折点',summary:'Jefferies 全球能源与基建投行负责人讨论霍尔木兹冲击、油价、并购活动和长期供给格局。',tags:['中东','油价','能源并购'],url:'https://www.jefferies.com/insights/markets/pete-bowden-on-why-the-middle-east-crisis-is-a-turning-point-for-global-energy-markets/'}
     ];
+    let reports=seedReports;
     const topics=['全部','市场策略','宏观经济','科技AI','消费','能源','大宗商品','地缘政治','资本市场','私募市场','小企业','行业研究','金融','医疗健康','媒体娱乐','中国市场','汽车','太空经济'];
     const state={topic:'全部',type:'全部',source:'全部',q:'',sort:'desc'};
     const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
     const inst=id=>institutions.find(x=>x.id===id);
     function drawNav(){document.querySelector('#topicChips').innerHTML=topics.map(x=>`<button class="topic ${state.topic===x?'active':''}" data-topic="${x}">${x}</button>`).join('')}
-    function filtered(){return reports.filter(r=>{const source=r.source||'机构公开';return(state.topic==='全部'||r.topic===state.topic)&&(state.type==='全部'||r.type===state.type)&&(state.source==='全部'||source===state.source)&&(!state.q||[r.title,r.summary,r.topic,r.type,source,r.access||'公开访问',...r.tags,inst(r.org).name].join(' ').toLowerCase().includes(state.q))}).sort((a,b)=>state.sort==='desc'?b.date.localeCompare(a.date):a.date.localeCompare(b.date))}
+    function filtered(){return reports.filter(r=>{const today=new Date();const cutoff=new Date(today);cutoff.setMonth(cutoff.getMonth()-6);if(r.date<cutoff.toISOString().slice(0,10)||r.date>today.toISOString().slice(0,10))return false;const source=r.source||'机构公开';return(state.topic==='全部'||r.topic===state.topic)&&(state.type==='全部'||r.type===state.type)&&(state.source==='全部'||source===state.source)&&(!state.q||[r.title,r.summary,r.topic,r.type,source,r.access||'公开访问',...r.tags,inst(r.org).name].join(' ').toLowerCase().includes(state.q))}).sort((a,b)=>state.sort==='desc'?b.date.localeCompare(a.date):a.date.localeCompare(b.date))}
     function card(r){const o=inst(r.org),source=r.source||'机构公开',access=r.access||'公开访问';return `<a class="card" href="${esc(r.url)}" target="_blank" rel="noreferrer" aria-label="打开 ${esc(r.title)} 对应机构来源"><div class="meta"><time>${esc(r.dateText)}</time><span>·</span><span class="org">${esc(o.name)}</span><span>·</span><span class="type">${esc(r.type)}</span></div><h4>${esc(r.title)}</h4><p class="summary">${esc(r.summary)}</p><div class="tags">${r.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join('')}</div><div class="cardfoot"><span class="source">${esc(source)} · ${esc(access)}</span><span class="arrow">→</span></div></a>`}
-    function render(){drawNav();const data=filtered();document.querySelector('#totalStat').textContent=reports.length;document.querySelector('#resultCount').textContent=`按发布时间排序 · 当前显示 ${data.length} 条`;document.querySelector('#groups').innerHTML=data.length?`<section class="timeline"><div class="cards">${data.map(card).join('')}</div></section>`:`<div class="empty">没有找到匹配内容。请减少筛选条件或更换关键词。</div>`}
+    function render(){drawNav();const data=filtered();document.querySelector('#totalStat').textContent=reports.filter(inWindow).length;document.querySelector('#latestDate').textContent=reports.filter(inWindow).map(r=>r.date).sort().at(-1)||'暂无';document.querySelector('#resultCount').textContent=`按发布时间排序 · 当前显示 ${data.length} 条`;document.querySelector('#groups').innerHTML=data.length?`<section class="timeline"><div class="cards">${data.map(card).join('')}</div></section>`:`<div class="empty">没有找到匹配内容。请减少筛选条件或更换关键词。</div>`}
     document.addEventListener('click',e=>{const tb=e.target.closest('[data-topic]');if(tb){state.topic=tb.dataset.topic;render()}});
     document.querySelector('#search').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();render()});document.querySelector('#searchBtn').addEventListener('click',()=>document.querySelector('#groups').scrollIntoView({behavior:'smooth'}));document.querySelector('#sourceFilter').addEventListener('change',e=>{state.source=e.target.value;render()});document.querySelector('#typeFilter').addEventListener('change',e=>{state.type=e.target.value;render()});document.querySelector('#sort').addEventListener('change',e=>{state.sort=e.target.value;render()});
-    render();
+    function inWindow(r){const now=new Date(), cutoff=new Date(now);cutoff.setMonth(cutoff.getMonth()-6);return r.date>=cutoff.toISOString().slice(0,10)&&r.date<=now.toISOString().slice(0,10)}
+    function validReport(r){return r&&inst(r.org)&&/^\d{4}-\d{2}-\d{2}$/.test(r.date)&&['title','summary','topic','type','dateText'].every(k=>typeof r[k]==='string')&&Array.isArray(r.tags)&&r.tags.every(t=>typeof t==='string')&&typeof r.url==='string'&&/^https:\/\//.test(r.url)}
+    let syncing=false, lastData=null;
+    function showStatus(data){
+      const age=Date.now()-Date.parse(data.checkedAt);
+      const failed=Object.values(data.sources).filter(s=>s.status!=='ok').length;
+      document.querySelector('#syncStatus').textContent=`${age>90*60*1000?'数据同步已延迟，请检查更新任务。':'已同步。'}最近采集检查：${new Date(data.checkedAt).toLocaleString('zh-CN')}；${failed?failed+' 个来源暂未更新，保留已有资料。':'公开来源检查成功。'}`;
+      document.querySelector('#sourceStatus').textContent=institutions.map(o=>{const s=data.sources[o.id];return o.name+'：'+(s?.status==='ok'?'采集成功（'+s.count+' 条）':'暂不可自动更新')}).join(' · ');
+    }
+    async function syncData(){
+      if(syncing)return;
+      syncing=true;
+      const button=document.querySelector('#refreshData');button.disabled=true;
+      const controller=new AbortController(), timeout=setTimeout(()=>controller.abort(),20000);
+      try{
+        const response=await fetch('./data/research.json?t='+Date.now(),{cache:'no-store',signal:controller.signal});
+        if(!response.ok)throw new Error('HTTP '+response.status);
+        const data=await response.json();
+        if(data.schemaVersion!==1||!Number.isFinite(Date.parse(data.checkedAt))||!data.sources||!Array.isArray(data.reports)||!data.reports.every(validReport))throw new Error('数据格式异常');
+        // Keep curated translations for matching unchanged historical entries.
+        const liveUrls=new Set(data.reports.map(r=>r.url));
+        reports=[...seedReports.filter(r=>!liveUrls.has(r.url)),...data.reports];
+        lastData=data;render();showStatus(data);
+      }catch(error){
+        document.querySelector('#syncStatus').textContent=lastData?'同步失败，继续显示上次成功读取的数据（'+new Date(lastData.checkedAt).toLocaleString('zh-CN')+'）。':'最新数据暂不可用，当前显示历史存档（原始资料截止 2026-07-17）。';
+      }finally{clearTimeout(timeout);syncing=false;button.disabled=false;}
+    }
+    document.querySelector('#refreshData').addEventListener('click',syncData);
+    document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncData()});
+    window.addEventListener('online',syncData);
+    setInterval(()=>{if(!document.hidden)syncData()},5*60*1000);
+    render();syncData();
   </script>
 </body>
 </html>
