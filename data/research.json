@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-06T23:12:22.216826+00:00",
-  "lastSuccessAt": "2026-09-06T23:12:22.216826+00:00",
+  "checkedAt": "2026-09-07T01:03:05.431705+00:00",
+  "lastSuccessAt": "2026-09-07T01:03:05.431705+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-06T23:12:22.216826+00:00",
-      "lastSuccessAt": "2026-09-06T23:12:22.216826+00:00",
+      "checkedAt": "2026-09-07T01:03:05.431705+00:00",
+      "lastSuccessAt": "2026-09-07T01:03:05.431705+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-06T23:12:22.216826+00:00",
+      "checkedAt": "2026-09-07T01:03:05.431705+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-06T23:12:22.216826+00:00",
-      "lastSuccessAt": "2026-09-06T23:12:22.216826+00:00",
+      "checkedAt": "2026-09-07T01:03:05.431705+00:00",
+      "lastSuccessAt": "2026-09-07T01:03:05.431705+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-06T23:12:22.216826+00:00",
-      "lastSuccessAt": "2026-09-06T23:12:22.216826+00:00",
+      "checkedAt": "2026-09-07T01:03:05.431705+00:00",
+      "lastSuccessAt": "2026-09-07T01:03:05.431705+00:00",
       "count": 163,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-06T23:12:22.216826+00:00",
-      "lastSuccessAt": "2026-09-06T23:12:22.216826+00:00",
+      "checkedAt": "2026-09-07T01:03:05.431705+00:00",
+      "lastSuccessAt": "2026-09-07T01:03:05.431705+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -4817,22 +4817,6 @@
       "summary": "In this episode, Rama Variankaval, global head of Corporate Advisory and Evan Junek, global head of Corporate Finance Advisory, share insights from their newly released report, \"Navigating the Future.\" The report explores how artificial intelligence, energy trends and healthcare innovations are set to reshape the business landscape over the next decade. Drawing on months of research and scenario planning, the duo offer practical insights for business leaders, board members and anyone interested in the future of the global economy. From the productivity potential of AI to the evolving dynamics of energy markets and breakthroughs in healthcare,",
       "type": "播客",
       "topic": "科技AI",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "August jobs report: \"The job market continues to soften\"",
-      "date": "2025-09-05",
-      "dateText": "2025-09-05",
-      "url": "https://marketmatters.podbean.com/e/august-jobs-report-the-job-market-continues-to-soften/",
-      "summary": "The August jobs report came in weaker than expected, with the U.S. economy adding just 22,000 jobs. The unemployment rate also crept up to 4.3% — the highest in nearly four years, suggesting that labor demand is softening more than supply. Does this all point to a larger rate cut in September? And what’s the latest in the Fed’s battle to preserve its independence? Join chief U.S. economist Mike Feroli and Jenny Shen from the Rates Sales team as they explore what lies ahead for the Fed and the U.S. economy. This episode was recorded on September 5, 2025. This communication is provided for information purposes only. Please visit www.jpmm.com/re",
-      "type": "播客",
-      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
