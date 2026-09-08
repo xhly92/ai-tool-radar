@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-07T23:47:19.857956+00:00",
-  "lastSuccessAt": "2026-09-07T23:47:19.857956+00:00",
+  "checkedAt": "2026-09-08T04:40:27.024104+00:00",
+  "lastSuccessAt": "2026-09-08T04:40:27.024104+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-07T23:47:19.857956+00:00",
-      "lastSuccessAt": "2026-09-07T23:47:19.857956+00:00",
+      "checkedAt": "2026-09-08T04:40:27.024104+00:00",
+      "lastSuccessAt": "2026-09-08T04:40:27.024104+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-07T23:47:19.857956+00:00",
-      "lastSuccessAt": "2026-09-07T23:47:19.857956+00:00",
+      "checkedAt": "2026-09-08T04:40:27.024104+00:00",
+      "lastSuccessAt": "2026-09-08T04:40:27.024104+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-07T23:47:19.857956+00:00",
-      "lastSuccessAt": "2026-09-07T23:47:19.857956+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-07T23:47:19.857956+00:00",
+      "checkedAt": "2026-09-08T04:40:27.024104+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-07T23:47:19.857956+00:00",
-      "lastSuccessAt": "2026-09-07T23:47:19.857956+00:00",
+      "checkedAt": "2026-09-08T04:40:27.024104+00:00",
+      "lastSuccessAt": "2026-09-08T04:40:27.024104+00:00",
       "count": 163,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-08T04:40:27.024104+00:00",
+      "lastSuccessAt": "2026-09-08T04:40:27.024104+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "How is automation shaping emerging markets?",
+      "date": "2026-09-08",
+      "dateText": "2026-09-08",
+      "url": "https://marketmatters.podbean.com/e/how-is-automation-shaping-emerging-markets/",
+      "summary": "In this episode of J.P. Morgan's Making Sense, Meridy Cleary from the FICC Market Structure and Liquidity Strategy team sits down with Carlos Gomez-Gascón, head of EM Rates e-Trading, to explore how automation is reshaping emerging market rates trading. They unpack the key difference between electronification and true automation and discuss how automated pricing and workflows can improve speed, transparency and scalability across EM bonds, interest rate swaps and FX swaps. The conversation also covers regional market-structure nuances (including repo and futures market dynamics), the rise of systematic funds, behavior during volatility and ho",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Global Rates & FX Views: NFP: what it means for US rates & USD",
