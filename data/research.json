@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-09T11:26:46.449068+00:00",
-  "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
+  "checkedAt": "2026-09-09T15:18:11.519936+00:00",
+  "lastSuccessAt": "2026-09-09T15:18:11.519936+00:00",
   "sources": {
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
-      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
-      "count": 45,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
-      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
+      "checkedAt": "2026-09-09T15:18:11.519936+00:00",
+      "lastSuccessAt": "2026-09-09T15:18:11.519936+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-09T15:18:11.519936+00:00",
+      "lastSuccessAt": "2026-09-09T15:18:11.519936+00:00",
+      "count": 45,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-09T15:18:11.519936+00:00",
+      "lastSuccessAt": "2026-09-09T15:18:11.519936+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+      "checkedAt": "2026-09-09T15:18:11.519936+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
-      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
-      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
+      "checkedAt": "2026-09-09T15:18:11.519936+00:00",
+      "lastSuccessAt": "2026-09-09T15:18:11.519936+00:00",
       "count": 164,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
