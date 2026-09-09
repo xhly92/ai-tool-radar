@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-09T06:04:36.729496+00:00",
-  "lastSuccessAt": "2026-09-09T06:04:36.729496+00:00",
+  "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+  "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
   "sources": {
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
+      "count": 45,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-09T06:04:36.729496+00:00",
-      "lastSuccessAt": "2026-09-09T06:04:36.729496+00:00",
+      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-09T06:04:36.729496+00:00",
+      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-09T06:04:36.729496+00:00",
-      "lastSuccessAt": "2026-09-09T06:04:36.729496+00:00",
-      "count": 45,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-09T06:04:36.729496+00:00",
-      "lastSuccessAt": "2026-09-09T06:04:36.729496+00:00",
+      "checkedAt": "2026-09-09T11:26:46.449068+00:00",
+      "lastSuccessAt": "2026-09-09T11:26:46.449068+00:00",
       "count": 164,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-09T06:04:36.729496+00:00",
-      "lastSuccessAt": "2026-09-09T06:04:36.729496+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "Clarity, Access, and Opportunity: Jefferies Unveils Its GCC Index to Capture the New Gulf",
+      "date": "2026-09-09",
+      "dateText": "2026-09-09",
+      "url": "https://www.jefferies.com/insights/markets/clarity-access-and-opportunity/",
+      "summary": "The Gulf is no longer an edge case in emerging markets; it is becoming one of their defining investment stories. With the six-country Gulf Cooperation Council (GCC) controlling roughly 40% of global sovereign wealth fund assets, the region now sits at the intersection of capital, reform, and strategic ambition across Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates. Yet for many institutional investors, access still lags opportunity: there has been no single, disciplined benchmark for capturing the GCC’s most investable listed companies. The post Clarity, Access, and Opportunity: Jefferies Unveils Its GCC Index to Capt",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "How is automation shaping emerging markets?",
