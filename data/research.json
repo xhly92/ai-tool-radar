@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-10T21:55:50.009720+00:00",
-  "lastSuccessAt": "2026-09-10T21:55:50.009720+00:00",
+  "checkedAt": "2026-09-11T00:12:24.807377+00:00",
+  "lastSuccessAt": "2026-09-11T00:12:24.807377+00:00",
   "sources": {
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-09-10T21:55:50.009720+00:00",
-      "lastSuccessAt": "2026-09-10T21:55:50.009720+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-10T21:55:50.009720+00:00",
-      "lastSuccessAt": "2026-09-10T21:55:50.009720+00:00",
+      "checkedAt": "2026-09-11T00:12:24.807377+00:00",
+      "lastSuccessAt": "2026-09-11T00:12:24.807377+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-11T00:12:24.807377+00:00",
+      "lastSuccessAt": "2026-09-11T00:12:24.807377+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-10T21:55:50.009720+00:00",
+      "checkedAt": "2026-09-11T00:12:24.807377+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-09-10T21:55:50.009720+00:00",
-      "lastSuccessAt": "2026-09-10T21:55:50.009720+00:00",
-      "count": 166,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-10T21:55:50.009720+00:00",
-      "lastSuccessAt": "2026-09-10T21:55:50.009720+00:00",
+      "checkedAt": "2026-09-11T00:12:24.807377+00:00",
+      "lastSuccessAt": "2026-09-11T00:12:24.807377+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-09-11T00:12:24.807377+00:00",
+      "lastSuccessAt": "2026-09-11T00:12:24.807377+00:00",
+      "count": 166,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
@@ -4881,22 +4881,6 @@
       "summary": "In this episode, host Daniel Rudnicki Schlumberger, head of Leveraged Finance EMEA at J.P. Morgan, is joined by Andrew Crook, head of Leveraged Finance Sales, and Daniel Lamy, head of European Credit Strategy Research. Together, they unpack the highlights from J.P. Morgan’s 9th European Leveraged Finance Conference, exploring the latest trends, including market resilience, investor sentiment, and the impact of geopolitical and macroeconomic events. This episode was recorded on September 5, 2025. This material was prepared by certain personnel of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide and not the firm’s research dep",
       "type": "播客",
       "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Navigating the Future: How AI, energy and health care will impact the corporate landscape",
-      "date": "2025-09-09",
-      "dateText": "2025-09-09",
-      "url": "https://marketmatters.podbean.com/e/navigating-the-future-how-ai-energy-and-healthcare-will-impact-the-corporate-landscape/",
-      "summary": "In this episode, Rama Variankaval, global head of Corporate Advisory and Evan Junek, global head of Corporate Finance Advisory, share insights from their newly released report, \"Navigating the Future.\" The report explores how artificial intelligence, energy trends and healthcare innovations are set to reshape the business landscape over the next decade. Drawing on months of research and scenario planning, the duo offer practical insights for business leaders, board members and anyone interested in the future of the global economy. From the productivity potential of AI to the evolving dynamics of energy markets and breakthroughs in healthcare,",
-      "type": "播客",
-      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
