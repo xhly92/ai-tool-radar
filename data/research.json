@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-11T04:44:33.500423+00:00",
-  "lastSuccessAt": "2026-09-11T04:44:33.500423+00:00",
+  "checkedAt": "2026-09-11T09:10:25.274795+00:00",
+  "lastSuccessAt": "2026-09-11T09:10:25.274795+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-11T04:44:33.500423+00:00",
-      "lastSuccessAt": "2026-09-11T04:44:33.500423+00:00",
+      "checkedAt": "2026-09-11T09:10:25.274795+00:00",
+      "lastSuccessAt": "2026-09-11T09:10:25.274795+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-11T04:44:33.500423+00:00",
+      "checkedAt": "2026-09-11T09:10:25.274795+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-11T04:44:33.500423+00:00",
-      "lastSuccessAt": "2026-09-11T04:44:33.500423+00:00",
+      "checkedAt": "2026-09-11T09:10:25.274795+00:00",
+      "lastSuccessAt": "2026-09-11T09:10:25.274795+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-09-11T04:44:33.500423+00:00",
-      "lastSuccessAt": "2026-09-11T04:44:33.500423+00:00",
-      "count": 166,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-11T04:44:33.500423+00:00",
-      "lastSuccessAt": "2026-09-11T04:44:33.500423+00:00",
+      "checkedAt": "2026-09-11T09:10:25.274795+00:00",
+      "lastSuccessAt": "2026-09-11T09:10:25.274795+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-09-11T09:10:25.274795+00:00",
+      "lastSuccessAt": "2026-09-11T09:10:25.274795+00:00",
+      "count": 166,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "The future of treasury: From back office to strategic forefront",
+      "date": "2026-09-11",
+      "dateText": "2026-09-11",
+      "url": "https://marketmatters.podbean.com/e/the-future-of-treasury-from-back-office-to-strategic-forefront/",
+      "summary": "Treasury is no longer a back-office function. As businesses navigate increasing complexity, it has become a strategic driver of resilience, decision-making and growth. In this episode, Roxana Montazerian, EMEA Head of Broker Dealer and Specialty Finance Sales and Sara Castelhano, Head of UK, Europe & Canada Treasury Services discuss how treasury is evolving in response to changing business demands. They explore the growing role of technology, real-time data and AI, the skills treasury leaders need for the future and how organizations can transform treasury from an operational function into a source of strategic insight and competitive advanta",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "Clarity, Access, and Opportunity: Jefferies Unveils Its GCC Index to Capture the New Gulf",
