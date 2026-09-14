@@ -1,45 +1,109 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-14T07:09:16.521302+00:00",
-  "lastSuccessAt": "2026-09-14T07:09:16.521302+00:00",
+  "checkedAt": "2026-09-14T14:06:25.796772+00:00",
+  "lastSuccessAt": "2026-09-14T14:06:25.796772+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-14T07:09:16.521302+00:00",
-      "lastSuccessAt": "2026-09-14T07:09:16.521302+00:00",
+      "checkedAt": "2026-09-14T14:06:25.796772+00:00",
+      "lastSuccessAt": "2026-09-14T14:06:25.796772+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-14T07:09:16.521302+00:00",
+      "checkedAt": "2026-09-14T14:06:25.796772+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "ms": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-14T07:09:16.521302+00:00",
-      "lastSuccessAt": "2026-09-14T07:09:16.521302+00:00",
-      "count": 167,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+      "checkedAt": "2026-09-14T14:06:25.796772+00:00",
+      "lastSuccessAt": "2026-09-14T14:06:25.796772+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-14T07:09:16.521302+00:00",
-      "lastSuccessAt": "2026-09-14T07:09:16.521302+00:00",
-      "count": 43,
+      "checkedAt": "2026-09-14T14:06:25.796772+00:00",
+      "lastSuccessAt": "2026-09-14T14:06:25.796772+00:00",
+      "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
+    "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-14T07:09:16.521302+00:00",
-      "lastSuccessAt": "2026-09-14T07:09:16.521302+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
+      "checkedAt": "2026-09-14T14:06:25.796772+00:00",
+      "lastSuccessAt": "2026-09-14T14:06:25.796772+00:00",
+      "count": 167,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "Insights from the OCFO: What It Takes to Build the Agentic Enterprise",
+      "date": "2026-09-14",
+      "dateText": "2026-09-14",
+      "url": "https://www.jefferies.com/insights/markets/insights-from-the-ocfo-what-it-takes-to-build-the-agentic-enterprise/",
+      "summary": "On August 12, Jefferies hosted its fourth annual Office of the CFO (OCFO) Summit at the New York Stock Exchange, bringing together business leaders across finance, technology and consulting. The post Insights from the OCFO: What It Takes to Build the Agentic Enterprise appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Signals & Noise: Four Themes Driving Emerging Markets",
+      "date": "2026-09-14",
+      "dateText": "2026-09-14",
+      "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-four-themes-driving-emerging-markets/",
+      "summary": "Emerging markets face a challenging mix of persistent inflation, potential Fed hikes, U.S. political uncertainty and geopolitical risks. Yet in this episode of Signals & Noise, David Hauner, Head of Global Emerging Markets Fixed Income Strategy at BofA Securities, explains why he remains constructive on EM carry despite a more difficult backdrop. Drawing from BofA's \"Buy Back EM\" outlook, Hauner outlines four key themes shaping emerging markets: Treasury market developments, a more hawkish Fed, U.S. midterm elections, and evolving EM monetary policy. He discusses why higher-yielding currencies in markets such as Brazil, Colombia, Turkey and f",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Signals & Noise: AI Exposure, Less Volatility? Enter Converts",
+      "date": "2026-09-14",
+      "dateText": "2026-09-14",
+      "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-ai-exposure-less-volatility-enter-converts/",
+      "summary": "Artificial intelligence has created huge opportunities for investors, but also significant volatility. In this episode of Signals & Noise, Michael Youngworth, Head of Global Convertible & Preferred Strategy at BofA Securities, explains why convertible bonds may offer a compelling way to participate in the AI theme without taking on the full volatility of common stocks. Youngworth breaks down how convertibles work, why they have become a key source of financing for AI infrastructure, data centers and hyperscalers, and how roughly one-third of the convertible market is now linked to the AI trade. He also discusses the asset class's unique combi",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Global Rates & FX Views: CPI, Fed, & buyback implications",
+      "date": "2026-09-14",
+      "dateText": "2026-09-14",
+      "url": "https://bofaglobalresearch.podbean.com/e/global-rates-fx-views-cpi-fed-buyback-implications/",
+      "summary": "Join Bank of America's Economics and Rates Strategy teams for a discussion of the latest CPI data, the implications for Federal Reserve policy, and U.S. Treasury buyback developments. Featuring insights from Aditya Bhave, Mark Cabana, Stephen Juneau, Meghan Swiber, and Ralph Axel, this timely conversation explores the key market and macroeconomic takeaways from the latest inflation report. Recorded on September 11, 2026. You may also enjoy listening to the Merrill Perspectives podcast, featuring conversations on the big stories, news and trends affecting your everyday financial life. \"Bank of America\" and “BofA Securities” are the marketing n",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "The future of treasury: From back office to strategic forefront",
