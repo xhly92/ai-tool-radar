@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-14T22:46:00.371999+00:00",
-  "lastSuccessAt": "2026-09-14T22:46:00.371999+00:00",
+  "checkedAt": "2026-09-15T00:59:09.357873+00:00",
+  "lastSuccessAt": "2026-09-15T00:59:09.357873+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-15T00:59:09.357873+00:00",
+      "lastSuccessAt": "2026-09-15T00:59:09.357873+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-14T22:46:00.371999+00:00",
+      "checkedAt": "2026-09-15T00:59:09.357873+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-14T22:46:00.371999+00:00",
-      "lastSuccessAt": "2026-09-14T22:46:00.371999+00:00",
+      "checkedAt": "2026-09-15T00:59:09.357873+00:00",
+      "lastSuccessAt": "2026-09-15T00:59:09.357873+00:00",
       "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jefferies": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-14T22:46:00.371999+00:00",
-      "lastSuccessAt": "2026-09-14T22:46:00.371999+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
+      "checkedAt": "2026-09-15T00:59:09.357873+00:00",
+      "lastSuccessAt": "2026-09-15T00:59:09.357873+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-14T22:46:00.371999+00:00",
-      "lastSuccessAt": "2026-09-14T22:46:00.371999+00:00",
-      "count": 167,
+      "checkedAt": "2026-09-15T00:59:09.357873+00:00",
+      "lastSuccessAt": "2026-09-15T00:59:09.357873+00:00",
+      "count": 169,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-14T22:46:00.371999+00:00",
-      "lastSuccessAt": "2026-09-14T22:46:00.371999+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -105,12 +105,44 @@
       "access": "公开访问"
     },
     {
+      "org": "ms",
+      "title": "Patients Are Taking the Driver's Seat in Healthcare",
+      "date": "2026-09-14",
+      "dateText": "2026-09-14",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/consumer-driven-healthcare-direct-to-consumer-biopharma-erin-wright-terence-flynn",
+      "summary": "Healthcare companies are rethinking their business models as patients gain more control over how they access care and purchase medicine. Our analysts Erin Wright and Tere...",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
       "org": "jpm",
       "title": "The future of treasury: From back office to strategic forefront",
       "date": "2026-09-11",
       "dateText": "2026-09-11",
       "url": "https://marketmatters.podbean.com/e/the-future-of-treasury-from-back-office-to-strategic-forefront/",
       "summary": "Treasury is no longer a back-office function. As businesses navigate increasing complexity, it has become a strategic driver of resilience, decision-making and growth. In this episode, Roxana Montazerian, EMEA Head of Broker Dealer and Specialty Finance Sales and Sara Castelhano, Head of UK, Europe & Canada Treasury Services discuss how treasury is evolving in response to changing business demands. They explore the growing role of technology, real-time data and AI, the skills treasury leaders need for the future and how organizations can transform treasury from an operational function into a source of strategic insight and competitive advanta",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Why the Middle-Class Squeeze Is Getting Worse",
+      "date": "2026-09-11",
+      "dateText": "2026-09-11",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/k-shaped-economy-widening-heather-berger-sarah-wolfe",
+      "summary": "Heather Berger of the U.S. Economics Team hosts Wealth Management Senior Economist and Strategist Sarah Wolfe to discuss what it takes to define the middle class in Ameri...",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
