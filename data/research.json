@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-15T11:47:20.329802+00:00",
-  "lastSuccessAt": "2026-09-15T11:47:20.329802+00:00",
+  "checkedAt": "2026-09-15T17:01:55.917844+00:00",
+  "lastSuccessAt": "2026-09-15T17:01:55.917844+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-15T11:47:20.329802+00:00",
-      "lastSuccessAt": "2026-09-15T11:47:20.329802+00:00",
+      "checkedAt": "2026-09-15T17:01:55.917844+00:00",
+      "lastSuccessAt": "2026-09-15T17:01:55.917844+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-15T11:47:20.329802+00:00",
+      "checkedAt": "2026-09-15T17:01:55.917844+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-15T17:01:55.917844+00:00",
+      "lastSuccessAt": "2026-09-15T17:01:55.917844+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-15T11:47:20.329802+00:00",
-      "lastSuccessAt": "2026-09-15T11:47:20.329802+00:00",
+      "checkedAt": "2026-09-15T17:01:55.917844+00:00",
+      "lastSuccessAt": "2026-09-15T17:01:55.917844+00:00",
       "count": 169,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-15T11:47:20.329802+00:00",
-      "lastSuccessAt": "2026-09-15T11:47:20.329802+00:00",
+      "checkedAt": "2026-09-15T17:01:55.917844+00:00",
+      "lastSuccessAt": "2026-09-15T17:01:55.917844+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
-    },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-09-15T11:47:20.329802+00:00",
-      "lastSuccessAt": "2026-09-15T11:47:20.329802+00:00",
-      "count": 46,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Walmart & Ads; Quantum, Computing Power Trading; Lodging Demand",
+      "date": "2026-09-15",
+      "dateText": "2026-09-15",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-walmart-quantum-computing-power-trading-lodging-demand/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning explores why compute is becoming one of the most valuable currencies in the global economy. We discuss Walmart’s rapidly growing advertising business and how proprietary data is helping reshape the media landscape, the accelerating path toward quantum computing commercialization, and the emergence of graphics processing unit rental futures that could transform computing power into a tradable asset class. We also recap key takeaways from conference season, where executives highlighted strong demand trends across lodging, media, communications infrastructure, an",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "Insights from the OCFO: What It Takes to Build the Agentic Enterprise",
