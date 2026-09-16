@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-16T12:37:04.183774+00:00",
-  "lastSuccessAt": "2026-09-16T12:37:04.183774+00:00",
+  "checkedAt": "2026-09-16T17:17:44.739717+00:00",
+  "lastSuccessAt": "2026-09-16T17:17:44.739717+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-16T12:37:04.183774+00:00",
-      "lastSuccessAt": "2026-09-16T12:37:04.183774+00:00",
+      "checkedAt": "2026-09-16T17:17:44.739717+00:00",
+      "lastSuccessAt": "2026-09-16T17:17:44.739717+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-16T17:17:44.739717+00:00",
+      "lastSuccessAt": "2026-09-16T17:17:44.739717+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-09-16T17:17:44.739717+00:00",
+      "lastSuccessAt": "2026-09-16T17:17:44.739717+00:00",
+      "count": 169,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-16T12:37:04.183774+00:00",
+      "checkedAt": "2026-09-16T17:17:44.739717+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-09-16T12:37:04.183774+00:00",
-      "lastSuccessAt": "2026-09-16T12:37:04.183774+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-16T12:37:04.183774+00:00",
-      "lastSuccessAt": "2026-09-16T12:37:04.183774+00:00",
+      "checkedAt": "2026-09-16T17:17:44.739717+00:00",
+      "lastSuccessAt": "2026-09-16T17:17:44.739717+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
-    },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-09-16T12:37:04.183774+00:00",
-      "lastSuccessAt": "2026-09-16T12:37:04.183774+00:00",
-      "count": 169,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "The Next Chapter of the UAE–India Trade Corridor",
+      "date": "2026-09-16",
+      "dateText": "2026-09-16",
+      "url": "https://www.jefferies.com/insights/markets/the-next-chapter-of-the-uae-india-trade-corridor/",
+      "summary": "Learn where the next wave of investment opportunities are emerging and how Jefferies is helping connect companies and capital across the corridor. The post The Next Chapter of the UAE–India Trade Corridor appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jpm",
+      "title": "Navigating credit markets in 2026: “Don’t let the macro narrative overwhelm the micro”",
+      "date": "2026-09-16",
+      "dateText": "2026-09-16",
+      "url": "https://marketmatters.podbean.com/e/navigating-credit-markets-in-2026-don-t-let-the-macro-narrative-overwhelm-the-micro/",
+      "summary": "As Treasury yields stay elevated and spreads remain historically tight, rates appear to be bleeding directly into credit — and investors are increasingly viewing credit through a rates lens. In this episode of Making Sense, Brian LaRocca, head of Vida Portfolio Solutions, Americas, joins Benjamin Kinney, global head of Credit and Public Finance Sales, to discuss what a \"ratesified\" market structure means for price discovery, electronification and portfolio trading. They also explore how policy uncertainty may be better expressed in FX than duration, why AI/data-center financing is still in the early innings (and what that means for clearing p",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Must Read Research: Walmart & Ads; Quantum, Computing Power Trading; Lodging Demand",
@@ -49,6 +81,22 @@
       "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning explores why compute is becoming one of the most valuable currencies in the global economy. We discuss Walmart’s rapidly growing advertising business and how proprietary data is helping reshape the media landscape, the accelerating path toward quantum computing commercialization, and the emergence of graphics processing unit rental futures that could transform computing power into a tradable asset class. We also recap key takeaways from conference season, where executives highlighted strong demand trends across lodging, media, communications infrastructure, an",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "The Mid-Cycle Shift Equity Investors Shouldn’t Miss",
+      "date": "2026-09-15",
+      "dateText": "2026-09-15",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/market-shift-mid-cycle-transition-mike-wilson",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson breaks down how the market is transitioning to a mid-cycle environment, with leadership shifting toward higher-qualit...",
+      "type": "播客",
+      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
