@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-18T19:13:17.914334+00:00",
-  "lastSuccessAt": "2026-09-18T19:13:17.914334+00:00",
+  "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+  "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
   "sources": {
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-18T19:13:17.914334+00:00",
+      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-18T19:13:17.914334+00:00",
-      "lastSuccessAt": "2026-09-18T19:13:17.914334+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
+      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-18T19:13:17.914334+00:00",
-      "lastSuccessAt": "2026-09-18T19:13:17.914334+00:00",
-      "count": 45,
+      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
+      "count": 47,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-18T19:13:17.914334+00:00",
-      "lastSuccessAt": "2026-09-18T19:13:17.914334+00:00",
+      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
       "count": 171,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-18T19:13:17.914334+00:00",
-      "lastSuccessAt": "2026-09-18T19:13:17.914334+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Global Rates & FX Views: The great central bank review",
+      "date": "2026-09-18",
+      "dateText": "2026-09-18",
+      "url": "https://bofaglobalresearch.podbean.com/e/the-great-central-bank-review/",
+      "summary": "Please join Ralf Preusser in conversation with Agne Stengeryte, Meghan Swiber, and Tomonobu Yamashita. We will review the Fed, the BoE and the BoJ and discuss implications for global rate and FX markets. The Fed delivered a hawkish hike and joined the global tightening cycle. The repercussions of this decisions have already had strong effects across yield curves and currencies. We discuss the FOMC decision in the context of the other central banks on the docket this week. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Signals & Noise: When Income Became an Outcome",
+      "date": "2026-09-18",
+      "dateText": "2026-09-18",
+      "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-when-income-became-an-outcome/",
+      "summary": "Income investing has evolved beyond traditional bond coupons and stock dividends, with investors increasingly turning to derivatives-based strategies across a wide risk spectrum. As structured products and derivatives-linked ETFs continue to gain traction, income is increasingly being viewed as an investment outcome rather than simply an investing style. In this episode of Signals & Noise, Abhinandan Deb, Head of Global Cross-Asset Quantitative Investment Strategy at BofA Securities, joins Nitin Saksena, Head of US Equity Derivatives Research, to discuss the rapid growth of derivatives income strategies. They explore the forces driving invest",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "The Fed hikes rates. What happens now?",
