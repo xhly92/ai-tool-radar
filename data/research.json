@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-18T21:43:07.285721+00:00",
-  "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
+  "checkedAt": "2026-09-18T23:36:33.044104+00:00",
+  "lastSuccessAt": "2026-09-18T23:36:33.044104+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-18T23:36:33.044104+00:00",
+      "lastSuccessAt": "2026-09-18T23:36:33.044104+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-18T23:36:33.044104+00:00",
+      "lastSuccessAt": "2026-09-18T23:36:33.044104+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-18T23:36:33.044104+00:00",
+      "lastSuccessAt": "2026-09-18T23:36:33.044104+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
+      "checkedAt": "2026-09-18T23:36:33.044104+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
-      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
-      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
-      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-18T21:43:07.285721+00:00",
-      "lastSuccessAt": "2026-09-18T21:43:07.285721+00:00",
-      "count": 171,
+      "checkedAt": "2026-09-18T23:36:33.044104+00:00",
+      "lastSuccessAt": "2026-09-18T23:36:33.044104+00:00",
+      "count": 172,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
@@ -63,6 +63,22 @@
       "dateText": "2026-09-18",
       "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-when-income-became-an-outcome/",
       "summary": "Income investing has evolved beyond traditional bond coupons and stock dividends, with investors increasingly turning to derivatives-based strategies across a wide risk spectrum. As structured products and derivatives-linked ETFs continue to gain traction, income is increasingly being viewed as an investment outcome rather than simply an investing style. In this episode of Signals & Noise, Abhinandan Deb, Head of Global Cross-Asset Quantitative Investment Strategy at BofA Securities, joins Nitin Saksena, Head of US Equity Derivatives Research, to discuss the rapid growth of derivatives income strategies. They explore the forces driving invest",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Trump-Xi Talks Put Trade and Tech in Focus",
+      "date": "2026-09-18",
+      "dateText": "2026-09-18",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/trump-xi-summit-ariana-salvatore",
+      "summary": "As President Xi heads to Washington, trade, rare earths and AI are set to dominate the agenda. Our Head of U.S. Public Policy Research Ariana Salvatore unpacks what the m...",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
