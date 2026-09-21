@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-20T21:54:53.638942+00:00",
-  "lastSuccessAt": "2026-09-20T21:54:53.638942+00:00",
+  "checkedAt": "2026-09-21T00:17:36.800612+00:00",
+  "lastSuccessAt": "2026-09-21T00:17:36.800612+00:00",
   "sources": {
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-21T00:17:36.800612+00:00",
+      "lastSuccessAt": "2026-09-21T00:17:36.800612+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-21T00:17:36.800612+00:00",
+      "lastSuccessAt": "2026-09-21T00:17:36.800612+00:00",
+      "count": 45,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-20T21:54:53.638942+00:00",
-      "lastSuccessAt": "2026-09-20T21:54:53.638942+00:00",
+      "checkedAt": "2026-09-21T00:17:36.800612+00:00",
+      "lastSuccessAt": "2026-09-21T00:17:36.800612+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-20T21:54:53.638942+00:00",
+      "checkedAt": "2026-09-21T00:17:36.800612+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-20T21:54:53.638942+00:00",
-      "lastSuccessAt": "2026-09-20T21:54:53.638942+00:00",
+      "checkedAt": "2026-09-21T00:17:36.800612+00:00",
+      "lastSuccessAt": "2026-09-21T00:17:36.800612+00:00",
       "count": 172,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-09-20T21:54:53.638942+00:00",
-      "lastSuccessAt": "2026-09-20T21:54:53.638942+00:00",
-      "count": 45,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-20T21:54:53.638942+00:00",
-      "lastSuccessAt": "2026-09-20T21:54:53.638942+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -5121,22 +5121,6 @@
       "summary": "In this episode, Fahmi Enam, head of Media Communications and Digital Infrastructure at J.P. Morgan Commercial Banking, is joined by Scott Wilcoxen, global head of Digital Infrastructure Investment Banking at J.P. Morgan. They dive deep into the world of digital infrastructure — exploring the critical role of data centers, fiber, and towers in powering today’s digital economy. The conversation covers the unprecedented scale of capital investment required for AI and cloud growth, the unique challenges and opportunities in assembling funding, and the evolving landscape of connectivity. Scott and Fahmi also discuss the risks of overbuilding, the",
       "type": "播客",
       "topic": "科技AI",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Digital assets unveiled: Industry insights and regulatory shifts",
-      "date": "2025-09-19",
-      "dateText": "2025-09-19",
-      "url": "https://marketmatters.podbean.com/e/digital-assets-unveiled-industry-insights-and-regulatory-shifts/",
-      "summary": "In this episode, Tina Rathjen, from J.P. Morgan’s Securities Services Regulatory Practice, is joined by Kara Kennedy, co-head of Kinexys at J.P. Morgan, to explore the rapidly evolving world of digital assets and blockchain technology. Together, they discuss the opportunities and challenges presented by distributed ledger technology (DLT) and decentralized finance (DeFi), recent regulatory changes, and J.P. Morgan’s initiatives in the digital asset space. The conversation covers industry trends, regulatory sandboxes, digital identity, and how J.P. Morgan is preparing for the future of finance. Tune in for expert insights on how technology and",
-      "type": "播客",
-      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
