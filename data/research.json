@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T05:00:15.759554+00:00",
-  "lastSuccessAt": "2026-09-22T05:00:15.759554+00:00",
+  "checkedAt": "2026-09-22T09:59:33.303919+00:00",
+  "lastSuccessAt": "2026-09-22T09:59:33.303919+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-22T05:00:15.759554+00:00",
-      "lastSuccessAt": "2026-09-22T05:00:15.759554+00:00",
+      "checkedAt": "2026-09-22T09:59:33.303919+00:00",
+      "lastSuccessAt": "2026-09-22T09:59:33.303919+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-09-22T09:59:33.303919+00:00",
+      "lastSuccessAt": "2026-09-22T09:59:33.303919+00:00",
+      "count": 45,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-22T05:00:15.759554+00:00",
+      "checkedAt": "2026-09-22T09:59:33.303919+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-22T05:00:15.759554+00:00",
-      "lastSuccessAt": "2026-09-22T05:00:15.759554+00:00",
-      "count": 45,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+      "checkedAt": "2026-09-22T09:59:33.303919+00:00",
+      "lastSuccessAt": "2026-09-22T09:59:33.303919+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-22T05:00:15.759554+00:00",
-      "lastSuccessAt": "2026-09-22T05:00:15.759554+00:00",
+      "checkedAt": "2026-09-22T09:59:33.303919+00:00",
+      "lastSuccessAt": "2026-09-22T09:59:33.303919+00:00",
       "count": 172,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-22T05:00:15.759554+00:00",
-      "lastSuccessAt": "2026-09-22T05:00:15.759554+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "Why tokenization is gaining momentum",
+      "date": "2026-09-22",
+      "dateText": "2026-09-22",
+      "url": "https://marketmatters.podbean.com/e/why-tokenization-is-gaining-momentum/",
+      "summary": "Tokenization and digital assets are moving from experimentation to real-world implementation, from hype to measurable outcomes. In this episode of Making Sense, Hannah Elson, global head of Custody and EMEA head of Securities Services, sits down with Oli Harris, global head of Kinexys by J.P. Morgan, to discuss what’s changed over the last 18 months: clearer regulation, growing institutional adoption and the rise of credible “on-chain money” that enables true delivery-versus-payment settlement. They explore where clients are investing first, including 24/7 cross-border payments, liquidity and collateral efficiency and tokenized money market f",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Global Rates & FX Views: The great central bank review",
