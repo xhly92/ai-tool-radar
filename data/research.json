@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T14:56:43.578452+00:00",
-  "lastSuccessAt": "2026-09-22T14:56:43.578452+00:00",
+  "checkedAt": "2026-09-22T18:56:33.009117+00:00",
+  "lastSuccessAt": "2026-09-22T18:56:33.009117+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-22T14:56:43.578452+00:00",
-      "lastSuccessAt": "2026-09-22T14:56:43.578452+00:00",
+      "checkedAt": "2026-09-22T18:56:33.009117+00:00",
+      "lastSuccessAt": "2026-09-22T18:56:33.009117+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-22T14:56:43.578452+00:00",
+      "checkedAt": "2026-09-22T18:56:33.009117+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-22T14:56:43.578452+00:00",
-      "lastSuccessAt": "2026-09-22T14:56:43.578452+00:00",
-      "count": 45,
+      "checkedAt": "2026-09-22T18:56:33.009117+00:00",
+      "lastSuccessAt": "2026-09-22T18:56:33.009117+00:00",
+      "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-22T14:56:43.578452+00:00",
-      "lastSuccessAt": "2026-09-22T14:56:43.578452+00:00",
+      "checkedAt": "2026-09-22T18:56:33.009117+00:00",
+      "lastSuccessAt": "2026-09-22T18:56:33.009117+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-22T14:56:43.578452+00:00",
-      "lastSuccessAt": "2026-09-22T14:56:43.578452+00:00",
-      "count": 172,
+      "checkedAt": "2026-09-22T18:56:33.009117+00:00",
+      "lastSuccessAt": "2026-09-22T18:56:33.009117+00:00",
+      "count": 173,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
@@ -49,6 +49,38 @@
       "summary": "Tokenization and digital assets are moving from experimentation to real-world implementation, from hype to measurable outcomes. In this episode of Making Sense, Hannah Elson, global head of Custody and EMEA head of Securities Services, sits down with Oli Harris, global head of Kinexys by J.P. Morgan, to discuss what’s changed over the last 18 months: clearer regulation, growing institutional adoption and the rise of credible “on-chain money” that enables true delivery-versus-payment settlement. They explore where clients are investing first, including 24/7 cross-border payments, liquidity and collateral efficiency and tokenized money market f",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Fed Hiking Cycle; Brazil Optimism; Australia’s AI Boom; AV Commercialization",
+      "date": "2026-09-22",
+      "dateText": "2026-09-22",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-fed-hiking-cycle-brazil-optimism-australia-s-ai-boom-av-commercialization/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Head of Global Research Candace Browning examines economies moving in different directions as inflation, policy, and investment trends continue to reshape the global landscape. We explore why the Federal Reserve may be at the start of a new tightening cycle, rising optimism toward Brazil despite election uncertainty, and how Australia's artificial intelligence investment boom could create inflationary pressures before delivering productivity gains. We also look at the accelerating commercialization of autonomous vehicles as driverless transportation moves from pilot programs t",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Market Resilience Isn’t Complacency",
+      "date": "2026-09-21",
+      "dateText": "2026-09-21",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/bull-market-resilience-isnt-complacency-mike-wilson",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson discusses why quality stocks, strong earnings and price momentum support his view that the bull market remains intact...",
+      "type": "播客",
+      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
