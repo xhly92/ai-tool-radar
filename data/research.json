@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-23T10:03:00.366434+00:00",
-  "lastSuccessAt": "2026-09-23T10:03:00.366434+00:00",
+  "checkedAt": "2026-09-23T15:02:35.590465+00:00",
+  "lastSuccessAt": "2026-09-23T15:02:35.590465+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-23T10:03:00.366434+00:00",
-      "lastSuccessAt": "2026-09-23T10:03:00.366434+00:00",
+      "checkedAt": "2026-09-23T15:02:35.590465+00:00",
+      "lastSuccessAt": "2026-09-23T15:02:35.590465+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-23T10:03:00.366434+00:00",
+      "checkedAt": "2026-09-23T15:02:35.590465+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-23T10:03:00.366434+00:00",
-      "lastSuccessAt": "2026-09-23T10:03:00.366434+00:00",
+      "checkedAt": "2026-09-23T15:02:35.590465+00:00",
+      "lastSuccessAt": "2026-09-23T15:02:35.590465+00:00",
       "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-23T10:03:00.366434+00:00",
-      "lastSuccessAt": "2026-09-23T10:03:00.366434+00:00",
-      "count": 173,
+      "checkedAt": "2026-09-23T15:02:35.590465+00:00",
+      "lastSuccessAt": "2026-09-23T15:02:35.590465+00:00",
+      "count": 174,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-23T10:03:00.366434+00:00",
-      "lastSuccessAt": "2026-09-23T10:03:00.366434+00:00",
+      "checkedAt": "2026-09-23T15:02:35.590465+00:00",
+      "lastSuccessAt": "2026-09-23T15:02:35.590465+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -65,6 +65,22 @@
       "summary": "In this episode of Must Read Research on Global Research Unlocked, Head of Global Research Candace Browning examines economies moving in different directions as inflation, policy, and investment trends continue to reshape the global landscape. We explore why the Federal Reserve may be at the start of a new tightening cycle, rising optimism toward Brazil despite election uncertainty, and how Australia's artificial intelligence investment boom could create inflationary pressures before delivering productivity gains. We also look at the accelerating commercialization of autonomous vehicles as driverless transportation moves from pilot programs t",
       "type": "播客",
       "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Why Central Banks Are Raising Rates Again",
+      "date": "2026-09-22",
+      "dateText": "2026-09-22",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/central-banks-rate-hikes-fed-ecb-boj-inflation-outlook-seth-carpenter",
+      "summary": "Central banks are turning more hawkish as inflation risks increase. Our Global Chief Economist and Head of Macro Research Seth Carpenter explains what that means for the...",
+      "type": "播客",
+      "topic": "宏观经济",
       "tags": [
         "官方原文",
         "自动采集"
