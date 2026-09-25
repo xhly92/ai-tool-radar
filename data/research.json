@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-24T23:30:23.214131+00:00",
-  "lastSuccessAt": "2026-09-24T23:30:23.214131+00:00",
+  "checkedAt": "2026-09-25T01:56:09.748549+00:00",
+  "lastSuccessAt": "2026-09-25T01:56:09.748549+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-25T01:56:09.748549+00:00",
+      "lastSuccessAt": "2026-09-25T01:56:09.748549+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-24T23:30:23.214131+00:00",
+      "checkedAt": "2026-09-25T01:56:09.748549+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-09-24T23:30:23.214131+00:00",
-      "lastSuccessAt": "2026-09-24T23:30:23.214131+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-24T23:30:23.214131+00:00",
-      "lastSuccessAt": "2026-09-24T23:30:23.214131+00:00",
+      "checkedAt": "2026-09-25T01:56:09.748549+00:00",
+      "lastSuccessAt": "2026-09-25T01:56:09.748549+00:00",
       "count": 47,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-24T23:30:23.214131+00:00",
-      "lastSuccessAt": "2026-09-24T23:30:23.214131+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-24T23:30:23.214131+00:00",
-      "lastSuccessAt": "2026-09-24T23:30:23.214131+00:00",
+      "checkedAt": "2026-09-25T01:56:09.748549+00:00",
+      "lastSuccessAt": "2026-09-25T01:56:09.748549+00:00",
       "count": 174,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-25T01:56:09.748549+00:00",
+      "lastSuccessAt": "2026-09-25T01:56:09.748549+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -5185,22 +5185,6 @@
       "summary": "In this episode we hear from Ralph Sueppel, Managing Director at Macrosynergy, a London-based macroeconomic research and technology company that co-developed the J.P. Morgan Macrosynergy Quantamental System (“JPMaQS”): a data and analytics product harnessing macroeconomic quantamental point-in-time data for investment strategies. Ralph joins J.P. Morgan’s Eloise Goulder, head of the Data Assets & Alpha Group. They delve into the evolution of systematic strategies using macro quantamental data, and they explore which data sets, asset classes, and analytical techniques have historically yielded the greatest alpha opportunities in this space. Fi",
       "type": "播客",
       "topic": "市场策略",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "The data center surge: Building the backbone of the digital age",
-      "date": "2025-09-23",
-      "dateText": "2025-09-23",
-      "url": "https://marketmatters.podbean.com/e/the-data-center-surge-building-the-backbone-of-the-digital-age/",
-      "summary": "In this episode, Fahmi Enam, head of Media Communications and Digital Infrastructure at J.P. Morgan Commercial Banking, is joined by Scott Wilcoxen, global head of Digital Infrastructure Investment Banking at J.P. Morgan. They dive deep into the world of digital infrastructure — exploring the critical role of data centers, fiber, and towers in powering today’s digital economy. The conversation covers the unprecedented scale of capital investment required for AI and cloud growth, the unique challenges and opportunities in assembling funding, and the evolving landscape of connectivity. Scott and Fahmi also discuss the risks of overbuilding, the",
-      "type": "播客",
-      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
