@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-  "lastSuccessAt": "2026-09-25T13:50:25.819720+00:00",
+  "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+  "lastSuccessAt": "2026-09-25T18:38:56.168232+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-      "lastSuccessAt": "2026-09-25T13:50:25.819720+00:00",
+      "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+      "lastSuccessAt": "2026-09-25T18:38:56.168232+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "evercore": {
+      "status": "error",
+      "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+      "lastSuccessAt": null,
+      "message": "未找到可核验发布日期的公开条目，保留已有资料",
+      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
+    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-      "lastSuccessAt": "2026-09-25T13:50:25.819720+00:00",
+      "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+      "lastSuccessAt": "2026-09-25T18:38:56.168232+00:00",
       "count": 47,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-      "lastSuccessAt": "2026-09-25T13:50:25.819720+00:00",
+      "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+      "lastSuccessAt": "2026-09-25T18:38:56.168232+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
-    "evercore": {
-      "status": "error",
-      "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-      "lastSuccessAt": null,
-      "message": "未找到可核验发布日期的公开条目，保留已有资料",
-      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-25T13:50:25.819720+00:00",
-      "lastSuccessAt": "2026-09-25T13:50:25.819720+00:00",
-      "count": 174,
+      "checkedAt": "2026-09-25T18:38:56.168232+00:00",
+      "lastSuccessAt": "2026-09-25T18:38:56.168232+00:00",
+      "count": 176,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
@@ -49,6 +49,38 @@
       "summary": "Consumer strength, lower-income spend improving Much of the consumer survey data suggests that consumers feel squeezed and are increasingly frustrated by inflation, but BAC credit and debit card spending data tells a different, more positive story. And importantly, it's not just higher income consumers who are spending. Recent data has shown improving growth from lower income consumers, even when excluding gasoline. Aditya Bhave, Head of US Economics for BofA Global Research, and Chris Nardone, Hardline and Broadline Retail analyst for BofA Global Research discuss whether other data is telling the same, encouraging consumer story and whether ",
       "type": "播客",
       "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "The Global Diesel Problem",
+      "date": "2026-09-24",
+      "dateText": "2026-09-24",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/diesel-fuel-market-spotlight-global-supply-andrew-sheets-martijn-rats",
+      "summary": "Diesel is at the center of an international supply squeeze, with prices rising to historic highs. Andrew Sheets and Martijn Rats unpack why this industrial fuel matters f...",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "The Unexpected Investment Case for AI Safety",
+      "date": "2026-09-23",
+      "dateText": "2026-09-23",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-safety-regulation-compute-spending-ai-capex-ariana-salvatore-michael-zezas",
+      "summary": "Tighter AI safety requirements could reshape the pace of AI investment. Ariana Salvatore and Michael Zezas dig into why the spending may shift toward more compute, not le...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
