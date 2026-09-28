@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-27T23:59:43.794111+00:00",
-  "lastSuccessAt": "2026-09-27T23:59:43.794111+00:00",
+  "checkedAt": "2026-09-28T05:27:22.815648+00:00",
+  "lastSuccessAt": "2026-09-28T05:27:22.815648+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-09-28T05:27:22.815648+00:00",
+      "lastSuccessAt": "2026-09-28T05:27:22.815648+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-27T23:59:43.794111+00:00",
+      "checkedAt": "2026-09-28T05:27:22.815648+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-09-27T23:59:43.794111+00:00",
-      "lastSuccessAt": "2026-09-27T23:59:43.794111+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-27T23:59:43.794111+00:00",
-      "lastSuccessAt": "2026-09-27T23:59:43.794111+00:00",
+      "checkedAt": "2026-09-28T05:27:22.815648+00:00",
+      "lastSuccessAt": "2026-09-28T05:27:22.815648+00:00",
       "count": 48,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-27T23:59:43.794111+00:00",
-      "lastSuccessAt": "2026-09-27T23:59:43.794111+00:00",
+      "checkedAt": "2026-09-28T05:27:22.815648+00:00",
+      "lastSuccessAt": "2026-09-28T05:27:22.815648+00:00",
       "count": 176,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-27T23:59:43.794111+00:00",
-      "lastSuccessAt": "2026-09-27T23:59:43.794111+00:00",
+      "checkedAt": "2026-09-28T05:27:22.815648+00:00",
+      "lastSuccessAt": "2026-09-28T05:27:22.815648+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -5231,22 +5231,6 @@
       "dateText": "2025-09-30",
       "url": "https://marketmatters.podbean.com/e/from-geopolitics-to-rate-cuts-what-s-shaping-commodities-markets/",
       "summary": "In this episode, Greg Shearer, head of Base and Precious Metals Research, is joined by Natasha Kaneva, head of Global Commodities Research. Together, they dive into the key factors currently shaping commodities markets — from the evolving geopolitical landscape to the interest rate environment. How have recent attacks on Russian energy infrastructure impacted global oil supply? And how have Fed cutting cycles historically affected oil prices and broader commodity returns? Tune in for expert insights on supply and demand dynamics, geopolitical risk premiums and more. This episode was recorded on September 26, 2025. This communication has been ",
-      "type": "播客",
-      "topic": "市场策略",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Trading Insights: Why macro matters for systematic investors",
-      "date": "2025-09-26",
-      "dateText": "2025-09-26",
-      "url": "https://marketmatters.podbean.com/e/trading-insights-why-macro-matters-for-systematic-investors/",
-      "summary": "In this episode we hear from Ralph Sueppel, Managing Director at Macrosynergy, a London-based macroeconomic research and technology company that co-developed the J.P. Morgan Macrosynergy Quantamental System (“JPMaQS”): a data and analytics product harnessing macroeconomic quantamental point-in-time data for investment strategies. Ralph joins J.P. Morgan’s Eloise Goulder, head of the Data Assets & Alpha Group. They delve into the evolution of systematic strategies using macro quantamental data, and they explore which data sets, asset classes, and analytical techniques have historically yielded the greatest alpha opportunities in this space. Fi",
       "type": "播客",
       "topic": "市场策略",
       "tags": [
