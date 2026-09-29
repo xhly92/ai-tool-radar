@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-  "lastSuccessAt": "2026-09-28T23:57:48.258053+00:00",
+  "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+  "lastSuccessAt": "2026-09-29T05:47:13.435459+00:00",
   "sources": {
-    "evercore": {
-      "status": "error",
-      "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-      "lastSuccessAt": null,
-      "message": "未找到可核验发布日期的公开条目，保留已有资料",
-      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
-    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-      "lastSuccessAt": "2026-09-28T23:57:48.258053+00:00",
+      "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+      "lastSuccessAt": "2026-09-29T05:47:13.435459+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-      "lastSuccessAt": "2026-09-28T23:57:48.258053+00:00",
-      "count": 48,
+      "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+      "lastSuccessAt": "2026-09-29T05:47:13.435459+00:00",
+      "count": 49,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-      "lastSuccessAt": "2026-09-28T23:57:48.258053+00:00",
-      "count": 177,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-09-28T23:57:48.258053+00:00",
-      "lastSuccessAt": "2026-09-28T23:57:48.258053+00:00",
+      "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+      "lastSuccessAt": "2026-09-29T05:47:13.435459+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "evercore": {
+      "status": "error",
+      "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+      "lastSuccessAt": null,
+      "message": "未找到可核验发布日期的公开条目，保留已有资料",
+      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-09-29T05:47:13.435459+00:00",
+      "lastSuccessAt": "2026-09-29T05:47:13.435459+00:00",
+      "count": 177,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
@@ -49,6 +49,22 @@
       "summary": "A potentially historic El Niño could disrupt food supplies and power systems into 2027. Jefferies research examines where those pressures may challenge earnings assumptions and create opportunities. The post When the Ocean Runs Hot: Investing Through History’s Biggest El Niño appeared first on Jefferies.com .",
       "type": "官方摘要",
       "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Rates, Crops, Korea, and Prediction Markets",
+      "date": "2026-09-28",
+      "dateText": "2026-09-28",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-rates-crops-korea-and-prediction-markets/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Head of Global Research Candace Browning explores how markets are pricing the probabilities that matter most. We discuss why Treasury yields continue to track Federal Reserve expectations more closely than economic data, how tightening inventories and supply disruptions are supporting an emerging agricultural bull cycle, and why Korea’s next growth phase may extend well beyond memory chips into infrastructure, consumer, and healthcare industries. We also examine the rapid evolution of prediction markets, where trading volumes have surged as platforms expand beyond politics int",
+      "type": "播客",
+      "topic": "宏观经济",
       "tags": [
         "官方原文",
         "自动采集"
