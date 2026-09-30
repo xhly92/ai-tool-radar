@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-30T12:38:31.752223+00:00",
-  "lastSuccessAt": "2026-09-30T12:38:31.752223+00:00",
+  "checkedAt": "2026-09-30T18:08:34.937610+00:00",
+  "lastSuccessAt": "2026-09-30T18:08:34.937610+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-09-30T12:38:31.752223+00:00",
-      "lastSuccessAt": "2026-09-30T12:38:31.752223+00:00",
+      "checkedAt": "2026-09-30T18:08:34.937610+00:00",
+      "lastSuccessAt": "2026-09-30T18:08:34.937610+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-09-30T12:38:31.752223+00:00",
+      "checkedAt": "2026-09-30T18:08:34.937610+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-09-30T12:38:31.752223+00:00",
-      "lastSuccessAt": "2026-09-30T12:38:31.752223+00:00",
-      "count": 49,
+      "checkedAt": "2026-09-30T18:08:34.937610+00:00",
+      "lastSuccessAt": "2026-09-30T18:08:34.937610+00:00",
+      "count": 48,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-09-30T12:38:31.752223+00:00",
-      "lastSuccessAt": "2026-09-30T12:38:31.752223+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-09-30T12:38:31.752223+00:00",
-      "lastSuccessAt": "2026-09-30T12:38:31.752223+00:00",
-      "count": 178,
+      "checkedAt": "2026-09-30T18:08:34.937610+00:00",
+      "lastSuccessAt": "2026-09-30T18:08:34.937610+00:00",
+      "count": 179,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-09-30T18:08:34.937610+00:00",
+      "lastSuccessAt": "2026-09-30T18:08:34.937610+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "China’s $12 Trillion Manufacturing Upgrade",
+      "date": "2026-09-29",
+      "dateText": "2026-09-29",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/china-12-trillion-dollar-industry-5-opportunity-sheng-zhong",
+      "summary": "Our China Industrials Analyst Sheng Zhong explains how AI, robotics and a major investment cycle could transform China’s manufacturing base and its role in global supply...",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "When the Ocean Runs Hot: Investing Through History’s Biggest El Niño",
