@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-01T07:49:48.865637+00:00",
-  "lastSuccessAt": "2026-10-01T07:49:48.865637+00:00",
+  "checkedAt": "2026-10-01T15:28:28.583053+00:00",
+  "lastSuccessAt": "2026-10-01T15:28:28.583053+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-01T07:49:48.865637+00:00",
-      "lastSuccessAt": "2026-10-01T07:49:48.865637+00:00",
+      "checkedAt": "2026-10-01T15:28:28.583053+00:00",
+      "lastSuccessAt": "2026-10-01T15:28:28.583053+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-01T07:49:48.865637+00:00",
+      "checkedAt": "2026-10-01T15:28:28.583053+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-01T07:49:48.865637+00:00",
-      "lastSuccessAt": "2026-10-01T07:49:48.865637+00:00",
+      "checkedAt": "2026-10-01T15:28:28.583053+00:00",
+      "lastSuccessAt": "2026-10-01T15:28:28.583053+00:00",
       "count": 48,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-01T07:49:48.865637+00:00",
-      "lastSuccessAt": "2026-10-01T07:49:48.865637+00:00",
-      "count": 179,
+      "checkedAt": "2026-10-01T15:28:28.583053+00:00",
+      "lastSuccessAt": "2026-10-01T15:28:28.583053+00:00",
+      "count": 180,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-01T07:49:48.865637+00:00",
-      "lastSuccessAt": "2026-10-01T07:49:48.865637+00:00",
+      "checkedAt": "2026-10-01T15:28:28.583053+00:00",
+      "lastSuccessAt": "2026-10-01T15:28:28.583053+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "4 Market Signals Ahead of the Midterms",
+      "date": "2026-09-30",
+      "dateText": "2026-09-30",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/2026-midterm-elections-market-signals-investors-ariana-salvatore",
+      "summary": "As investors look toward the U.S. midterm elections, the biggest question is what could change. Our Head of U.S. Public Policy Research Ariana Salvatore outlines the sign...",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "China’s $12 Trillion Manufacturing Upgrade",
