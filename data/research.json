@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T18:03:23.871856+00:00",
-  "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+  "checkedAt": "2026-10-02T22:16:21.966000+00:00",
+  "lastSuccessAt": "2026-10-02T22:16:21.966000+00:00",
   "sources": {
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T22:16:21.966000+00:00",
+      "lastSuccessAt": "2026-10-02T22:16:21.966000+00:00",
+      "count": 48,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T22:16:21.966000+00:00",
+      "lastSuccessAt": "2026-10-02T22:16:21.966000+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
-      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+      "checkedAt": "2026-10-02T22:16:21.966000+00:00",
+      "lastSuccessAt": "2026-10-02T22:16:21.966000+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+      "checkedAt": "2026-10-02T22:16:21.966000+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
-      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
-      "count": 49,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
-      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+      "checkedAt": "2026-10-02T22:16:21.966000+00:00",
+      "lastSuccessAt": "2026-10-02T22:16:21.966000+00:00",
       "count": 181,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
-      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -63,6 +63,22 @@
       "dateText": "2026-10-02",
       "url": "https://bofaglobalresearch.podbean.com/e/novel-now-big-scale-shortly-av-speed-reinforced-by-bay-area-trip/",
       "summary": "AV adoption is scaling; physical AI broadens the story Autonomous vehicles appear to be reaching an inflection point, with the focus shifting from proving the technology to scaling fleets, geographies and business models. Fresh off their Bay Area trip to see 15 corporates in the space, Martyn Briggs and Alex Perry discuss rapid growth in robotaxi deployments, falling autonomous ride costs, and the role of AI-native architectures in enabling expansion. And while many listeners have firsthand experience with autonomous ride sharing, Martyn and Alex also discuss their views and recent learnings on AV trucking, which could transform a freight sec",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jpm",
+      "title": "September jobs report: \"When the risks are two-sided, you're in good position\"",
+      "date": "2026-10-02",
+      "dateText": "2026-10-02",
+      "url": "https://marketmatters.podbean.com/e/september-jobs-report-when-the-risks-are-two-sided-youre-in-good-position/",
+      "summary": "Payrolls came in lower than expected in the September jobs report, but topline numbers may not tell the whole story. In this episode of Making Sense, Alexa Hanelin of the Rates team sits down with Michael Feroli, J.P. Morgan's chief U.S. economist, to give a read on the print, unearth what's behind the softness and find where the data may be more encouraging than expected. They also discuss how this report might affect the path of Fed rate cuts, digest recent commentary from FOMC officials and offer a view to what might affect the forecast for one more rate hike with inflation seeming to cool and midterms on the horizon. This episode was reco",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
