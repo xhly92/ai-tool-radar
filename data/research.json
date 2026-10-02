@@ -1,45 +1,93 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T12:39:24.063499+00:00",
-  "lastSuccessAt": "2026-10-02T12:39:24.063499+00:00",
+  "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+  "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-02T12:39:24.063499+00:00",
-      "lastSuccessAt": "2026-10-02T12:39:24.063499+00:00",
+      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-02T12:39:24.063499+00:00",
-      "lastSuccessAt": "2026-10-02T12:39:24.063499+00:00",
-      "count": 48,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-02T12:39:24.063499+00:00",
-      "lastSuccessAt": "2026-10-02T12:39:24.063499+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-02T12:39:24.063499+00:00",
+      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+      "count": 49,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-02T12:39:24.063499+00:00",
-      "lastSuccessAt": "2026-10-02T12:39:24.063499+00:00",
-      "count": 180,
+      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+      "count": 181,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T18:03:23.871856+00:00",
+      "lastSuccessAt": "2026-10-02T18:03:23.871856+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Signals & Noise: Earnings Over Elections",
+      "date": "2026-10-02",
+      "dateText": "2026-10-02",
+      "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-earnings-over-elections/",
+      "summary": "Midterms may dominate headlines, but corporate earnings, inflation and interest rates remain the key drivers of US equities. In this episode of Signals & Noise, Savita Subramanian discusses the outlook for stocks and bonds, the implications of higher Treasury yields, and the role of AI-driven productivity in supporting earnings and market performance. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking af",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Novel now, big scale shortly; AV speed reinforced by Bay Area trip",
+      "date": "2026-10-02",
+      "dateText": "2026-10-02",
+      "url": "https://bofaglobalresearch.podbean.com/e/novel-now-big-scale-shortly-av-speed-reinforced-by-bay-area-trip/",
+      "summary": "AV adoption is scaling; physical AI broadens the story Autonomous vehicles appear to be reaching an inflection point, with the focus shifting from proving the technology to scaling fleets, geographies and business models. Fresh off their Bay Area trip to see 15 corporates in the space, Martyn Briggs and Alex Perry discuss rapid growth in robotaxi deployments, falling autonomous ride costs, and the role of AI-native architectures in enabling expansion. And while many listeners have firsthand experience with autonomous ride sharing, Martyn and Alex also discuss their views and recent learnings on AV trucking, which could transform a freight sec",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "How AI and Tokenization Could Reshape Wealth Management",
+      "date": "2026-10-01",
+      "dateText": "2026-10-01",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tokenization-ai-wealth-management-betsy-graseck-michael-cyprys",
+      "summary": "Betsy Graseck and Michael Cyprys explore how AI could expand advisor capacity and tokenized assets could grow into a $2.3 trillion market by 2030.",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "4 Market Signals Ahead of the Midterms",
