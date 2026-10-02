@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-01T20:32:57.991641+00:00",
-  "lastSuccessAt": "2026-10-01T20:32:57.991641+00:00",
+  "checkedAt": "2026-10-02T00:15:13.610977+00:00",
+  "lastSuccessAt": "2026-10-02T00:15:13.610977+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-01T20:32:57.991641+00:00",
-      "lastSuccessAt": "2026-10-01T20:32:57.991641+00:00",
+      "checkedAt": "2026-10-02T00:15:13.610977+00:00",
+      "lastSuccessAt": "2026-10-02T00:15:13.610977+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-01T20:32:57.991641+00:00",
-      "lastSuccessAt": "2026-10-01T20:32:57.991641+00:00",
-      "count": 48,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-01T20:32:57.991641+00:00",
-      "lastSuccessAt": "2026-10-01T20:32:57.991641+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-01T20:32:57.991641+00:00",
+      "checkedAt": "2026-10-02T00:15:13.610977+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T00:15:13.610977+00:00",
+      "lastSuccessAt": "2026-10-02T00:15:13.610977+00:00",
+      "count": 48,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-01T20:32:57.991641+00:00",
-      "lastSuccessAt": "2026-10-01T20:32:57.991641+00:00",
+      "checkedAt": "2026-10-02T00:15:13.610977+00:00",
+      "lastSuccessAt": "2026-10-02T00:15:13.610977+00:00",
       "count": 180,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-02T00:15:13.610977+00:00",
+      "lastSuccessAt": "2026-10-02T00:15:13.610977+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -5311,22 +5311,6 @@
       "dateText": "2025-10-03",
       "url": "https://marketmatters.podbean.com/e/shutdown-showdown-economic-and-market-impacts-explained/",
       "summary": "In this episode, Samantha Azzarello, head of Content Strategy, is joined by Jay Barry, head of Global Rates Strategy, chief U.S. economist Mike Feroli and Eben Peck from the Federal Government Relations team to discuss the latest developments surrounding the U.S. government shutdown. They explore the status of negotiations and the economic implications of the impasse, including the effects on Fed policy, GDP and jobs. They also dive into the market response and the impact on the broader financial landscape. This podcast was originally recorded as a webinar for J.P. Morgan Markets on October 2, 2025. This communication has been prepared based ",
-      "type": "播客",
-      "topic": "市场策略",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "From geopolitics to rate cuts: What’s shaping commodities markets?",
-      "date": "2025-09-30",
-      "dateText": "2025-09-30",
-      "url": "https://marketmatters.podbean.com/e/from-geopolitics-to-rate-cuts-what-s-shaping-commodities-markets/",
-      "summary": "In this episode, Greg Shearer, head of Base and Precious Metals Research, is joined by Natasha Kaneva, head of Global Commodities Research. Together, they dive into the key factors currently shaping commodities markets — from the evolving geopolitical landscape to the interest rate environment. How have recent attacks on Russian energy infrastructure impacted global oil supply? And how have Fed cutting cycles historically affected oil prices and broader commodity returns? Tune in for expert insights on supply and demand dynamics, geopolitical risk premiums and more. This episode was recorded on September 26, 2025. This communication has been ",
       "type": "播客",
       "topic": "市场策略",
       "tags": [
