@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04T21:58:11.674202+00:00",
-  "lastSuccessAt": "2026-10-04T21:58:11.674202+00:00",
+  "checkedAt": "2026-10-05T00:57:49.444408+00:00",
+  "lastSuccessAt": "2026-10-05T00:57:49.444408+00:00",
   "sources": {
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-05T00:57:49.444408+00:00",
+      "lastSuccessAt": "2026-10-05T00:57:49.444408+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-04T21:58:11.674202+00:00",
-      "lastSuccessAt": "2026-10-04T21:58:11.674202+00:00",
+      "checkedAt": "2026-10-05T00:57:49.444408+00:00",
+      "lastSuccessAt": "2026-10-05T00:57:49.444408+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-05T00:57:49.444408+00:00",
+      "lastSuccessAt": "2026-10-05T00:57:49.444408+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-04T21:58:11.674202+00:00",
+      "checkedAt": "2026-10-05T00:57:49.444408+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-04T21:58:11.674202+00:00",
-      "lastSuccessAt": "2026-10-04T21:58:11.674202+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-04T21:58:11.674202+00:00",
-      "lastSuccessAt": "2026-10-04T21:58:11.674202+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-04T21:58:11.674202+00:00",
-      "lastSuccessAt": "2026-10-04T21:58:11.674202+00:00",
+      "checkedAt": "2026-10-05T00:57:49.444408+00:00",
+      "lastSuccessAt": "2026-10-05T00:57:49.444408+00:00",
       "count": 181,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
@@ -5361,22 +5361,6 @@
       "summary": "In this episode, Eloise Goulder sits down with William Tuttle, part of the Global Engagement team at J.P. Morgan, to explore the evolving landscape of U.S. policy and its impact on global markets. From the rise of tariffs and their economic implications to the global race for AI dominance, the duo explore how the U.S. is shifting toward an age of transactionalism in foreign policy. This episode was recorded on September 22, 2025. The views expressed in this podcast may not necessarily reflect the views of J.P. Morgan Chase & Co and its affiliates (together “J.P. Morgan”), they are not the product of J.P. Morgan’s Research Department and do no",
       "type": "播客",
       "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Shutdown showdown: Economic and market impacts explained",
-      "date": "2025-10-03",
-      "dateText": "2025-10-03",
-      "url": "https://marketmatters.podbean.com/e/shutdown-showdown-economic-and-market-impacts-explained/",
-      "summary": "In this episode, Samantha Azzarello, head of Content Strategy, is joined by Jay Barry, head of Global Rates Strategy, chief U.S. economist Mike Feroli and Eben Peck from the Federal Government Relations team to discuss the latest developments surrounding the U.S. government shutdown. They explore the status of negotiations and the economic implications of the impasse, including the effects on Fed policy, GDP and jobs. They also dive into the market response and the impact on the broader financial landscape. This podcast was originally recorded as a webinar for J.P. Morgan Markets on October 2, 2025. This communication has been prepared based ",
-      "type": "播客",
-      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
