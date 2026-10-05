@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T16:03:36.528822+00:00",
-  "lastSuccessAt": "2026-10-05T16:03:36.528822+00:00",
+  "checkedAt": "2026-10-05T22:39:46.531903+00:00",
+  "lastSuccessAt": "2026-10-05T22:39:46.531903+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-05T16:03:36.528822+00:00",
-      "lastSuccessAt": "2026-10-05T16:03:36.528822+00:00",
+      "checkedAt": "2026-10-05T22:39:46.531903+00:00",
+      "lastSuccessAt": "2026-10-05T22:39:46.531903+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-05T22:39:46.531903+00:00",
+      "lastSuccessAt": "2026-10-05T22:39:46.531903+00:00",
+      "count": 49,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-05T16:03:36.528822+00:00",
+      "checkedAt": "2026-10-05T22:39:46.531903+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-05T16:03:36.528822+00:00",
-      "lastSuccessAt": "2026-10-05T16:03:36.528822+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-05T16:03:36.528822+00:00",
-      "lastSuccessAt": "2026-10-05T16:03:36.528822+00:00",
+      "checkedAt": "2026-10-05T22:39:46.531903+00:00",
+      "lastSuccessAt": "2026-10-05T22:39:46.531903+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-05T16:03:36.528822+00:00",
-      "lastSuccessAt": "2026-10-05T16:03:36.528822+00:00",
+      "checkedAt": "2026-10-05T22:39:46.531903+00:00",
+      "lastSuccessAt": "2026-10-05T22:39:46.531903+00:00",
       "count": 182,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Post NFP Takeaways: Econ, Rates, FX",
+      "date": "2026-10-05",
+      "dateText": "2026-10-05",
+      "url": "https://bofaglobalresearch.podbean.com/e/post-nfp-takeaways-econ-rates-fx/",
+      "summary": "Please join our BofA Economists and rates & FX strategists to discuss takeaways after the September employment report. They will discuss implications for US economy, Fed path, rate levels / curve shape, & USD implications. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of America Corporation, including Bank of America, N.A., Member FDIC. Securities, trading, research, strategic adv",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "There’s space for traditional wireless too; LEO can coexist with terrestrial networks",
+      "date": "2026-10-05",
+      "dateText": "2026-10-05",
+      "url": "https://bofaglobalresearch.podbean.com/e/there-s-space-for-traditional-wireless-too-leo-can-coexist-with-terrestrial-networks/",
+      "summary": "Rural broadband threat, urban voice and data advantage Telecom stocks came under significant pressure around the SpaceX IPO as investors worried that low Earth orbit (LEO) satellites could disrupt traditional wireless and broadband markets. But while satellite data works well in many geographies, including rural areas, offshore and on mountaintops, Michael Funk discusses the capacity, coverage, and economic limitations in many urban and suburban markets. He also discusses the areas where he believes LEO may have the easiest time making inroads and those areas where the technology will very likely need a land-based partner to offer reliability",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Signals & Noise: Earnings Over Elections",
