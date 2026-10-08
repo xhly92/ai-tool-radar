@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T13:34:08.906399+00:00",
-  "lastSuccessAt": "2026-10-08T13:34:08.906399+00:00",
+  "checkedAt": "2026-10-08T19:28:48.703011+00:00",
+  "lastSuccessAt": "2026-10-08T19:28:48.703011+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-08T13:34:08.906399+00:00",
-      "lastSuccessAt": "2026-10-08T13:34:08.906399+00:00",
+      "checkedAt": "2026-10-08T19:28:48.703011+00:00",
+      "lastSuccessAt": "2026-10-08T19:28:48.703011+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-08T13:34:08.906399+00:00",
+      "checkedAt": "2026-10-08T19:28:48.703011+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-08T13:34:08.906399+00:00",
-      "lastSuccessAt": "2026-10-08T13:34:08.906399+00:00",
-      "count": 50,
+      "checkedAt": "2026-10-08T19:28:48.703011+00:00",
+      "lastSuccessAt": "2026-10-08T19:28:48.703011+00:00",
+      "count": 49,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-08T13:34:08.906399+00:00",
-      "lastSuccessAt": "2026-10-08T13:34:08.906399+00:00",
-      "count": 184,
+      "checkedAt": "2026-10-08T19:28:48.703011+00:00",
+      "lastSuccessAt": "2026-10-08T19:28:48.703011+00:00",
+      "count": 185,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-08T13:34:08.906399+00:00",
-      "lastSuccessAt": "2026-10-08T13:34:08.906399+00:00",
+      "checkedAt": "2026-10-08T19:28:48.703011+00:00",
+      "lastSuccessAt": "2026-10-08T19:28:48.703011+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "Will Midterms Test the AI Investment Cycle?",
+      "date": "2026-10-07",
+      "dateText": "2026-10-07",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-investment-cycle-midterm-elections-ai-infrastructure-spending-ariana-salvatore",
+      "summary": "The AI investment boom has been a defining force in markets. Our Head of Public Policy Research Ariana Salvatore looks at whether the U.S. midterm elections could change...",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Must Read Research: AI + Quantum: The Ultimate Power Couple?",
