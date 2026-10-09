@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T23:58:07.374766+00:00",
-  "lastSuccessAt": "2026-10-08T23:58:07.374766+00:00",
+  "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+  "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-08T23:58:07.374766+00:00",
+      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-10-08T23:58:07.374766+00:00",
-      "lastSuccessAt": "2026-10-08T23:58:07.374766+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-08T23:58:07.374766+00:00",
-      "lastSuccessAt": "2026-10-08T23:58:07.374766+00:00",
+      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
       "count": 49,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-08T23:58:07.374766+00:00",
-      "lastSuccessAt": "2026-10-08T23:58:07.374766+00:00",
+      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-08T23:58:07.374766+00:00",
-      "lastSuccessAt": "2026-10-08T23:58:07.374766+00:00",
+      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
       "count": 185,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
@@ -5455,22 +5455,6 @@
       "dateText": "2025-10-17",
       "url": "https://marketmatters.podbean.com/e/inside-tech-stars-2025-from-ipos-to-defense-tech/",
       "summary": "What’s driving record venture capital flows into AI and defense tech? How are public markets and strategic buyers changing the game for tech founders? Host Mose Adigun sits down with Rosh Wijayarathna, co-head of EMEA Innovation Economy, David Bauer, co-head of Americas Equity Capital Markets, and Matt Gehl, co-head of EMEA Tech Investment Banking, to discuss the most exciting technologies and innovation themes from J.P. Morgan's recent Tech Stars Conference in London. https://www.jpmorgan.com/insights/banking/investment-banking/tech-stars-conference-2025-recap This episode was recorded on October 14, 2025. This material was prepared by certa",
-      "type": "播客",
-      "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Trading Insights: US policy and the impact of tariffs",
-      "date": "2025-10-07",
-      "dateText": "2025-10-07",
-      "url": "https://marketmatters.podbean.com/e/trading-insights-us-policy-and-the-impact-of-tariffs/",
-      "summary": "In this episode, Eloise Goulder sits down with William Tuttle, part of the Global Engagement team at J.P. Morgan, to explore the evolving landscape of U.S. policy and its impact on global markets. From the rise of tariffs and their economic implications to the global race for AI dominance, the duo explore how the U.S. is shifting toward an age of transactionalism in foreign policy. This episode was recorded on September 22, 2025. The views expressed in this podcast may not necessarily reflect the views of J.P. Morgan Chase & Co and its affiliates (together “J.P. Morgan”), they are not the product of J.P. Morgan’s Research Department and do no",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
