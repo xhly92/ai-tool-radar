@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-09T06:12:40.618304+00:00",
-  "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
+  "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+  "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
   "sources": {
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
-      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
+      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
-      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
+      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
       "count": 49,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
-      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-09T06:12:40.618304+00:00",
-      "lastSuccessAt": "2026-10-09T06:12:40.618304+00:00",
-      "count": 185,
+      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "count": 186,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "High Mortgage Rates and a Stuck Housing Market",
+      "date": "2026-10-08",
+      "dateText": "2026-10-08",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/housing-market-lock-in-effect-rising-mortgage-rates-jay-bacow-james-egan",
+      "summary": "U.S. mortgage rates are hovering around their highest levels in three years. Morgan Stanley Co-Heads of Securitized Products Research Jay Bacow and James Egan examine the...",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "Will Midterms Test the AI Investment Cycle?",
