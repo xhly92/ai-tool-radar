@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-09T13:21:52.409982+00:00",
-  "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+  "checkedAt": "2026-10-09T19:01:25.865767+00:00",
+  "lastSuccessAt": "2026-10-09T19:01:25.865767+00:00",
   "sources": {
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
+      "checkedAt": "2026-10-09T19:01:25.865767+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
-      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "checkedAt": "2026-10-09T19:01:25.865767+00:00",
+      "lastSuccessAt": "2026-10-09T19:01:25.865767+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
-      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
-      "count": 49,
+      "checkedAt": "2026-10-09T19:01:25.865767+00:00",
+      "lastSuccessAt": "2026-10-09T19:01:25.865767+00:00",
+      "count": 48,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
-      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "checkedAt": "2026-10-09T19:01:25.865767+00:00",
+      "lastSuccessAt": "2026-10-09T19:01:25.865767+00:00",
       "count": 186,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-09T13:21:52.409982+00:00",
-      "lastSuccessAt": "2026-10-09T13:21:52.409982+00:00",
+      "checkedAt": "2026-10-09T19:01:25.865767+00:00",
+      "lastSuccessAt": "2026-10-09T19:01:25.865767+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "The New Ambition in European Tech: Key Themes Ahead of Jefferies’ European Disruptive Tech Conference",
+      "date": "2026-10-09",
+      "dateText": "2026-10-09",
+      "url": "https://www.jefferies.com/insights/markets/the-new-ambition-in-european-tech-key-themes-ahead-of-jefferies-european-disruptive-tech-conference/",
+      "summary": "European startups raised $42 billion in the first half of 2026, up 50 percent from a year earlier and the strongest stretch for venture funding in four years.[1] The number matters less than what sits behind it: a change in ambition. The post The New Ambition in European Tech: Key Themes Ahead of Jefferies’ European Disruptive Tech Conference appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "High Mortgage Rates and a Stuck Housing Market",
