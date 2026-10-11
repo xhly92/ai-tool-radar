@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-11T19:44:25.827842+00:00",
-  "lastSuccessAt": "2026-10-11T19:44:25.827842+00:00",
+  "checkedAt": "2026-10-11T23:12:38.319285+00:00",
+  "lastSuccessAt": "2026-10-11T23:12:38.319285+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-11T19:44:25.827842+00:00",
-      "lastSuccessAt": "2026-10-11T19:44:25.827842+00:00",
+      "checkedAt": "2026-10-11T23:12:38.319285+00:00",
+      "lastSuccessAt": "2026-10-11T23:12:38.319285+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-10-11T23:12:38.319285+00:00",
+      "lastSuccessAt": "2026-10-11T23:12:38.319285+00:00",
+      "count": 49,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-11T19:44:25.827842+00:00",
+      "checkedAt": "2026-10-11T23:12:38.319285+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
+    "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-11T19:44:25.827842+00:00",
-      "lastSuccessAt": "2026-10-11T19:44:25.827842+00:00",
-      "count": 48,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+      "checkedAt": "2026-10-11T23:12:38.319285+00:00",
+      "lastSuccessAt": "2026-10-11T23:12:38.319285+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-11T19:44:25.827842+00:00",
-      "lastSuccessAt": "2026-10-11T19:44:25.827842+00:00",
+      "checkedAt": "2026-10-11T23:12:38.319285+00:00",
+      "lastSuccessAt": "2026-10-11T23:12:38.319285+00:00",
       "count": 186,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-11T19:44:25.827842+00:00",
-      "lastSuccessAt": "2026-10-11T19:44:25.827842+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Global Rates & FX Views: Global bond selloff & credit impact",
+      "date": "2026-10-11",
+      "dateText": "2026-10-11",
+      "url": "https://bofaglobalresearch.podbean.com/e/global-bond-selloff-credit-impact/",
+      "summary": "Please join Sphia Salim in discussion with Ralf Preusser and Meghan Swiber alongside our colleagues from credit (Neha Khoda, Head of US credit strategy and Barnaby Martin, Head of European credit strategy). We will explore the nature of the recent extension in the global govt bond sell-off, where positioning is, what the Fed & US treasury could do slow the moves and finally whether this is starting to weigh on pockets of the US and European credit markets. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corp",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "The New Ambition in European Tech: Key Themes Ahead of Jefferies’ European Disruptive Tech Conference",
