@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-13T17:08:49.442472+00:00",
-  "lastSuccessAt": "2026-10-13T17:08:49.442472+00:00",
+  "checkedAt": "2026-10-13T21:51:40.686235+00:00",
+  "lastSuccessAt": "2026-10-13T21:51:40.686235+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-13T17:08:49.442472+00:00",
-      "lastSuccessAt": "2026-10-13T17:08:49.442472+00:00",
+      "checkedAt": "2026-10-13T21:51:40.686235+00:00",
+      "lastSuccessAt": "2026-10-13T21:51:40.686235+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-13T17:08:49.442472+00:00",
+      "checkedAt": "2026-10-13T21:51:40.686235+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-13T21:51:40.686235+00:00",
+      "lastSuccessAt": "2026-10-13T21:51:40.686235+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-13T17:08:49.442472+00:00",
-      "lastSuccessAt": "2026-10-13T17:08:49.442472+00:00",
-      "count": 49,
+      "checkedAt": "2026-10-13T21:51:40.686235+00:00",
+      "lastSuccessAt": "2026-10-13T21:51:40.686235+00:00",
+      "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-13T17:08:49.442472+00:00",
-      "lastSuccessAt": "2026-10-13T17:08:49.442472+00:00",
+      "checkedAt": "2026-10-13T21:51:40.686235+00:00",
+      "lastSuccessAt": "2026-10-13T21:51:40.686235+00:00",
       "count": 188,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-13T17:08:49.442472+00:00",
-      "lastSuccessAt": "2026-10-13T17:08:49.442472+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -49,6 +49,22 @@
       "summary": "Multi-strategy hedge funds are drawing fresh attention as investors reassess traditional 60/40 portfolios amid higher stock–bond correlations. In this second conversation with Blackstone, Kumar Panja, EMEA head of Capital Advisory Group at J.P. Morgan, sits down with Joe Dowling, global head of Blackstone Multi‑Asset Investing business (BXMA), and Riad Abrahams head of Strategy, Risk and Quant Analytics in BXMA, to unpack what’s driving multi‑strat growth—and how allocators are using these strategies as a potential fixed income substitute. They discuss how leading multi‑strat platforms are built (talent, technology and risk management), the t",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Oil, the Consumer, Rates and Elections",
+      "date": "2026-10-13",
+      "dateText": "2026-10-13",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-oil-the-consumer-rates-and-elections/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning examines how perception is shaping market outcomes across asset classes. We explore why oil remains near $100 despite recovering crude exports, what card data and retailer feedback reveal about the strength of the U.S. consumer, why bond strategists believe markets may be underestimating the likelihood of additional Federal Reserve tightening, and how Brazil's presidential election is driving some of the largest investment flows into Latin America in years. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and gl",
+      "type": "播客",
+      "topic": "能源",
       "tags": [
         "官方原文",
         "自动采集"
