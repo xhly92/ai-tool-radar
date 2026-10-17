@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-17T12:59:29.687647+00:00",
-  "lastSuccessAt": "2026-10-17T12:59:29.687647+00:00",
+  "checkedAt": "2026-10-17T16:27:01.303844+00:00",
+  "lastSuccessAt": "2026-10-17T16:27:01.303844+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-17T12:59:29.687647+00:00",
-      "lastSuccessAt": "2026-10-17T12:59:29.687647+00:00",
+      "checkedAt": "2026-10-17T16:27:01.303844+00:00",
+      "lastSuccessAt": "2026-10-17T16:27:01.303844+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-17T12:59:29.687647+00:00",
+      "checkedAt": "2026-10-17T16:27:01.303844+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-17T12:59:29.687647+00:00",
-      "lastSuccessAt": "2026-10-17T12:59:29.687647+00:00",
-      "count": 49,
+      "checkedAt": "2026-10-17T16:27:01.303844+00:00",
+      "lastSuccessAt": "2026-10-17T16:27:01.303844+00:00",
+      "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-17T12:59:29.687647+00:00",
-      "lastSuccessAt": "2026-10-17T12:59:29.687647+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-17T12:59:29.687647+00:00",
-      "lastSuccessAt": "2026-10-17T12:59:29.687647+00:00",
+      "checkedAt": "2026-10-17T16:27:01.303844+00:00",
+      "lastSuccessAt": "2026-10-17T16:27:01.303844+00:00",
       "count": 191,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-17T16:27:01.303844+00:00",
+      "lastSuccessAt": "2026-10-17T16:27:01.303844+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "The last war isn't the next one; Asia and US defense fundamentals remain strong",
+      "date": "2026-10-17",
+      "dateText": "2026-10-17",
+      "url": "https://bofaglobalresearch.podbean.com/e/the-last-war-isnt-the-next-one-asia-and-us-defense-fundamentals-remain-strong/",
+      "summary": "Defense restocking accelerates; new threats drive demand Defense demand remains strong globally as depleted inventories, shifting threats and years of underinvestment drive a multiyear restocking cycle. Ron Epstein discusses record US defense outlays, rising production needs and why recent weakness in defense stocks may be disconnected from the fundamentals. KJ Hwang highlights Korea's expansion beyond the land systems that drove early exports. Korean companies are expending into air defense, low-cost interceptors and counter-drone technologies, with the Gulf emerging as a potential source of new orders. Together they also discuss how militar",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "The Missing Piece in Latin America’s Bull Case",
