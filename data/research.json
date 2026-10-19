@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-18T22:38:11.307327+00:00",
-  "lastSuccessAt": "2026-10-18T22:38:11.307327+00:00",
+  "checkedAt": "2026-10-19T00:31:56.619863+00:00",
+  "lastSuccessAt": "2026-10-19T00:31:56.619863+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-18T22:38:11.307327+00:00",
-      "lastSuccessAt": "2026-10-18T22:38:11.307327+00:00",
+      "checkedAt": "2026-10-19T00:31:56.619863+00:00",
+      "lastSuccessAt": "2026-10-19T00:31:56.619863+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-18T22:38:11.307327+00:00",
+      "checkedAt": "2026-10-19T00:31:56.619863+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-18T22:38:11.307327+00:00",
-      "lastSuccessAt": "2026-10-18T22:38:11.307327+00:00",
+      "checkedAt": "2026-10-19T00:31:56.619863+00:00",
+      "lastSuccessAt": "2026-10-19T00:31:56.619863+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-18T22:38:11.307327+00:00",
-      "lastSuccessAt": "2026-10-18T22:38:11.307327+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-18T22:38:11.307327+00:00",
-      "lastSuccessAt": "2026-10-18T22:38:11.307327+00:00",
+      "checkedAt": "2026-10-19T00:31:56.619863+00:00",
+      "lastSuccessAt": "2026-10-19T00:31:56.619863+00:00",
       "count": 191,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-19T00:31:56.619863+00:00",
+      "lastSuccessAt": "2026-10-19T00:31:56.619863+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -5615,22 +5615,6 @@
       "dateText": "2025-10-21",
       "url": "https://marketmatters.podbean.com/e/trading-insights-exploring-trend-following-strategies-with-lynx-s-ceo/",
       "summary": "In this episode, Martin Kallström, CEO of Sweden-based systematic hedge fund Lynx Asset Management, is in conversation with Eloise Goulder, head of the Data Assets & Alpha Group at J.P. Morgan. Together, they explore the evolution of trend-following strategies, the drivers of long-term alpha in trend and the value of trend within a wider portfolio context. They also discuss what sets Lynx apart from other systematic hedge funds, as well as the opportunities AI tools, including LLMs, present for quant managers. This episode was recorded on September 15, 2025. Shownotes: https://www.lynxhedge.se/en/ Systematic investing with Martin Lueck, co-fo",
-      "type": "播客",
-      "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Inside Tech Stars 2025: From IPOs to defense tech",
-      "date": "2025-10-17",
-      "dateText": "2025-10-17",
-      "url": "https://marketmatters.podbean.com/e/inside-tech-stars-2025-from-ipos-to-defense-tech/",
-      "summary": "What’s driving record venture capital flows into AI and defense tech? How are public markets and strategic buyers changing the game for tech founders? Host Mose Adigun sits down with Rosh Wijayarathna, co-head of EMEA Innovation Economy, David Bauer, co-head of Americas Equity Capital Markets, and Matt Gehl, co-head of EMEA Tech Investment Banking, to discuss the most exciting technologies and innovation themes from J.P. Morgan's recent Tech Stars Conference in London. https://www.jpmorgan.com/insights/banking/investment-banking/tech-stars-conference-2025-recap This episode was recorded on October 14, 2025. This material was prepared by certa",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
