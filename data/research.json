@@ -1,45 +1,109 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-19T11:17:53.573110+00:00",
-  "lastSuccessAt": "2026-10-19T11:17:53.573110+00:00",
+  "checkedAt": "2026-10-19T17:47:11.101259+00:00",
+  "lastSuccessAt": "2026-10-19T17:47:11.101259+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-19T11:17:53.573110+00:00",
-      "lastSuccessAt": "2026-10-19T11:17:53.573110+00:00",
+      "checkedAt": "2026-10-19T17:47:11.101259+00:00",
+      "lastSuccessAt": "2026-10-19T17:47:11.101259+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-19T11:17:53.573110+00:00",
-      "lastSuccessAt": "2026-10-19T11:17:53.573110+00:00",
-      "count": 50,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-19T11:17:53.573110+00:00",
+      "checkedAt": "2026-10-19T17:47:11.101259+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jpm": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-19T11:17:53.573110+00:00",
-      "lastSuccessAt": "2026-10-19T11:17:53.573110+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
+      "checkedAt": "2026-10-19T17:47:11.101259+00:00",
+      "lastSuccessAt": "2026-10-19T17:47:11.101259+00:00",
+      "count": 51,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-19T11:17:53.573110+00:00",
-      "lastSuccessAt": "2026-10-19T11:17:53.573110+00:00",
-      "count": 191,
+      "checkedAt": "2026-10-19T17:47:11.101259+00:00",
+      "lastSuccessAt": "2026-10-19T17:47:11.101259+00:00",
+      "count": 192,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-19T17:47:11.101259+00:00",
+      "lastSuccessAt": "2026-10-19T17:47:11.101259+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "Quantum Computing Gets Down to Business",
+      "date": "2026-10-19",
+      "dateText": "2026-10-19",
+      "url": "https://www.jefferies.com/insights/markets/quantum-computing-gets-down-to-business/",
+      "summary": "For much of the past decade, progress in quantum computing was described in the language of physics: qubit counts, fidelities and coherence times. That vocabulary is giving way to one any infrastructure investor would recognize. Cost per operation, energy, floor space and customer return now set the terms, and the companies best placed for the sector's next phase are already building around them. The post Quantum Computing Gets Down to Business appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jefferies",
+      "title": "Europe’s Defense Innovators Are Building for the Long Term",
+      "date": "2026-10-19",
+      "dateText": "2026-10-19",
+      "url": "https://www.jefferies.com/insights/markets/europes-defense-innovators-are-building-for-the-long-term/",
+      "summary": "Defense has long been one of the hardest industries to enter, with decades-long programs, government customers and high technical barriers. Yet the past four years have produced a wave of new European companies winning contracts and capital at a pace few expected. This shift rests on lasting changes in how wars are fought, how equipment is built and how nations think about their own security. The post Europe’s Defense Innovators Are Building for the Long Term appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jefferies",
+      "title": "Enterprise AI Enters Its Economics Phase",
+      "date": "2026-10-19",
+      "dateText": "2026-10-19",
+      "url": "https://www.jefferies.com/insights/markets/enterprise-ai-enters-its-economics-phase/",
+      "summary": "The first wave of enterprise AI was driven by curiosity. Companies experimented, ran pilots and tested what large language models could do. The industry is now shifting to a more demanding phase. Buyers now want measurable returns, finance teams are scrutinizing compute bills, and the businesses gaining ground are those that can show value at a sustainable cost. The post Enterprise AI Enters Its Economics Phase appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "The return of correlations",
+      "date": "2026-10-19",
+      "dateText": "2026-10-19",
+      "url": "https://bofaglobalresearch.podbean.com/e/the-return-of-correlations/",
+      "summary": "Please join Ralf Preusser and team in conversation with Jill Hall and Chintan Kotecha to discuss equity/bond correlations and positioning. We will discuss the return of equity bond correlations, implications and risks for CTA positioning and for asset allocation models. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of America Corporation, including Bank of America, N.A., Member FD",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "The last war isn't the next one; Asia and US defense fundamentals remain strong",
@@ -49,6 +113,22 @@
       "summary": "Defense restocking accelerates; new threats drive demand Defense demand remains strong globally as depleted inventories, shifting threats and years of underinvestment drive a multiyear restocking cycle. Ron Epstein discusses record US defense outlays, rising production needs and why recent weakness in defense stocks may be disconnected from the fundamentals. KJ Hwang highlights Korea's expansion beyond the land systems that drove early exports. Korean companies are expending into air defense, low-cost interceptors and counter-drone technologies, with the Gulf emerging as a potential source of new orders. Together they also discuss how militar",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "AI Boom Faces a Higher-Yield Roadblock",
+      "date": "2026-10-16",
+      "dateText": "2026-10-16",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/credit-markets-ai-boom-financing-carolyn-campbell",
+      "summary": "Our ABS Strategist Carolyn Campbell explains how rising borrowing costs are slowing the AI data center boom and what could drive a rebound in financing.",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
