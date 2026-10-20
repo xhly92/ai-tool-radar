@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-20T15:23:28.959319+00:00",
-  "lastSuccessAt": "2026-10-20T15:23:28.959319+00:00",
+  "checkedAt": "2026-10-20T19:38:07.655855+00:00",
+  "lastSuccessAt": "2026-10-20T19:38:07.655855+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-20T15:23:28.959319+00:00",
-      "lastSuccessAt": "2026-10-20T15:23:28.959319+00:00",
+      "checkedAt": "2026-10-20T19:38:07.655855+00:00",
+      "lastSuccessAt": "2026-10-20T19:38:07.655855+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-20T15:23:28.959319+00:00",
+      "checkedAt": "2026-10-20T19:38:07.655855+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-20T15:23:28.959319+00:00",
-      "lastSuccessAt": "2026-10-20T15:23:28.959319+00:00",
+      "checkedAt": "2026-10-20T19:38:07.655855+00:00",
+      "lastSuccessAt": "2026-10-20T19:38:07.655855+00:00",
       "count": 51,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-20T15:23:28.959319+00:00",
-      "lastSuccessAt": "2026-10-20T15:23:28.959319+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-20T15:23:28.959319+00:00",
-      "lastSuccessAt": "2026-10-20T15:23:28.959319+00:00",
-      "count": 192,
+      "checkedAt": "2026-10-20T19:38:07.655855+00:00",
+      "lastSuccessAt": "2026-10-20T19:38:07.655855+00:00",
+      "count": 193,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-20T19:38:07.655855+00:00",
+      "lastSuccessAt": "2026-10-20T19:38:07.655855+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "One Year In: Advancing Economic Security and Resiliency",
+      "date": "2026-10-20",
+      "dateText": "2026-10-20",
+      "url": "https://marketmatters.podbean.com/e/one-year-in-advancing-economic-security-and-resiliency/",
+      "summary": "One year of advancing economic security and resiliency. And we're just getting started. As the Security and Resiliency Initiative marks its first anniversary, Doug Petno, co-president of JPMorganChase and CEO of the Commercial & Investment Bank, and Jay Horine, global head of the Security and Resiliency Initiative, reflect on the progress made and priorities ahead. This conversation kicks off a new video series featuring business and industry leaders from across the initiative, sharing their perspectives on the challenges, opportunities and investments shaping a more resilient future. Learn More: https://www.jpmorgan.com/insights/security-and",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "Quantum Computing Gets Down to Business",
@@ -95,6 +111,22 @@
       "dateText": "2026-10-19",
       "url": "https://bofaglobalresearch.podbean.com/e/the-return-of-correlations/",
       "summary": "Please join Ralf Preusser and team in conversation with Jill Hall and Chintan Kotecha to discuss equity/bond correlations and positioning. We will discuss the return of equity bond correlations, implications and risks for CTA positioning and for asset allocation models. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of America Corporation, including Bank of America, N.A., Member FD",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "A Narrower Path for Growth and Stability",
+      "date": "2026-10-19",
+      "dateText": "2026-10-19",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/rising-interest-rates-economic-impact-arunima-sinha",
+      "summary": "Higher rates can take time to filter through the economy, making their full impact difficult to judge. Arunima Sinha from our U.S. and Global Economics team considers whe...",
       "type": "播客",
       "topic": "行业研究",
       "tags": [
