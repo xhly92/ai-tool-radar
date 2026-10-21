@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T11:53:26.433361+00:00",
-  "lastSuccessAt": "2026-10-21T11:53:26.433361+00:00",
+  "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+  "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-21T11:53:26.433361+00:00",
-      "lastSuccessAt": "2026-10-21T11:53:26.433361+00:00",
+      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-21T11:53:26.433361+00:00",
+      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-21T11:53:26.433361+00:00",
-      "lastSuccessAt": "2026-10-21T11:53:26.433361+00:00",
-      "count": 51,
+      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
+      "count": 52,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-10-21T11:53:26.433361+00:00",
-      "lastSuccessAt": "2026-10-21T11:53:26.433361+00:00",
-      "count": 193,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-21T11:53:26.433361+00:00",
-      "lastSuccessAt": "2026-10-21T11:53:26.433361+00:00",
+      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
+      "count": 193,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Must Read Research: The Great AI Debate",
+      "date": "2026-10-21",
+      "dateText": "2026-10-21",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-the-great-ai-debate/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning examines the trillion-dollar question facing AI: can returns ultimately justify the enormous investment going into it? We explore the potential $1.5 trillion annual AI subscription opportunity, increasingly crowded investor positioning in Technology and semiconductors, and how AI agents could reshape travel by influencing which flights and hotels consumers see. We also turn to Bitcoin, where a new valuation framework examines whether the asset has been left behind as investors have crowded into AI, and what ETF flows, adoption, and macro conditions could mean ",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "One Year In: Advancing Economic Security and Resiliency",
