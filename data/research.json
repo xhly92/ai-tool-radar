@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-21T17:15:00.287720+00:00",
-  "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
+  "checkedAt": "2026-10-21T20:41:08.024644+00:00",
+  "lastSuccessAt": "2026-10-21T20:41:08.024644+00:00",
   "sources": {
-    "jefferies": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
-      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
+      "checkedAt": "2026-10-21T20:41:08.024644+00:00",
+      "lastSuccessAt": "2026-10-21T20:41:08.024644+00:00",
+      "count": 52,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
+      "checkedAt": "2026-10-21T20:41:08.024644+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
-      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
-      "count": 52,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
-      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
+      "checkedAt": "2026-10-21T20:41:08.024644+00:00",
+      "lastSuccessAt": "2026-10-21T20:41:08.024644+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-10-21T20:41:08.024644+00:00",
+      "lastSuccessAt": "2026-10-21T20:41:08.024644+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-21T17:15:00.287720+00:00",
-      "lastSuccessAt": "2026-10-21T17:15:00.287720+00:00",
-      "count": 193,
+      "checkedAt": "2026-10-21T20:41:08.024644+00:00",
+      "lastSuccessAt": "2026-10-21T20:41:08.024644+00:00",
+      "count": 194,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
@@ -65,6 +65,22 @@
       "summary": "One year of advancing economic security and resiliency. And we're just getting started. As the Security and Resiliency Initiative marks its first anniversary, Doug Petno, co-president of JPMorganChase and CEO of the Commercial & Investment Bank, and Jay Horine, global head of the Security and Resiliency Initiative, reflect on the progress made and priorities ahead. This conversation kicks off a new video series featuring business and industry leaders from across the initiative, sharing their perspectives on the challenges, opportunities and investments shaping a more resilient future. Learn More: https://www.jpmorgan.com/insights/security-and",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "AI’s Next Winners: Signals From Private Markets",
+      "date": "2026-10-20",
+      "dateText": "2026-10-20",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/private-markets-signals-ai-next-winners-sabrina-hao-adam-wood-brian-nowak",
+      "summary": "With AI startups scaling at record speed, our analysts Sabrina Hao, Adam Wood and Brian Nowak share takeaways from Morgan Stanley's Spark Conference on AI returns, co...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
