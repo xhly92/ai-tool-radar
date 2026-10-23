@@ -1,41 +1,41 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-22T21:38:29.602027+00:00",
-  "lastSuccessAt": "2026-10-22T21:38:29.602027+00:00",
+  "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+  "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-22T21:38:29.602027+00:00",
-      "lastSuccessAt": "2026-10-22T21:38:29.602027+00:00",
+      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-22T21:38:29.602027+00:00",
+      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-22T21:38:29.602027+00:00",
-      "lastSuccessAt": "2026-10-22T21:38:29.602027+00:00",
+      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
       "count": 51,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-22T21:38:29.602027+00:00",
-      "lastSuccessAt": "2026-10-22T21:38:29.602027+00:00",
+      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-22T21:38:29.602027+00:00",
-      "lastSuccessAt": "2026-10-22T21:38:29.602027+00:00",
-      "count": 194,
+      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
+      "count": 135,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
@@ -49,6 +49,22 @@
       "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning examines the trillion-dollar question facing AI: can returns ultimately justify the enormous investment going into it? We explore the potential $1.5 trillion annual AI subscription opportunity, increasingly crowded investor positioning in Technology and semiconductors, and how AI agents could reshape travel by influencing which flights and hotels consumers see. We also turn to Bitcoin, where a new valuation framework examines whether the asset has been left behind as investors have crowded into AI, and what ETF flows, adoption, and macro conditions could mean ",
       "type": "播客",
       "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Inside the Biggest Bond Boom in Years",
+      "date": "2026-10-21",
+      "dateText": "2026-10-21",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/bond-issuance-historical-levels-andrew-sheets-anish-shah-rehan-latif-samer-oweida",
+      "summary": "Can markets absorb this much new debt? Our panel examines strong demand for investment-grade bonds, stress in high-yield debt and the macro risks that could shape the nex...",
+      "type": "播客",
+      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
@@ -5745,22 +5761,6 @@
       "summary": "In this episode, Joyce Chang, chair of Global Research at J.P. Morgan, is joined by Jahangir Aziz, head of Emerging Markets Research, and Jay Barry, head of Global Rates Strategy. Together, they explore how AI is reshaping global economic narratives, why tech innovation trumps tariffs, the evolving U.S.–China relationship and more. They also discuss other topics including stagflation risks, shifting trade dynamics and the outlook for U.S. Treasury markets. What does the global economy’s new normal look like? This episode was recorded on October 21, 2025. This communication has been prepared based upon information from sources believed to be r",
       "type": "播客",
       "topic": "宏观经济",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Trading Insights: Exploring trend-following strategies with Lynx’s CEO",
-      "date": "2025-10-21",
-      "dateText": "2025-10-21",
-      "url": "https://marketmatters.podbean.com/e/trading-insights-exploring-trend-following-strategies-with-lynx-s-ceo/",
-      "summary": "In this episode, Martin Kallström, CEO of Sweden-based systematic hedge fund Lynx Asset Management, is in conversation with Eloise Goulder, head of the Data Assets & Alpha Group at J.P. Morgan. Together, they explore the evolution of trend-following strategies, the drivers of long-term alpha in trend and the value of trend within a wider portfolio context. They also discuss what sets Lynx apart from other systematic hedge funds, as well as the opportunities AI tools, including LLMs, present for quant managers. This episode was recorded on September 15, 2025. Shownotes: https://www.lynxhedge.se/en/ Systematic investing with Martin Lueck, co-fo",
-      "type": "播客",
-      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
