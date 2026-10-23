@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T19:16:20.785049+00:00",
-  "lastSuccessAt": "2026-10-23T19:16:20.785049+00:00",
+  "checkedAt": "2026-10-23T22:20:12.714634+00:00",
+  "lastSuccessAt": "2026-10-23T22:20:12.714634+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-23T19:16:20.785049+00:00",
-      "lastSuccessAt": "2026-10-23T19:16:20.785049+00:00",
+      "checkedAt": "2026-10-23T22:20:12.714634+00:00",
+      "lastSuccessAt": "2026-10-23T22:20:12.714634+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-23T19:16:20.785049+00:00",
+      "checkedAt": "2026-10-23T22:20:12.714634+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-23T19:16:20.785049+00:00",
-      "lastSuccessAt": "2026-10-23T19:16:20.785049+00:00",
+      "checkedAt": "2026-10-23T22:20:12.714634+00:00",
+      "lastSuccessAt": "2026-10-23T22:20:12.714634+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-23T19:16:20.785049+00:00",
-      "lastSuccessAt": "2026-10-23T19:16:20.785049+00:00",
+      "checkedAt": "2026-10-23T22:20:12.714634+00:00",
+      "lastSuccessAt": "2026-10-23T22:20:12.714634+00:00",
       "count": 136,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-23T19:16:20.785049+00:00",
-      "lastSuccessAt": "2026-10-23T19:16:20.785049+00:00",
+      "checkedAt": "2026-10-23T22:20:12.714634+00:00",
+      "lastSuccessAt": "2026-10-23T22:20:12.714634+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "How modern payments drive growth and resilience",
+      "date": "2026-10-23",
+      "dateText": "2026-10-23",
+      "url": "https://marketmatters.podbean.com/e/how-modern-payments-drive-growth-and-resilience/",
+      "summary": "Payments decisions now influence growth, liquidity, and risk — often as much as traditional finance levers. In this episode of Making Sense, co-heads of J.P. Morgan Global Payments Max Neukirchen and Umar Farooq explain how payments became a revenue-enabling capability — and what “trust at scale” requires when clients expect instant, seamless experiences. They cover the move toward real-time rails, the operational demands of always-on infrastructure and the new fraud landscape where threats accelerate with speed. They also detail how data and AI-driven controls help safeguard transactions without adding friction. Looking forward, they discuss",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "ms",
       "title": "Economic Roundtable: Why Is Global Growth So Resilient?",
