@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T00:11:26.019264+00:00",
-  "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
+  "checkedAt": "2026-10-23T04:54:21.278386+00:00",
+  "lastSuccessAt": "2026-10-23T04:54:21.278386+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
-      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
+      "checkedAt": "2026-10-23T04:54:21.278386+00:00",
+      "lastSuccessAt": "2026-10-23T04:54:21.278386+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
+      "checkedAt": "2026-10-23T04:54:21.278386+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
-      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
+      "checkedAt": "2026-10-23T04:54:21.278386+00:00",
+      "lastSuccessAt": "2026-10-23T04:54:21.278386+00:00",
       "count": 51,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
-      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
+      "checkedAt": "2026-10-23T04:54:21.278386+00:00",
+      "lastSuccessAt": "2026-10-23T04:54:21.278386+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-23T00:11:26.019264+00:00",
-      "lastSuccessAt": "2026-10-23T00:11:26.019264+00:00",
-      "count": 135,
+      "checkedAt": "2026-10-23T04:54:21.278386+00:00",
+      "lastSuccessAt": "2026-10-23T04:54:21.278386+00:00",
+      "count": 136,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "Economic Roundtable: Why Is Global Growth So Resilient?",
+      "date": "2026-10-22",
+      "dateText": "2026-10-22",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/global-economic-growth-roundtable-seth-carpenter-michael-gapen-jens-eisenschmidt-chetan-ahya",
+      "summary": "In the first of a two-part discussion, our roundtable explores how AI investment, trade and consumer spending are sustaining global growth, and what could put that resili...",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Must Read Research: The Great AI Debate",
