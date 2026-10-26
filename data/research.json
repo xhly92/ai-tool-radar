@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-25T23:17:33.110072+00:00",
-  "lastSuccessAt": "2026-10-25T23:17:33.110072+00:00",
+  "checkedAt": "2026-10-26T01:46:23.441816+00:00",
+  "lastSuccessAt": "2026-10-26T01:46:23.441816+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-25T23:17:33.110072+00:00",
-      "lastSuccessAt": "2026-10-25T23:17:33.110072+00:00",
+      "checkedAt": "2026-10-26T01:46:23.441816+00:00",
+      "lastSuccessAt": "2026-10-26T01:46:23.441816+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-25T23:17:33.110072+00:00",
+      "checkedAt": "2026-10-26T01:46:23.441816+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-25T23:17:33.110072+00:00",
-      "lastSuccessAt": "2026-10-25T23:17:33.110072+00:00",
+      "checkedAt": "2026-10-26T01:46:23.441816+00:00",
+      "lastSuccessAt": "2026-10-26T01:46:23.441816+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-10-25T23:17:33.110072+00:00",
-      "lastSuccessAt": "2026-10-25T23:17:33.110072+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-25T23:17:33.110072+00:00",
-      "lastSuccessAt": "2026-10-25T23:17:33.110072+00:00",
+      "checkedAt": "2026-10-26T01:46:23.441816+00:00",
+      "lastSuccessAt": "2026-10-26T01:46:23.441816+00:00",
       "count": 136,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-10-26T01:46:23.441816+00:00",
+      "lastSuccessAt": "2026-10-26T01:46:23.441816+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -5777,22 +5777,6 @@
       "summary": "In this episode, Kenneth Worthington, a Brokers, Asset Managers and Exchanges equity analyst at J.P. Morgan, is joined by Teresa Ho, head of U.S. Short Duration Strategy, to explore the dynamic world of stablecoins. Together, they break down what stablecoins are, how they work and why they’re gaining so much attention in today’s financial landscape. The discussion covers how stablecoins differ from deposits and money market funds, the impact of recent legislation such as the GENIUS Act, as well as what all this could mean for the future of finance. This episode was recorded on October 23, 2025. This communication is provided for information p",
       "type": "播客",
       "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "\"Bending, not breaking\": The global economy’s new normal",
-      "date": "2025-10-24",
-      "dateText": "2025-10-24",
-      "url": "https://marketmatters.podbean.com/e/bending-not-breaking-the-global-economy-s-new-normal/",
-      "summary": "In this episode, Joyce Chang, chair of Global Research at J.P. Morgan, is joined by Jahangir Aziz, head of Emerging Markets Research, and Jay Barry, head of Global Rates Strategy. Together, they explore how AI is reshaping global economic narratives, why tech innovation trumps tariffs, the evolving U.S.–China relationship and more. They also discuss other topics including stagflation risks, shifting trade dynamics and the outlook for U.S. Treasury markets. What does the global economy’s new normal look like? This episode was recorded on October 21, 2025. This communication has been prepared based upon information from sources believed to be r",
-      "type": "播客",
-      "topic": "宏观经济",
       "tags": [
         "官方原文",
         "自动采集"
