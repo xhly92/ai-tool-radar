@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-27T16:02:00.403011+00:00",
-  "lastSuccessAt": "2026-10-27T16:02:00.403011+00:00",
+  "checkedAt": "2026-10-27T20:43:08.581255+00:00",
+  "lastSuccessAt": "2026-10-27T20:43:08.581255+00:00",
   "sources": {
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-10-27T16:02:00.403011+00:00",
-      "lastSuccessAt": "2026-10-27T16:02:00.403011+00:00",
-      "count": 50,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-27T16:02:00.403011+00:00",
-      "lastSuccessAt": "2026-10-27T16:02:00.403011+00:00",
+      "checkedAt": "2026-10-27T20:43:08.581255+00:00",
+      "lastSuccessAt": "2026-10-27T20:43:08.581255+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "ms": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-27T16:02:00.403011+00:00",
-      "lastSuccessAt": "2026-10-27T16:02:00.403011+00:00",
-      "count": 137,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+      "checkedAt": "2026-10-27T20:43:08.581255+00:00",
+      "lastSuccessAt": "2026-10-27T20:43:08.581255+00:00",
+      "count": 52,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-10-27T16:02:00.403011+00:00",
+      "checkedAt": "2026-10-27T20:43:08.581255+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-10-27T20:43:08.581255+00:00",
+      "lastSuccessAt": "2026-10-27T20:43:08.581255+00:00",
+      "count": 137,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-27T16:02:00.403011+00:00",
-      "lastSuccessAt": "2026-10-27T16:02:00.403011+00:00",
+      "checkedAt": "2026-10-27T20:43:08.581255+00:00",
+      "lastSuccessAt": "2026-10-27T20:43:08.581255+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Global Rates & FX Views: Central banks & budgets",
+      "date": "2026-10-27",
+      "dateText": "2026-10-27",
+      "url": "https://bofaglobalresearch.podbean.com/e/central-banks-budgets/",
+      "summary": "Sphia Salim and our Global Economists discussed the upcoming central bank meetings across the Fed, BoC, ECB and BoJ, including how policymakers were navigating uncertainty on the energy front and emerging pressures on risk assets. The discussion also previewed the UK Budget and explored how the ECB was thinking about French spreads. The call took place on Friday, 22 October at 9:00 a.m. EST / 2:00 p.m. BST / 3:00 p.m. CEST. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, an",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Debt, Defensives, Energy and the AI Buildout",
+      "date": "2026-10-27",
+      "dateText": "2026-10-27",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-debt-defensives-energy-and-the-ai-buildout/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning examines the rising price tag behind some of today’s biggest market themes. America’s annual interest bill has doubled to more than $1.2 trillion, while our Bubble Risk Indicator suggests the rotation from Technology into defensive stocks has reached historically extreme levels. We also explore why high gas prices are making coal economically competitive again in Europe, and how a $2.1 trillion data-center buildout is changing everything from power systems and cooling to construction and M&A. \"Bank of America\" and “BofA Securities” are the marketing names for ",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "The evolution of hedge fund performance: From enhancer to diversifier",
