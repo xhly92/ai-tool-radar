@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-  "lastSuccessAt": "2026-10-31T08:54:52.878758+00:00",
+  "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+  "lastSuccessAt": "2026-10-31T15:20:51.174687+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-      "lastSuccessAt": "2026-10-31T08:54:52.878758+00:00",
+      "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+      "lastSuccessAt": "2026-10-31T15:20:51.174687+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "evercore": {
-      "status": "error",
-      "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-      "lastSuccessAt": null,
-      "message": "未找到可核验发布日期的公开条目，保留已有资料",
-      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-      "lastSuccessAt": "2026-10-31T08:54:52.878758+00:00",
-      "count": 49,
+      "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+      "lastSuccessAt": "2026-10-31T15:20:51.174687+00:00",
+      "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-      "lastSuccessAt": "2026-10-31T08:54:52.878758+00:00",
+      "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+      "lastSuccessAt": "2026-10-31T15:20:51.174687+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
+    "evercore": {
+      "status": "error",
+      "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+      "lastSuccessAt": null,
+      "message": "未找到可核验发布日期的公开条目，保留已有资料",
+      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-10-31T08:54:52.878758+00:00",
-      "lastSuccessAt": "2026-10-31T08:54:52.878758+00:00",
+      "checkedAt": "2026-10-31T15:20:51.174687+00:00",
+      "lastSuccessAt": "2026-10-31T15:20:51.174687+00:00",
       "count": 141,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Chip stocks retreat but AI spend advances; upcycle has room to run",
+      "date": "2026-10-31",
+      "dateText": "2026-10-31",
+      "url": "https://bofaglobalresearch.podbean.com/e/chip-stocks-retreat-but-ai-spend-advances-upcycle-has-room-to-run/",
+      "summary": "AI Semis: Spending strong, investor concerns build AI capex has seen upward revisions for years, and estimates for many semiconductor stocks have followed. Positioning in the semiconductor index may have gotten excessive around the June highs, but there have also been less positive developments since, from cancelled IPOs to widening credit spreads for neocloud companies. Combined with continued concerns around open models and AI pricing, these developments have fueled investor fears about the pace of AI spending growth. Vivek Arya joins the podcast to discuss his latest views on semiconductors, what the group needs to resume its upward trend,",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jefferies",
       "title": "Protected: FSG at 20: Growing Up With Private Equity",
