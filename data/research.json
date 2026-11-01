@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-01T02:15:19.071028+00:00",
-  "lastSuccessAt": "2026-11-01T02:15:19.071028+00:00",
+  "checkedAt": "2026-11-01T09:22:13.933840+00:00",
+  "lastSuccessAt": "2026-11-01T09:22:13.933840+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-11-01T09:22:13.933840+00:00",
+      "lastSuccessAt": "2026-11-01T09:22:13.933840+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-01T02:15:19.071028+00:00",
+      "checkedAt": "2026-11-01T09:22:13.933840+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-11-01T02:15:19.071028+00:00",
-      "lastSuccessAt": "2026-11-01T02:15:19.071028+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-01T02:15:19.071028+00:00",
-      "lastSuccessAt": "2026-11-01T02:15:19.071028+00:00",
+      "checkedAt": "2026-11-01T09:22:13.933840+00:00",
+      "lastSuccessAt": "2026-11-01T09:22:13.933840+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-01T02:15:19.071028+00:00",
-      "lastSuccessAt": "2026-11-01T02:15:19.071028+00:00",
+      "checkedAt": "2026-11-01T09:22:13.933840+00:00",
+      "lastSuccessAt": "2026-11-01T09:22:13.933840+00:00",
       "count": 141,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-01T02:15:19.071028+00:00",
-      "lastSuccessAt": "2026-11-01T02:15:19.071028+00:00",
+      "checkedAt": "2026-11-01T09:22:13.933840+00:00",
+      "lastSuccessAt": "2026-11-01T09:22:13.933840+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "Closing the defense production gap",
+      "date": "2026-11-01",
+      "dateText": "2026-11-01",
+      "url": "https://marketmatters.podbean.com/e/closing-the-defense-production-gap/",
+      "summary": "Modern warfare has exposed a costly gap between what militaries need and what the industrial base can deliver. General Chris Cavoli (Ret.), former Supreme Allied Commander Europe, and Mark Marengo, head of diversified industries investment banking at J.P. Morgan, discuss why closing that gap will take new ways of solving problems and closer partnership between capital, industry and government. This episode was recorded on October 2, 2026. This material was prepared by certain personnel at the Investment Banking Group of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide, and not the firm's research department. It is for inform",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Chip stocks retreat but AI spend advances; upcycle has room to run",
