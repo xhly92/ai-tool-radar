@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-01T20:50:44.984850+00:00",
-  "lastSuccessAt": "2026-11-01T20:50:44.984850+00:00",
+  "checkedAt": "2026-11-02T00:46:19.549689+00:00",
+  "lastSuccessAt": "2026-11-02T00:46:19.549689+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-01T20:50:44.984850+00:00",
-      "lastSuccessAt": "2026-11-01T20:50:44.984850+00:00",
+      "checkedAt": "2026-11-02T00:46:19.549689+00:00",
+      "lastSuccessAt": "2026-11-02T00:46:19.549689+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-01T20:50:44.984850+00:00",
+      "checkedAt": "2026-11-02T00:46:19.549689+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-01T20:50:44.984850+00:00",
-      "lastSuccessAt": "2026-11-01T20:50:44.984850+00:00",
-      "count": 50,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-01T20:50:44.984850+00:00",
-      "lastSuccessAt": "2026-11-01T20:50:44.984850+00:00",
+      "checkedAt": "2026-11-02T00:46:19.549689+00:00",
+      "lastSuccessAt": "2026-11-02T00:46:19.549689+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-02T00:46:19.549689+00:00",
+      "lastSuccessAt": "2026-11-02T00:46:19.549689+00:00",
+      "count": 50,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-01T20:50:44.984850+00:00",
-      "lastSuccessAt": "2026-11-01T20:50:44.984850+00:00",
+      "checkedAt": "2026-11-02T00:46:19.549689+00:00",
+      "lastSuccessAt": "2026-11-02T00:46:19.549689+00:00",
       "count": 141,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
@@ -5937,22 +5937,6 @@
       "summary": "In this episode, Nick Richitt, global co-head of Healthcare Services at J.P. Morgan, sits down with Michael Gao, co-founder of Smarter DX and president of Smarter Technologies, to explore how AI is revolutionizing healthcare. Together, they dive into the journey from digitization to true innovation, discussing how AI is transforming clinical reasoning, improving patient records and driving operational efficiency for hospitals and health systems. They also address the challenges of scaling AI responsibly, emphasizing the importance of collaboration and control. What is the future of intelligent healthcare, and how will it amplify the human exp",
       "type": "播客",
       "topic": "科技AI",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Live from Money20/20 Middle East: Moving money, shaping futures",
-      "date": "2025-10-31",
-      "dateText": "2025-10-31",
-      "url": "https://marketmatters.podbean.com/e/live-from-money2020-middle-east-moving-money-shaping-futures/",
-      "summary": "In this episode, Veronique Steiner, head of EMEA Innovation Economy, and Lori Schwartz, global head of Treasury Services, sit down at Money20/20 Middle East in Riyadh to discuss the trends shaping the region's financial system. Together, they explore the rapid growth of financial services in the Middle East, the impact of technology on cross-border payments and the importance of striking a balance between security and innovation in a fast-changing landscape. Hear insights on the future of fintech, the role of open banking and how J.P. Morgan Payments is helping clients navigate new opportunities in Saudi Arabia and beyond. This episode was re",
-      "type": "播客",
-      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
