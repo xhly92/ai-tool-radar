@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03T15:12:00.128268+00:00",
-  "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
+  "checkedAt": "2026-11-03T21:01:39.403049+00:00",
+  "lastSuccessAt": "2026-11-03T21:01:39.403049+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
-      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
+      "checkedAt": "2026-11-03T21:01:39.403049+00:00",
+      "lastSuccessAt": "2026-11-03T21:01:39.403049+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
-      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
-      "count": 49,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
-      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
-      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
-      "count": 142,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "checkedAt": "2026-11-03T21:01:39.403049+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
+    },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T21:01:39.403049+00:00",
+      "lastSuccessAt": "2026-11-03T21:01:39.403049+00:00",
+      "count": 50,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T21:01:39.403049+00:00",
+      "lastSuccessAt": "2026-11-03T21:01:39.403049+00:00",
+      "count": 142,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T21:01:39.403049+00:00",
+      "lastSuccessAt": "2026-11-03T21:01:39.403049+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Earnings, AI Credit & Tesla-SpaceX",
+      "date": "2026-11-03",
+      "dateText": "2026-11-03",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-earnings-ai-credit-tesla-spacex/",
+      "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning looks at how politics and the AI investment cycle are reshaping the financial conversation. We explore why Washington gridlock has historically been a favorable backdrop for stocks, why strong earnings breadth hasn’t been enough to satisfy investors in Alphabet and Meta, and how the AI funding boom is spilling into credit markets, including Oracle. We also examine the growing ties between Tesla and SpaceX, and what a potential combination could mean for AI infrastructure, manufacturing and shareholders. \"Bank of America\" and “BofA Securities” are the marketing",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Window dressing",
