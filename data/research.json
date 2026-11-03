@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-  "lastSuccessAt": "2026-11-03T06:51:33.263863+00:00",
+  "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+  "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-      "lastSuccessAt": "2026-11-03T06:51:33.263863+00:00",
+      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "evercore": {
-      "status": "error",
-      "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-      "lastSuccessAt": null,
-      "message": "未找到可核验发布日期的公开条目，保留已有资料",
-      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
-    },
-    "ms": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-      "lastSuccessAt": "2026-11-03T06:51:33.263863+00:00",
-      "count": 142,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
+      "count": 49,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-      "lastSuccessAt": "2026-11-03T06:51:33.263863+00:00",
+      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
-    "bofa": {
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "lastSuccessAt": "2026-11-03T15:12:00.128268+00:00",
+      "count": 142,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-03T06:51:33.263863+00:00",
-      "lastSuccessAt": "2026-11-02T23:53:13.154658+00:00",
-      "message": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+      "checkedAt": "2026-11-03T15:12:00.128268+00:00",
+      "lastSuccessAt": null,
+      "message": "未找到可核验发布日期的公开条目，保留已有资料",
+      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Window dressing",
+      "date": "2026-11-02",
+      "dateText": "2026-11-02",
+      "url": "https://bofaglobalresearch.podbean.com/e/window-dressing/",
+      "summary": "Ralf Preusser, Mark Cabana, Sphia Salim and Agne Stengeryte discuss the outlook for global rate markets following the policy decisions by the Fed, ECB, BOC, RBNZ and BoJ and ahead of the decisions by the RBA and BoE. We will also share our thoughts on the UK budget and the US refunding announcement as well as upcoming data releases. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Closing the defense production gap",
