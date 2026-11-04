@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T16:23:31.419441+00:00",
-  "lastSuccessAt": "2026-11-04T16:23:31.419441+00:00",
+  "checkedAt": "2026-11-04T22:14:11.500616+00:00",
+  "lastSuccessAt": "2026-11-04T22:14:11.500616+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-11-04T22:14:11.500616+00:00",
+      "lastSuccessAt": "2026-11-04T22:14:11.500616+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-04T16:23:31.419441+00:00",
+      "checkedAt": "2026-11-04T22:14:11.500616+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-04T16:23:31.419441+00:00",
-      "lastSuccessAt": "2026-11-04T16:23:31.419441+00:00",
+      "checkedAt": "2026-11-04T22:14:11.500616+00:00",
+      "lastSuccessAt": "2026-11-04T22:14:11.500616+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-04T16:23:31.419441+00:00",
-      "lastSuccessAt": "2026-11-04T16:23:31.419441+00:00",
+      "checkedAt": "2026-11-04T22:14:11.500616+00:00",
+      "lastSuccessAt": "2026-11-04T22:14:11.500616+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-11-04T16:23:31.419441+00:00",
-      "lastSuccessAt": "2026-11-04T16:23:31.419441+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-04T16:23:31.419441+00:00",
-      "lastSuccessAt": "2026-11-04T16:23:31.419441+00:00",
-      "count": 143,
+      "checkedAt": "2026-11-04T22:14:11.500616+00:00",
+      "lastSuccessAt": "2026-11-04T22:14:11.500616+00:00",
+      "count": 145,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "Midterm Election Results: Three Key Takeaways",
+      "date": "2026-11-04",
+      "dateText": "2026-11-04",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/us-midterm-elections-market-policy-outlook-ariana-salvatore",
+      "summary": "Democrats delivered a stronger-than-expected performance in the midterms. Our Head of Public Policy Research Ariana Salvatore examines what the results could mean for Was...",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Must Read Research: Earnings, AI Credit & Tesla-SpaceX",
@@ -64,6 +80,22 @@
       "url": "https://www.jefferies.com/insights/markets/software-after-the-saaspocalypse-what-investors-learned-in-2026/",
       "summary": "There is no excerpt because this is a protected post. The post Protected: Software After the SaaSpocalypse: What Investors Learned in 2026 appeared first on Jefferies.com .",
       "type": "官方摘要",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Solving AI’s Power Bottleneck",
+      "date": "2026-11-03",
+      "dateText": "2026-11-03",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-power-demand-data-centers-energy-storage-andrew-percoco-david-arcaro",
+      "summary": "Our analysts Andrew Percoco and David Arcaro break down how AI’s surging energy demand could reshape the way we produce, store and use power.",
+      "type": "播客",
       "topic": "科技AI",
       "tags": [
         "官方原文",
