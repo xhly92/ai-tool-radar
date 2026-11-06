@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T23:39:26.391320+00:00",
-  "lastSuccessAt": "2026-11-05T23:39:26.391320+00:00",
+  "checkedAt": "2026-11-06T03:40:35.403290+00:00",
+  "lastSuccessAt": "2026-11-06T03:40:35.403290+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-05T23:39:26.391320+00:00",
-      "lastSuccessAt": "2026-11-05T23:39:26.391320+00:00",
+      "checkedAt": "2026-11-06T03:40:35.403290+00:00",
+      "lastSuccessAt": "2026-11-06T03:40:35.403290+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-05T23:39:26.391320+00:00",
+      "checkedAt": "2026-11-06T03:40:35.403290+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-05T23:39:26.391320+00:00",
-      "lastSuccessAt": "2026-11-05T23:39:26.391320+00:00",
+      "checkedAt": "2026-11-06T03:40:35.403290+00:00",
+      "lastSuccessAt": "2026-11-06T03:40:35.403290+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-05T23:39:26.391320+00:00",
-      "lastSuccessAt": "2026-11-05T23:39:26.391320+00:00",
+      "checkedAt": "2026-11-06T03:40:35.403290+00:00",
+      "lastSuccessAt": "2026-11-06T03:40:35.403290+00:00",
       "count": 145,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-05T23:39:26.391320+00:00",
-      "lastSuccessAt": "2026-11-05T23:39:26.391320+00:00",
+      "checkedAt": "2026-11-06T03:40:35.403290+00:00",
+      "lastSuccessAt": "2026-11-06T03:40:35.403290+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -6049,22 +6049,6 @@
       "summary": "As the U.S. government shutdown drags on, uncertainty continues to build for both investors and everyday Americans. In this episode of J.P. Morgan's Making Sense, Samantha Azzarello, head of Content Strategy, sits down with chief U.S. economist Michael Feroli and Jay Barry, head of Global Rates Strategy, to explore the impacts of the prolonged shutdown. How is it weighing on consumer sentiment and economic growth, and how are markets responding? Plus, have expectations for Fed policy changed as a result? This episode was recorded on November 7, 2025. This communication is provided for information purposes only. Please visit www.jpmm.com/resea",
       "type": "播客",
       "topic": "行业研究",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "“It’s not just innovation, it’s impact”: How AI is revolutionizing healthcare",
-      "date": "2025-11-04",
-      "dateText": "2025-11-04",
-      "url": "https://marketmatters.podbean.com/e/it-s-not-just-innovation-it-s-impact-how-ai-is-revolutionizing-healthcare/",
-      "summary": "In this episode, Nick Richitt, global co-head of Healthcare Services at J.P. Morgan, sits down with Michael Gao, co-founder of Smarter DX and president of Smarter Technologies, to explore how AI is revolutionizing healthcare. Together, they dive into the journey from digitization to true innovation, discussing how AI is transforming clinical reasoning, improving patient records and driving operational efficiency for hospitals and health systems. They also address the challenges of scaling AI responsibly, emphasizing the importance of collaboration and control. What is the future of intelligent healthcare, and how will it amplify the human exp",
-      "type": "播客",
-      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
