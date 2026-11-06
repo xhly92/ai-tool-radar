@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-06T11:33:12.115711+00:00",
-  "lastSuccessAt": "2026-11-06T11:33:12.115711+00:00",
+  "checkedAt": "2026-11-06T18:30:18.218026+00:00",
+  "lastSuccessAt": "2026-11-06T18:30:18.218026+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-06T11:33:12.115711+00:00",
-      "lastSuccessAt": "2026-11-06T11:33:12.115711+00:00",
+      "checkedAt": "2026-11-06T18:30:18.218026+00:00",
+      "lastSuccessAt": "2026-11-06T18:30:18.218026+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-06T11:33:12.115711+00:00",
-      "lastSuccessAt": "2026-11-06T11:33:12.115711+00:00",
-      "count": 50,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-06T11:33:12.115711+00:00",
+      "checkedAt": "2026-11-06T18:30:18.218026+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jpm": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-06T11:33:12.115711+00:00",
-      "lastSuccessAt": "2026-11-06T11:33:12.115711+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
+      "checkedAt": "2026-11-06T18:30:18.218026+00:00",
+      "lastSuccessAt": "2026-11-06T18:30:18.218026+00:00",
+      "count": 50,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-06T11:33:12.115711+00:00",
-      "lastSuccessAt": "2026-11-06T11:33:12.115711+00:00",
-      "count": 145,
+      "checkedAt": "2026-11-06T18:30:18.218026+00:00",
+      "lastSuccessAt": "2026-11-06T18:30:18.218026+00:00",
+      "count": 146,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-06T18:30:18.218026+00:00",
+      "lastSuccessAt": "2026-11-06T18:30:18.218026+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -47,6 +47,22 @@
       "dateText": "2026-11-05",
       "url": "https://marketmatters.podbean.com/e/capital-is-tilting-east-inside-asia-s-ai-gold-rush/",
       "summary": "Southeast Asia’s economy has grown nearly ninefold since 1998, and the region is now at the center of the global AI investment cycle. In this episode of Making Sense, Sjoerd Leenart, CEO of J.P. Morgan’s banking business in Asia Pacific, sits down with Joyce Chang, chair of Global Research at J.P. Morgan, to unpack key takeaways from the investor seminar hosted around the IMF–World Bank annual meetings in Bangkok. They discuss the forces propelling Asia’s growth — from the manufacturing renaissance driven by AI data center demand to divergent policy tailwinds across China, Japan, Korea and ASEAN economies. They also explore the IMF’s latest g",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "A Credit Perspective on the AI Buildout",
+      "date": "2026-11-05",
+      "dateText": "2026-11-05",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-investment-fine-print-behind-boom-vishy-tirupattur-dan-toscano",
+      "summary": "The AI investment boom is reshaping capital markets, creating opportunities and raising questions about leverage and risk. Vishy Tirupattur and Dan Toscano discuss what t...",
       "type": "播客",
       "topic": "科技AI",
       "tags": [
@@ -90,11 +106,11 @@
     },
     {
       "org": "jefferies",
-      "title": "Protected: Software After the SaaSpocalypse: What Investors Learned in 2026",
+      "title": "Software After the SaaSpocalypse: What Investors Learned in 2026",
       "date": "2026-11-03",
       "dateText": "2026-11-03",
       "url": "https://www.jefferies.com/insights/markets/software-after-the-saaspocalypse-what-investors-learned-in-2026/",
-      "summary": "There is no excerpt because this is a protected post. The post Protected: Software After the SaaSpocalypse: What Investors Learned in 2026 appeared first on Jefferies.com .",
+      "summary": "When software stocks sold off sharply in the spring of 2026, the prevailing narrative was stark. AI would let customers build their own tools and let new entrants displace incumbents, leaving established software businesses with a shrinking future. The episode quickly became known as the “SaaSpocalypse.” The post Software After the SaaSpocalypse: What Investors Learned in 2026 appeared first on Jefferies.com .",
       "type": "官方摘要",
       "topic": "科技AI",
       "tags": [
