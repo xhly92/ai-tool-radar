@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-07T23:59:14.271740+00:00",
-  "lastSuccessAt": "2026-11-07T23:59:14.271740+00:00",
+  "checkedAt": "2026-11-08T06:05:50.491656+00:00",
+  "lastSuccessAt": "2026-11-08T06:05:50.491656+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-07T23:59:14.271740+00:00",
-      "lastSuccessAt": "2026-11-07T23:59:14.271740+00:00",
+      "checkedAt": "2026-11-08T06:05:50.491656+00:00",
+      "lastSuccessAt": "2026-11-08T06:05:50.491656+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-07T23:59:14.271740+00:00",
+      "checkedAt": "2026-11-08T06:05:50.491656+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-07T23:59:14.271740+00:00",
-      "lastSuccessAt": "2026-11-07T23:59:14.271740+00:00",
+      "checkedAt": "2026-11-08T06:05:50.491656+00:00",
+      "lastSuccessAt": "2026-11-08T06:05:50.491656+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-07T23:59:14.271740+00:00",
-      "lastSuccessAt": "2026-11-07T23:59:14.271740+00:00",
+      "checkedAt": "2026-11-08T06:05:50.491656+00:00",
+      "lastSuccessAt": "2026-11-08T06:05:50.491656+00:00",
       "count": 146,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-07T23:59:14.271740+00:00",
-      "lastSuccessAt": "2026-11-07T23:59:14.271740+00:00",
+      "checkedAt": "2026-11-08T06:05:50.491656+00:00",
+      "lastSuccessAt": "2026-11-08T06:05:50.491656+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "Rebuilding resilience in America’s pharmaceutical supply chain",
+      "date": "2026-11-08",
+      "dateText": "2026-11-08",
+      "url": "https://marketmatters.podbean.com/e/rebuilding-resilience-in-america-s-pharmaceutical-supply-chain/",
+      "summary": "Alex Gorsky, former chairman and CEO of Johnson & Johnson and a member of J.P. Morgan’s SRI Advisory Council, joins Jerry Lee, global co-head of Healthcare Investment Banking and global chairman of Investment Banking at J.P. Morgan to discuss what reshoring, friendshoring and AI mean for the next decade of healthcare resiliency. Learn more: https://www.jpmorgan.com/insights/security-and-resiliency-initiative/pharma-supply-chain-resiliency This episode was recorded on October 12, 2026. This material was prepared by certain personnel at the Investment Banking Group of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide, and not t",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Capital is tilting East: Inside Asia’s AI gold rush",
