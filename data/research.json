@@ -1,45 +1,93 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T09:51:07.193081+00:00",
-  "lastSuccessAt": "2026-11-09T09:51:07.193081+00:00",
+  "checkedAt": "2026-11-09T20:46:01.841353+00:00",
+  "lastSuccessAt": "2026-11-09T20:46:01.841353+00:00",
   "sources": {
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-11-09T09:51:07.193081+00:00",
-      "lastSuccessAt": "2026-11-09T09:51:07.193081+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-09T09:51:07.193081+00:00",
+      "checkedAt": "2026-11-09T20:46:01.841353+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-09T09:51:07.193081+00:00",
-      "lastSuccessAt": "2026-11-09T09:51:07.193081+00:00",
-      "count": 50,
+      "checkedAt": "2026-11-09T20:46:01.841353+00:00",
+      "lastSuccessAt": "2026-11-09T20:46:01.841353+00:00",
+      "count": 51,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-09T09:51:07.193081+00:00",
-      "lastSuccessAt": "2026-11-09T09:51:07.193081+00:00",
+      "checkedAt": "2026-11-09T20:46:01.841353+00:00",
+      "lastSuccessAt": "2026-11-09T20:46:01.841353+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-11-09T20:46:01.841353+00:00",
+      "lastSuccessAt": "2026-11-09T20:46:01.841353+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-09T09:51:07.193081+00:00",
-      "lastSuccessAt": "2026-11-09T09:51:07.193081+00:00",
-      "count": 146,
+      "checkedAt": "2026-11-09T20:46:01.841353+00:00",
+      "lastSuccessAt": "2026-11-09T20:46:01.841353+00:00",
+      "count": 147,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Global Rates & FX Views: NFP, midterm, & refunding recap",
+      "date": "2026-11-09",
+      "dateText": "2026-11-09",
+      "url": "https://bofaglobalresearch.podbean.com/e/global-rates-fx-views-nfp-midterm-refunding-recap/",
+      "summary": "Please join our rates strategists and economists to discuss reactions to the payroll report, US midterms, & UST refunding. We will discuss implications for the US growth, inflation, & Fed path outlook; we will also discuss rate implications. The call took place on Friday, November 6, 2026 at 10 AM ET, 3 PM GMT, 4 PM CET. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of America Cor",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jpm",
+      "title": "US midterms: Fiscal, market and geopolitical implications of the \"blue wave\"",
+      "date": "2026-11-09",
+      "dateText": "2026-11-09",
+      "url": "https://marketmatters.podbean.com/e/us-midterms-fiscal-market-and-geopolitical-implications-of-the-blue-wave/",
+      "summary": "Democrats have won control of the U.S. Legislature, riding a historic wave of support to equally historic margins in both the House and Senate. In this episode of Making Sense, Kathleen Mellody, head of J.P. Morgan's Federal Government Relations team, sits down with Bruce Kasman, chief global economist, and Derek Chollet, head of the JPMorganChase Center for Geopolitics, to unpack what this outcome could mean in the U.S. and abroad. Will it reshape fiscal policy, the outlook for growth and the AI buildout? Could it affect U.S.-China relations, as well ongoing conflicts in the Middle East and Ukraine? And how does it align with electoral resul",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jefferies",
+      "title": "Beyond the Headlines: Why Credit Secondaries Are Regaining Momentum",
+      "date": "2026-11-09",
+      "dateText": "2026-11-09",
+      "url": "https://www.jefferies.com/insights/markets/beyond-the-headlines-why-credit-secondaries-are-regaining-momentum/",
+      "summary": "Following a challenged second quarter, the direction of credit secondaries is now clear: they are becoming a larger, and more strategically important part of private markets. The post Beyond the Headlines: Why Credit Secondaries Are Regaining Momentum appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Rebuilding resilience in America’s pharmaceutical supply chain",
@@ -49,6 +97,22 @@
       "summary": "Alex Gorsky, former chairman and CEO of Johnson & Johnson and a member of J.P. Morgan’s SRI Advisory Council, joins Jerry Lee, global co-head of Healthcare Investment Banking and global chairman of Investment Banking at J.P. Morgan to discuss what reshoring, friendshoring and AI mean for the next decade of healthcare resiliency. Learn more: https://www.jpmorgan.com/insights/security-and-resiliency-initiative/pharma-supply-chain-resiliency This episode was recorded on October 12, 2026. This material was prepared by certain personnel at the Investment Banking Group of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide, and not t",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Why the Bond Market Remains Calm After the Blue Wave",
+      "date": "2026-11-06",
+      "dateText": "2026-11-06",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/midterm-elections-fixed-income-impact-andrew-sheets",
+      "summary": "For investors, the U.S. election was only one part of a much bigger equation. Our Global Head of Fixed Income Andrew Sheets discusses the balance of risks after the midte...",
+      "type": "播客",
+      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
