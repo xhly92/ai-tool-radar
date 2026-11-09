@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-08T22:30:31.388007+00:00",
-  "lastSuccessAt": "2026-11-08T22:30:31.388007+00:00",
+  "checkedAt": "2026-11-09T02:00:10.858173+00:00",
+  "lastSuccessAt": "2026-11-09T02:00:10.858173+00:00",
   "sources": {
-    "jefferies": {
+    "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-08T22:30:31.388007+00:00",
-      "lastSuccessAt": "2026-11-08T22:30:31.388007+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
+      "checkedAt": "2026-11-09T02:00:10.858173+00:00",
+      "lastSuccessAt": "2026-11-09T02:00:10.858173+00:00",
+      "count": 50,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-08T22:30:31.388007+00:00",
+      "checkedAt": "2026-11-09T02:00:10.858173+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
+    "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-08T22:30:31.388007+00:00",
-      "lastSuccessAt": "2026-11-08T22:30:31.388007+00:00",
-      "count": 50,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+      "checkedAt": "2026-11-09T02:00:10.858173+00:00",
+      "lastSuccessAt": "2026-11-09T02:00:10.858173+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-08T22:30:31.388007+00:00",
-      "lastSuccessAt": "2026-11-08T22:30:31.388007+00:00",
+      "checkedAt": "2026-11-09T02:00:10.858173+00:00",
+      "lastSuccessAt": "2026-11-09T02:00:10.858173+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-08T22:30:31.388007+00:00",
-      "lastSuccessAt": "2026-11-08T22:30:31.388007+00:00",
+      "checkedAt": "2026-11-09T02:00:10.858173+00:00",
+      "lastSuccessAt": "2026-11-09T02:00:10.858173+00:00",
       "count": 146,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
@@ -6065,22 +6065,6 @@
       "summary": "In this episode, Arnaud Jobert, co-head of Strategic Indices for Markets and Global Head of Equity Structuring, speaks with Eloise Goulder, head of the Data Assets & Alpha Group here at J.P. Morgan. They discuss the drivers of growth in the QIS business at J.P. Morgan, the types of alphas they look to provide systematic exposure to, from x-asset risk premia, to x-asset trend, to intraday- and vol-based strategies, and the evolution in investing client demand for these products. Finally they discuss further product innovation potential, from leveraging LLMs to expanding investment markets. Shownotes: Intraday options, levered ETFs and the reta",
       "type": "播客",
       "topic": "市场策略",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Uncharted territory: Unpacking the longest government shutdown on record",
-      "date": "2025-11-07",
-      "dateText": "2025-11-07",
-      "url": "https://marketmatters.podbean.com/e/uncharted-territory-unpacking-the-longest-government-shutdown-on-record/",
-      "summary": "As the U.S. government shutdown drags on, uncertainty continues to build for both investors and everyday Americans. In this episode of J.P. Morgan's Making Sense, Samantha Azzarello, head of Content Strategy, sits down with chief U.S. economist Michael Feroli and Jay Barry, head of Global Rates Strategy, to explore the impacts of the prolonged shutdown. How is it weighing on consumer sentiment and economic growth, and how are markets responding? Plus, have expectations for Fed policy changed as a result? This episode was recorded on November 7, 2025. This communication is provided for information purposes only. Please visit www.jpmm.com/resea",
-      "type": "播客",
-      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
