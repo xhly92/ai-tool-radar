@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-12T17:06:29.248967+00:00",
-  "lastSuccessAt": "2026-11-12T17:06:29.248967+00:00",
+  "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+  "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-12T17:06:29.248967+00:00",
-      "lastSuccessAt": "2026-11-12T17:06:29.248967+00:00",
+      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-12T17:06:29.248967+00:00",
+      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-12T17:06:29.248967+00:00",
-      "lastSuccessAt": "2026-11-12T17:06:29.248967+00:00",
+      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
       "count": 53,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-12T17:06:29.248967+00:00",
-      "lastSuccessAt": "2026-11-12T17:06:29.248967+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-12T17:06:29.248967+00:00",
-      "lastSuccessAt": "2026-11-12T17:06:29.248967+00:00",
-      "count": 149,
+      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+      "count": 150,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -49,6 +49,22 @@
       "summary": "The post-midterm rally has pushed the S&P 500 through Savita Subramanian’s year-end forecast, shifting the focus from how much further the index can run to where opportunities remain beneath the surface. In this episode of Signals & Noise, Savita Subramanian, Head of U.S. Equity and Quantitative Strategy at BofA Global Research, explains why she sees roughly flat returns for the S&P 500 over the next 12 months but a more attractive outlook for select stocks. She discusses why large-cap value ranks ahead of bonds and cash, why energy and healthcare stand out, and how a slower, more elongated AI capital-spending cycle could create opportunities",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Midterms Could Delay the AI Buildout, Not Derail It",
+      "date": "2026-11-11",
+      "dateText": "2026-11-11",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-data-centers-midterm-elections-ariana-salvatore",
+      "summary": "Concerns over electricity bills and water use are turning into political action. Our Head of Public Policy Research Ariana Salvatore breaks down what the midterms mean fo...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
