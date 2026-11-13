@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T11:03:04.027471+00:00",
-  "lastSuccessAt": "2026-11-13T11:03:04.027471+00:00",
+  "checkedAt": "2026-11-13T18:32:14.005198+00:00",
+  "lastSuccessAt": "2026-11-13T18:32:14.005198+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-13T11:03:04.027471+00:00",
-      "lastSuccessAt": "2026-11-13T11:03:04.027471+00:00",
+      "checkedAt": "2026-11-13T18:32:14.005198+00:00",
+      "lastSuccessAt": "2026-11-13T18:32:14.005198+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-13T11:03:04.027471+00:00",
-      "lastSuccessAt": "2026-11-13T11:03:04.027471+00:00",
-      "count": 53,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-13T11:03:04.027471+00:00",
-      "lastSuccessAt": "2026-11-13T11:03:04.027471+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-13T11:03:04.027471+00:00",
+      "checkedAt": "2026-11-13T18:32:14.005198+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-13T18:32:14.005198+00:00",
+      "lastSuccessAt": "2026-11-13T18:32:14.005198+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-13T18:32:14.005198+00:00",
+      "lastSuccessAt": "2026-11-13T18:32:14.005198+00:00",
+      "count": 52,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-13T11:03:04.027471+00:00",
-      "lastSuccessAt": "2026-11-13T11:03:04.027471+00:00",
-      "count": 150,
+      "checkedAt": "2026-11-13T18:32:14.005198+00:00",
+      "lastSuccessAt": "2026-11-13T18:32:14.005198+00:00",
+      "count": 151,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "Revving the ETF vehicle: Roundhill’s CEO on DRAM, next-gen innovation and more",
+      "date": "2026-11-13",
+      "dateText": "2026-11-13",
+      "url": "https://marketmatters.podbean.com/e/revving-the-etf-vehicle-roundhill-s-ceo-on-dram-next-gen-innovation-and-more/",
+      "summary": "What does the next generation of ETF innovation look like? In this episode of Making Sense, Funmi Osiyale, from J.P. Morgan’s ETF Sales team, is joined by Dave Mazza, CEO of Roundhill Investments, to discuss Roundhill’s approach to identifying investment opportunities and the thinking behind innovative ETFs, including DRAM and MAGS. They also explore the return of thematic ETFs, how investor demand is influencing product development, and what could be next for the broader ETF landscape. This episode was recorded on October 26, 2026. This podcast is intended for institutional clients only. The views expressed in this podcast may not necessaril",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "From AI to Air Conditioning: The Power Boom in Asia",
+      "date": "2026-11-12",
+      "dateText": "2026-11-12",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/asia-growing-power-demands-mayank-maheshwari",
+      "summary": "Our Asia Energy Analyst Mayank Maheshwari discusses how AI, new factories and cooling systems are boosting electricity demand in Asia and reshaping the local power infras...",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Signals & Noise: Time to Get Selective",
