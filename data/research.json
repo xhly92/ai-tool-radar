@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-12T22:44:36.805312+00:00",
-  "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+  "checkedAt": "2026-11-13T02:57:33.729765+00:00",
+  "lastSuccessAt": "2026-11-13T02:57:33.729765+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
-      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+      "checkedAt": "2026-11-13T02:57:33.729765+00:00",
+      "lastSuccessAt": "2026-11-13T02:57:33.729765+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
+      "checkedAt": "2026-11-13T02:57:33.729765+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
-      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+      "checkedAt": "2026-11-13T02:57:33.729765+00:00",
+      "lastSuccessAt": "2026-11-13T02:57:33.729765+00:00",
       "count": 53,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
-      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
-      "count": 150,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-12T22:44:36.805312+00:00",
-      "lastSuccessAt": "2026-11-12T22:44:36.805312+00:00",
+      "checkedAt": "2026-11-13T02:57:33.729765+00:00",
+      "lastSuccessAt": "2026-11-13T02:57:33.729765+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-11-13T02:57:33.729765+00:00",
+      "lastSuccessAt": "2026-11-13T02:57:33.729765+00:00",
+      "count": 150,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
@@ -6225,22 +6225,6 @@
       "summary": "The U.S. power market is undergoing a dramatic transformation, driven by the explosive growth of AI data centers and evolving priorities. Join Leland Price from the FICC Market Structure & Liquidity Strategy team and Chris Wu, Head of U.S. Power Trading, as they discuss the evolving landscape of power trading in the U.S. This episode explores the surge in electricity demand, capacity constraints, and the impact of policy developments on trading dynamics. The conversation also examines the role of renewables and natural gas, the challenges facing grid infrastructure and the implications of new entrants to the market. Tune in for insights on ho",
       "type": "播客",
       "topic": "科技AI",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "Trading Insights: Unpacking innovations in quantitative investment strategies (QIS)",
-      "date": "2025-11-11",
-      "dateText": "2025-11-11",
-      "url": "https://marketmatters.podbean.com/e/trading-insights-unpacking-innovations-in-quantitative-investment-strategies-qis/",
-      "summary": "In this episode, Arnaud Jobert, co-head of Strategic Indices for Markets and Global Head of Equity Structuring, speaks with Eloise Goulder, head of the Data Assets & Alpha Group here at J.P. Morgan. They discuss the drivers of growth in the QIS business at J.P. Morgan, the types of alphas they look to provide systematic exposure to, from x-asset risk premia, to x-asset trend, to intraday- and vol-based strategies, and the evolution in investing client demand for these products. Finally they discuss further product innovation potential, from leveraging LLMs to expanding investment markets. Shownotes: Intraday options, levered ETFs and the reta",
-      "type": "播客",
-      "topic": "市场策略",
       "tags": [
         "官方原文",
         "自动采集"
