@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-15T02:41:59.638331+00:00",
-  "lastSuccessAt": "2026-11-15T02:41:59.638331+00:00",
+  "checkedAt": "2026-11-15T09:56:44.936616+00:00",
+  "lastSuccessAt": "2026-11-15T09:56:44.936616+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-15T02:41:59.638331+00:00",
-      "lastSuccessAt": "2026-11-15T02:41:59.638331+00:00",
+      "checkedAt": "2026-11-15T09:56:44.936616+00:00",
+      "lastSuccessAt": "2026-11-15T09:56:44.936616+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-15T02:41:59.638331+00:00",
-      "lastSuccessAt": "2026-11-15T02:41:59.638331+00:00",
+      "checkedAt": "2026-11-15T09:56:44.936616+00:00",
+      "lastSuccessAt": "2026-11-15T09:56:44.936616+00:00",
       "count": 50,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-15T02:41:59.638331+00:00",
+      "checkedAt": "2026-11-15T09:56:44.936616+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-15T02:41:59.638331+00:00",
-      "lastSuccessAt": "2026-11-15T02:41:59.638331+00:00",
+      "checkedAt": "2026-11-15T09:56:44.936616+00:00",
+      "lastSuccessAt": "2026-11-15T09:56:44.936616+00:00",
       "count": 151,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-15T02:41:59.638331+00:00",
-      "lastSuccessAt": "2026-11-15T02:41:59.638331+00:00",
+      "checkedAt": "2026-11-15T09:56:44.936616+00:00",
+      "lastSuccessAt": "2026-11-15T09:56:44.936616+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "Financing the Future of Defense: Admiral Pierre Vandier on Innovation and Investment",
+      "date": "2026-11-15",
+      "dateText": "2026-11-15",
+      "url": "https://marketmatters.podbean.com/e/financing-the-future-of-defense-admiral-pierre-vandier-on-innovation-and-investment/",
+      "summary": "Admiral Pierre Vandier, NATO's Supreme Allied Commander Transformation, joins Daniel Rudnicki Schlumberger, head of the Security and Resiliency Initiative for EMEA, to discuss what the war in Ukraine has revealed about modern defense — and the role private capital must now play in building the industrial base. This material was prepared by certain personnel at the Investment Banking Group of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide, and not the firm's research department. It is for informational purposes only. It is not intended as an offer or solicitation for the purchase, sale, or tender of any financial instrument",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Revving the ETF vehicle: Roundhill’s CEO on DRAM, next-gen innovation and more",
