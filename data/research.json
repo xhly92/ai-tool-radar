@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T09:48:24.576479+00:00",
-  "lastSuccessAt": "2026-11-16T09:48:24.576479+00:00",
+  "checkedAt": "2026-11-16T20:30:45.666096+00:00",
+  "lastSuccessAt": "2026-11-16T20:30:45.666096+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-16T09:48:24.576479+00:00",
-      "lastSuccessAt": "2026-11-16T09:48:24.576479+00:00",
+      "checkedAt": "2026-11-16T20:30:45.666096+00:00",
+      "lastSuccessAt": "2026-11-16T20:30:45.666096+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-16T20:30:45.666096+00:00",
+      "lastSuccessAt": "2026-11-16T20:30:45.666096+00:00",
+      "count": 49,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-16T09:48:24.576479+00:00",
+      "checkedAt": "2026-11-16T20:30:45.666096+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-16T09:48:24.576479+00:00",
-      "lastSuccessAt": "2026-11-16T09:48:24.576479+00:00",
-      "count": 49,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-16T09:48:24.576479+00:00",
-      "lastSuccessAt": "2026-11-16T09:48:24.576479+00:00",
-      "count": 151,
+      "checkedAt": "2026-11-16T20:30:45.666096+00:00",
+      "lastSuccessAt": "2026-11-16T20:30:45.666096+00:00",
+      "count": 152,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-16T09:48:24.576479+00:00",
-      "lastSuccessAt": "2026-11-16T09:48:24.576479+00:00",
+      "checkedAt": "2026-11-16T20:30:45.666096+00:00",
+      "lastSuccessAt": "2026-11-16T20:30:45.666096+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -81,6 +81,22 @@
       "summary": "Ralf Preusser is joined by Aditya Bhave and Mark Cabana to discuss the Fed following this week’s inflation print, its implications for the Fed’s reaction function, and market pricing. The call took place on Friday, 13 November at 9:00 a.m. EST / 2:00 p.m. BST / 3:00 p.m. CET. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, derivatives, and other commercial banking activities are performed globally by banking affiliates of Bank of America Corporation, including Bank of America, N.A., Mem",
       "type": "播客",
       "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Can AI Chip Demand Outrun the Power Crunch?",
+      "date": "2026-11-13",
+      "dateText": "2026-11-13",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-data-centers-power-demand-semiconductors-joe-moore-stephen-byrd",
+      "summary": "The U.S. midterm results could lead to policy changes that worsen the power bottleneck for U.S. data centers. Meanwhile, the outlook for AI chips remains bullish. Our spe...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
