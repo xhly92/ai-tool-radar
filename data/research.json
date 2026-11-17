@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-  "lastSuccessAt": "2026-11-17T03:12:04.776635+00:00",
+  "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+  "lastSuccessAt": "2026-11-17T11:55:50.031782+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-      "lastSuccessAt": "2026-11-17T03:12:04.776635+00:00",
+      "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+      "lastSuccessAt": "2026-11-17T11:55:50.031782+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "evercore": {
-      "status": "error",
-      "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-      "lastSuccessAt": null,
-      "message": "未找到可核验发布日期的公开条目，保留已有资料",
-      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-      "lastSuccessAt": "2026-11-17T03:12:04.776635+00:00",
+      "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+      "lastSuccessAt": "2026-11-17T11:55:50.031782+00:00",
       "count": 47,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-      "lastSuccessAt": "2026-11-17T03:12:04.776635+00:00",
+      "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+      "lastSuccessAt": "2026-11-17T11:55:50.031782+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
+    "evercore": {
+      "status": "error",
+      "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+      "lastSuccessAt": null,
+      "message": "未找到可核验发布日期的公开条目，保留已有资料",
+      "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-17T03:12:04.776635+00:00",
-      "lastSuccessAt": "2026-11-17T03:12:04.776635+00:00",
+      "checkedAt": "2026-11-17T11:55:50.031782+00:00",
+      "lastSuccessAt": "2026-11-17T11:55:50.031782+00:00",
       "count": 152,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "The rise of content as data: How AI is reshaping market insights",
+      "date": "2026-11-17",
+      "dateText": "2026-11-17",
+      "url": "https://marketmatters.podbean.com/e/the-rise-of-content-as-data-how-ai-is-reshaping-market-insights/",
+      "summary": "In this episode of Making Sense, product specialist Edwina Lowe speaks with Camila Penna, co-head of Global Cash Equity Sales, about how AI is reshaping the way institutional investors consume information from the sell side. Research, market commentary and other unstructured content is increasingly being fed directly into data platforms and AI workflows, rather than simply read by individuals. They explore what this shift means for the investment landscape, including how the role of content authors and the value of their content may evolve, how firms think about access and intellectual property and what happens as machines increasingly become",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Financing the Future of Defense: Admiral Pierre Vandier on Innovation and Investment",
