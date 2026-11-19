@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T19:38:01.947304+00:00",
-  "lastSuccessAt": "2026-11-18T19:38:01.947304+00:00",
+  "checkedAt": "2026-11-19T01:31:14.448880+00:00",
+  "lastSuccessAt": "2026-11-19T01:31:14.448880+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-18T19:38:01.947304+00:00",
-      "lastSuccessAt": "2026-11-18T19:38:01.947304+00:00",
+      "checkedAt": "2026-11-19T01:31:14.448880+00:00",
+      "lastSuccessAt": "2026-11-19T01:31:14.448880+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-18T19:38:01.947304+00:00",
-      "lastSuccessAt": "2026-11-18T19:38:01.947304+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-18T19:38:01.947304+00:00",
+      "checkedAt": "2026-11-19T01:31:14.448880+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-19T01:31:14.448880+00:00",
+      "lastSuccessAt": "2026-11-19T01:31:14.448880+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-18T19:38:01.947304+00:00",
-      "lastSuccessAt": "2026-11-18T19:38:01.947304+00:00",
+      "checkedAt": "2026-11-19T01:31:14.448880+00:00",
+      "lastSuccessAt": "2026-11-19T01:31:14.448880+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-18T19:38:01.947304+00:00",
-      "lastSuccessAt": "2026-11-18T19:38:01.947304+00:00",
-      "count": 153,
+      "checkedAt": "2026-11-19T01:31:14.448880+00:00",
+      "lastSuccessAt": "2026-11-19T01:31:14.448880+00:00",
+      "count": 155,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "ms",
+      "title": "2027 Equities Outlook: Why the Correction Isn't the End of the Bull Market",
+      "date": "2026-11-18",
+      "dateText": "2026-11-18",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/2027-stock-market-outlook-sp-500-equities-mike-wilson",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson shares his 2027 outlook and how the current correction isn't breaking the bull market, it's resetting it.",
+      "type": "播客",
+      "topic": "市场策略",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "The rise of content as data: How AI is reshaping market insights",
@@ -65,6 +81,22 @@
       "summary": "In this episode of Must Read Research on Global Research Unlocked, Candace Browning looks beneath the market headlines to uncover where value may be emerging. We examine an accelerating rotation from AI leaders into value stocks, why improving existing infrastructure could unlock capacity faster and more cheaply than building from scratch, and what early holiday spending reveals about a resilient but increasingly value-conscious consumer. \"Bank of America\" and “BofA Securities” are the marketing names for the global banking businesses and global markets businesses (which includes BofA Global Research) of Bank of America Corporation. Lending, ",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "2027 Global Outlooks: The Case for a Stronger Dollar, Longer AI Cycle",
+      "date": "2026-11-17",
+      "dateText": "2026-11-17",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/global-outlook-2027-seth-carpenter-serena-tang",
+      "summary": "Global Chief Economist Seth Carpenter and Global Cross-Asset Strategist Serena Tang discuss the 2027 investment outlook, including where the call could be wrong and how t...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
