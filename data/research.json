@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-19T18:41:17.558988+00:00",
-  "lastSuccessAt": "2026-11-19T18:41:17.558988+00:00",
+  "checkedAt": "2026-11-20T00:56:01.547813+00:00",
+  "lastSuccessAt": "2026-11-20T00:56:01.547813+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-19T18:41:17.558988+00:00",
-      "lastSuccessAt": "2026-11-19T18:41:17.558988+00:00",
+      "checkedAt": "2026-11-20T00:56:01.547813+00:00",
+      "lastSuccessAt": "2026-11-20T00:56:01.547813+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-19T18:41:17.558988+00:00",
-      "lastSuccessAt": "2026-11-19T18:41:17.558988+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-19T18:41:17.558988+00:00",
+      "checkedAt": "2026-11-20T00:56:01.547813+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T00:56:01.547813+00:00",
+      "lastSuccessAt": "2026-11-20T00:56:01.547813+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-19T18:41:17.558988+00:00",
-      "lastSuccessAt": "2026-11-19T18:41:17.558988+00:00",
+      "checkedAt": "2026-11-20T00:56:01.547813+00:00",
+      "lastSuccessAt": "2026-11-20T00:56:01.547813+00:00",
       "count": 155,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-19T18:41:17.558988+00:00",
-      "lastSuccessAt": "2026-11-19T18:41:17.558988+00:00",
+      "checkedAt": "2026-11-20T00:56:01.547813+00:00",
+      "lastSuccessAt": "2026-11-20T00:56:01.547813+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     }
@@ -6385,22 +6385,6 @@
       "summary": "In this episode, Eloise Goulder speaks with Andrew Tyler, Global head of Market Intelligence, and Federico Manicardi, International head of the Market Intelligence at J.P. Morgan. They discuss strength in equity markets over 2025, from the macro backdrop to corporate earnings and central bank policy. They also explore the relative outperformance in EM, Europe and several APAC markets, as well as the respective drivers for these moves. Finally, they hone in on highest conviction opportunities for equities into year-end, plus key catalysts and risks to watch in the weeks ahead. This episode was recorded on December 1, 2025. The views expressed ",
       "type": "播客",
       "topic": "市场策略",
-      "tags": [
-        "官方原文",
-        "自动采集"
-      ],
-      "source": "机构公开",
-      "access": "公开访问"
-    },
-    {
-      "org": "jpm",
-      "title": "AI, policy and the future of US power trading",
-      "date": "2025-11-18",
-      "dateText": "2025-11-18",
-      "url": "https://marketmatters.podbean.com/e/ai-policy-and-the-future-of-us-power-trading/",
-      "summary": "The U.S. power market is undergoing a dramatic transformation, driven by the explosive growth of AI data centers and evolving priorities. Join Leland Price from the FICC Market Structure & Liquidity Strategy team and Chris Wu, Head of U.S. Power Trading, as they discuss the evolving landscape of power trading in the U.S. This episode explores the surge in electricity demand, capacity constraints, and the impact of policy developments on trading dynamics. The conversation also examines the role of renewables and natural gas, the challenges facing grid infrastructure and the implications of new entrants to the market. Tune in for insights on ho",
-      "type": "播客",
-      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
