@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-20T08:35:36.159961+00:00",
-  "lastSuccessAt": "2026-11-20T08:35:36.159961+00:00",
+  "checkedAt": "2026-11-20T17:19:42.411905+00:00",
+  "lastSuccessAt": "2026-11-20T17:19:42.411905+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-20T08:35:36.159961+00:00",
-      "lastSuccessAt": "2026-11-20T08:35:36.159961+00:00",
+      "checkedAt": "2026-11-20T17:19:42.411905+00:00",
+      "lastSuccessAt": "2026-11-20T17:19:42.411905+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T17:19:42.411905+00:00",
+      "lastSuccessAt": "2026-11-20T17:19:42.411905+00:00",
+      "count": 45,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T17:19:42.411905+00:00",
+      "lastSuccessAt": "2026-11-20T17:19:42.411905+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-20T08:35:36.159961+00:00",
+      "checkedAt": "2026-11-20T17:19:42.411905+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-20T08:35:36.159961+00:00",
-      "lastSuccessAt": "2026-11-20T08:35:36.159961+00:00",
-      "count": 47,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-20T08:35:36.159961+00:00",
-      "lastSuccessAt": "2026-11-20T08:35:36.159961+00:00",
-      "count": 155,
+      "checkedAt": "2026-11-20T17:19:42.411905+00:00",
+      "lastSuccessAt": "2026-11-20T17:19:42.411905+00:00",
+      "count": 156,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-20T08:35:36.159961+00:00",
-      "lastSuccessAt": "2026-11-20T08:35:36.159961+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
@@ -58,6 +58,22 @@
     },
     {
       "org": "jefferies",
+      "title": "Oman: Vision 2040 at Five",
+      "date": "2026-11-20",
+      "dateText": "2026-11-20",
+      "url": "https://www.jefferies.com/insights/markets/oman-vision-2040-at-five/",
+      "summary": "The Omani economy has quietly come a long way over the past decade. During the 2014-16 oil-price downturn, Oman was one of the GCC’s weaker links, with pressure on the economy reflected in the currency forward market. It has since emerged as one of the region’s more resilient economies. The post Oman: Vision 2040 at Five appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "jefferies",
       "title": "GEMS Returns to Dubai",
       "date": "2026-11-19",
       "dateText": "2026-11-19",
@@ -65,6 +81,22 @@
       "summary": "Geopolitical uncertainty has sharpened investors’ questions about MENA, from valuations and capital spending to the resilience of domestic demand. Jefferies’ third GEMS (Global Emerging Markets) Conference in Dubai brings international investors together with corporate leaders to explore those questions and the opportunities ahead. The post GEMS Returns to Dubai appeared first on Jefferies.com .",
       "type": "官方摘要",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Europe's AI Moment",
+      "date": "2026-11-19",
+      "dateText": "2026-11-19",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/europe-ai-data-centers-paul-walsh-emmett-kelly-lee-simpson",
+      "summary": "Recorded live at Morgan Stanley's European Tech, Media and Telecom Conference in Barcelona, our analysts discuss data center rollout, Europe's push for sovereign...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
