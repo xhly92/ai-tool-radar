@@ -1,45 +1,61 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-22T00:21:39.388748+00:00",
-  "lastSuccessAt": "2026-11-22T00:21:39.388748+00:00",
+  "checkedAt": "2026-11-22T07:29:39.879021+00:00",
+  "lastSuccessAt": "2026-11-22T07:29:39.879021+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-22T00:21:39.388748+00:00",
-      "lastSuccessAt": "2026-11-22T00:21:39.388748+00:00",
+      "checkedAt": "2026-11-22T07:29:39.879021+00:00",
+      "lastSuccessAt": "2026-11-22T07:29:39.879021+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-22T00:21:39.388748+00:00",
+      "checkedAt": "2026-11-22T07:29:39.879021+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-22T00:21:39.388748+00:00",
-      "lastSuccessAt": "2026-11-22T00:21:39.388748+00:00",
+      "checkedAt": "2026-11-22T07:29:39.879021+00:00",
+      "lastSuccessAt": "2026-11-22T07:29:39.879021+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-22T00:21:39.388748+00:00",
-      "lastSuccessAt": "2026-11-22T00:21:39.388748+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-22T00:21:39.388748+00:00",
-      "lastSuccessAt": "2026-11-22T00:21:39.388748+00:00",
+      "checkedAt": "2026-11-22T07:29:39.879021+00:00",
+      "lastSuccessAt": "2026-11-22T07:29:39.879021+00:00",
       "count": 156,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-22T07:29:39.879021+00:00",
+      "lastSuccessAt": "2026-11-22T07:29:39.879021+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
     }
   },
   "reports": [
+    {
+      "org": "jpm",
+      "title": "How generational demand is transforming the power grid",
+      "date": "2026-11-22",
+      "dateText": "2026-11-22",
+      "url": "https://marketmatters.podbean.com/e/how-generational-demand-is-transforming-the-power-grid/",
+      "summary": "EPRI's Arshad Mansoor joins J.P. Morgan's Michael Johnson to discuss what it will take to electrify the AI era: speed to power, speed to trust and a grid built for growth. This material was prepared by certain personnel at the Investment Banking Group of JPMorgan Chase & Co. and its affiliates and subsidiaries worldwide, and not the firm's research department. It is for informational purposes only. It is not intended as an offer or solicitation for the purchase, sale, or tender of any financial instrument and does not constitute a commitment, undertaking offer, or solicitation by any JP Morgan Chase entity to extend or arrange credit or provi",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "Healthcare’s next wave: AI, innovation and the future of access",
