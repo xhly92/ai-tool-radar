@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T10:49:28.928825+00:00",
-  "lastSuccessAt": "2026-11-23T10:49:28.928825+00:00",
+  "checkedAt": "2026-11-23T22:40:23.792555+00:00",
+  "lastSuccessAt": "2026-11-23T22:40:23.792555+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-23T10:49:28.928825+00:00",
-      "lastSuccessAt": "2026-11-23T10:49:28.928825+00:00",
+      "checkedAt": "2026-11-23T22:40:23.792555+00:00",
+      "lastSuccessAt": "2026-11-23T22:40:23.792555+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-23T10:49:28.928825+00:00",
+      "checkedAt": "2026-11-23T22:40:23.792555+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-23T10:49:28.928825+00:00",
-      "lastSuccessAt": "2026-11-23T10:49:28.928825+00:00",
+      "checkedAt": "2026-11-23T22:40:23.792555+00:00",
+      "lastSuccessAt": "2026-11-23T22:40:23.792555+00:00",
       "count": 45,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-11-23T10:49:28.928825+00:00",
-      "lastSuccessAt": "2026-11-23T10:49:28.928825+00:00",
-      "count": 156,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
-    },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-23T10:49:28.928825+00:00",
-      "lastSuccessAt": "2026-11-23T10:49:28.928825+00:00",
+      "checkedAt": "2026-11-23T22:40:23.792555+00:00",
+      "lastSuccessAt": "2026-11-23T22:40:23.792555+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-11-23T22:40:23.792555+00:00",
+      "lastSuccessAt": "2026-11-23T22:40:23.792555+00:00",
+      "count": 157,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
@@ -81,6 +81,22 @@
       "summary": "The Omani economy has quietly come a long way over the past decade. During the 2014-16 oil-price downturn, Oman was one of the GCC’s weaker links, with pressure on the economy reflected in the currency forward market. It has since emerged as one of the region’s more resilient economies. The post Oman: Vision 2040 at Five appeared first on Jefferies.com .",
       "type": "官方摘要",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "China's Bet on Physical AI",
+      "date": "2026-11-20",
+      "dateText": "2026-11-20",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/china-physical-ai-payoff-laura-wang-robin-xing",
+      "summary": "Live from Morgan Stanley's Asia Pacific Summit in Singapore, our China Equity Strategist Laura Wang joins Chief China Economist Robin Xing to explore how physical AI...",
+      "type": "播客",
+      "topic": "科技AI",
       "tags": [
         "官方原文",
         "自动采集"
