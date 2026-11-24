@@ -1,45 +1,77 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-24T06:27:12.686119+00:00",
-  "lastSuccessAt": "2026-11-24T06:27:12.686119+00:00",
+  "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+  "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
   "sources": {
+    "jefferies": {
+      "status": "ok",
+      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "count": 9,
+      "url": "https://www.jefferies.com/feed/"
+    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-24T06:27:12.686119+00:00",
+      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
-    "jefferies": {
-      "status": "ok",
-      "checkedAt": "2026-11-24T06:27:12.686119+00:00",
-      "lastSuccessAt": "2026-11-24T06:27:12.686119+00:00",
-      "count": 9,
-      "url": "https://www.jefferies.com/feed/"
-    },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-24T06:27:12.686119+00:00",
-      "lastSuccessAt": "2026-11-24T06:27:12.686119+00:00",
-      "count": 45,
+      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "ms": {
-      "status": "ok",
-      "checkedAt": "2026-11-24T06:27:12.686119+00:00",
-      "lastSuccessAt": "2026-11-24T06:27:12.686119+00:00",
-      "count": 157,
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-24T06:27:12.686119+00:00",
-      "lastSuccessAt": "2026-11-24T06:27:12.686119+00:00",
+      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
+    },
+    "ms": {
+      "status": "ok",
+      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "count": 158,
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "bofa",
+      "title": "Must Read Research: Are Pack Rips Gaming’s Next Big Thing?",
+      "date": "2026-11-24",
+      "dateText": "2026-11-24",
+      "url": "https://bofaglobalresearch.podbean.com/e/must-read-research-are-pack-rips-gaming-s-next-big-thing/",
+      "summary": "The traditional thrill of opening a pack of trading cards is going digital, and the numbers are hard to ignore. In this special episode of Must Read Research on BofA Global Research Unlocked, Head of Global Research, Candace Browning sits down with Gaming Analyst Julie Hoover to explore the rise of “pack rips,” where weekly users have surged from roughly 50,000 to more than 1.7 million in just one year. With the category already generating an estimated $2 billion in annualized revenue and a potential market of $30 billion or more, they discuss why the mechanics increasingly resemble online gaming, why operators are moving in, and whether acce",
+      "type": "播客",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "From EVs to Robots: China’s Edge in Physical AI",
+      "date": "2026-11-23",
+      "dateText": "2026-11-23",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/china-ai-adoption-real-world-laura-wang-tim-hsiao-sheng-zhong",
+      "summary": "Our Chief China Equity Strategist Laura Wang is joined by Tim Hsiao, Head of Greater China Auto and Mobility Research, and Sheng Zhong, Head of China Industrial Research,...",
+      "type": "播客",
+      "topic": "科技AI",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "jpm",
       "title": "How generational demand is transforming the power grid",
