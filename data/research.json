@@ -1,45 +1,93 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-25T12:59:39.055312+00:00",
-  "lastSuccessAt": "2026-11-25T12:59:39.055312+00:00",
+  "checkedAt": "2026-11-25T22:34:40.454351+00:00",
+  "lastSuccessAt": "2026-11-25T22:34:40.454351+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-25T12:59:39.055312+00:00",
-      "lastSuccessAt": "2026-11-25T12:59:39.055312+00:00",
+      "checkedAt": "2026-11-25T22:34:40.454351+00:00",
+      "lastSuccessAt": "2026-11-25T22:34:40.454351+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
-    "bofa": {
-      "status": "ok",
-      "checkedAt": "2026-11-25T12:59:39.055312+00:00",
-      "lastSuccessAt": "2026-11-25T12:59:39.055312+00:00",
-      "count": 46,
-      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
-    },
-    "jpm": {
-      "status": "ok",
-      "checkedAt": "2026-11-25T12:59:39.055312+00:00",
-      "lastSuccessAt": "2026-11-25T12:59:39.055312+00:00",
-      "count": 300,
-      "url": "https://marketmatters.podbean.com/feed.xml"
-    },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-25T12:59:39.055312+00:00",
+      "checkedAt": "2026-11-25T22:34:40.454351+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
+    "bofa": {
+      "status": "ok",
+      "checkedAt": "2026-11-25T22:34:40.454351+00:00",
+      "lastSuccessAt": "2026-11-25T22:34:40.454351+00:00",
+      "count": 47,
+      "url": "https://bofaglobalresearch.podbean.com/feed.xml"
+    },
+    "jpm": {
+      "status": "ok",
+      "checkedAt": "2026-11-25T22:34:40.454351+00:00",
+      "lastSuccessAt": "2026-11-25T22:34:40.454351+00:00",
+      "count": 300,
+      "url": "https://marketmatters.podbean.com/feed.xml"
+    },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-25T12:59:39.055312+00:00",
-      "lastSuccessAt": "2026-11-25T12:59:39.055312+00:00",
-      "count": 158,
+      "checkedAt": "2026-11-25T22:34:40.454351+00:00",
+      "lastSuccessAt": "2026-11-25T22:34:40.454351+00:00",
+      "count": 160,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
   },
   "reports": [
+    {
+      "org": "jefferies",
+      "title": "Q&A: Philip Ross and Chris Roop on the Defining Trends Shaping Healthcare Dealmaking in 2026",
+      "date": "2026-11-25",
+      "dateText": "2026-11-25",
+      "url": "https://www.jefferies.com/insights/markets/qa-philip-ross-and-chris-roop-on-the-defining-trends-shaping-healthcare-dealmaking-in-2026/",
+      "summary": "We recently sat down with Philip Ross, vice chairman of Jefferies and chairman of the bank’s Global Healthcare practice, and Chris Roop, co-head of Global M&A and Global Biopharmaceuticals Investment Banking. The post Q&A: Philip Ross and Chris Roop on the Defining Trends Shaping Healthcare Dealmaking in 2026 appeared first on Jefferies.com .",
+      "type": "官方摘要",
+      "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Rates reflect resilient growth, not high deficits. Inflation risks two-sided",
+      "date": "2026-11-25",
+      "dateText": "2026-11-25",
+      "url": "https://bofaglobalresearch.podbean.com/e/rates-reflect-resilient-growth-not-high-deficits-inflation-risks-two-sided/",
+      "summary": "Real yields reflect resilience; supply shocks remain a risk Mark Cabana argues that fiscal concerns have played only a limited role in the increase in Treasury yields over the last year, with resilient US growth accounting for most of the upside in real rates. He discusses what we'd need to see in order for a debt spiral to become a reasonable risk and what would need to change for yields to move sustainably lower. He also shares his view on why risks around the Fed may still be skewed toward more tightening than markets currently price. Looking into 2027, consensus expects inflation to moderate as oil and other supply shocks fade, but Mark s",
+      "type": "播客",
+      "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Holiday Shopping in 2026: Higher Spending, Fewer Bags",
+      "date": "2026-11-25",
+      "dateText": "2026-11-25",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/2026-holiday-shopping-consumer-spending-michelle-weaver",
+      "summary": "Our Head of U.S. Thematic Research Michelle Weaver discusses how inflation and AI are affecting consumer spending this holiday season.",
+      "type": "播客",
+      "topic": "消费",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
     {
       "org": "bofa",
       "title": "Must Read Research: Are Pack Rips Gaming’s Next Big Thing?",
@@ -65,6 +113,22 @@
       "summary": "The economy looks strong in the aggregate, but that may be a tough sell around the holiday table. In this episode of Signals & Noise, Head of U.S. Economics Aditya Bhave tackles the questions likely to come up with family and friends, from affordability and AI-driven job fears to the Fed, housing and stocks. He explains how to reconcile resilient consumer spending and job growth with very real household concerns, and where the outlook could become more challenging. You may also enjoy listening to the Merrill Perspectives podcast, featuring conversations on the big stories, news and trends affecting your everyday financial life. \"Bank of Ameri",
       "type": "播客",
       "topic": "宏观经济",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "ms",
+      "title": "Can Treasuries Still Protect Your Portfolio?",
+      "date": "2026-11-24",
+      "dateText": "2026-11-24",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/treasuries-stock-market-hedge-matthew-hornbach",
+      "summary": "When stocks fall, investors often turn to government bonds. Our Global Head of Macro Strategy Matt Hornbach looks at whether the market's favorite hedge has lost its...",
+      "type": "播客",
+      "topic": "行业研究",
       "tags": [
         "官方原文",
         "自动采集"
