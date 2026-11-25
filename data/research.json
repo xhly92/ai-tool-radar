@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-24T18:21:17.677384+00:00",
-  "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+  "checkedAt": "2026-11-25T02:48:37.958542+00:00",
+  "lastSuccessAt": "2026-11-25T02:48:37.958542+00:00",
   "sources": {
     "jefferies": {
       "status": "ok",
-      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
-      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "checkedAt": "2026-11-25T02:48:37.958542+00:00",
+      "lastSuccessAt": "2026-11-25T02:48:37.958542+00:00",
       "count": 9,
       "url": "https://www.jefferies.com/feed/"
     },
     "evercore": {
       "status": "error",
-      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
+      "checkedAt": "2026-11-25T02:48:37.958542+00:00",
       "lastSuccessAt": null,
       "message": "未找到可核验发布日期的公开条目，保留已有资料",
       "url": "https://www.evercore.com/our-business-and-capabilities/equities/"
     },
     "bofa": {
       "status": "ok",
-      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
-      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "checkedAt": "2026-11-25T02:48:37.958542+00:00",
+      "lastSuccessAt": "2026-11-25T02:48:37.958542+00:00",
       "count": 46,
       "url": "https://bofaglobalresearch.podbean.com/feed.xml"
     },
     "jpm": {
       "status": "ok",
-      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
-      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "checkedAt": "2026-11-25T02:48:37.958542+00:00",
+      "lastSuccessAt": "2026-11-25T02:48:37.958542+00:00",
       "count": 300,
       "url": "https://marketmatters.podbean.com/feed.xml"
     },
     "ms": {
       "status": "ok",
-      "checkedAt": "2026-11-24T18:21:17.677384+00:00",
-      "lastSuccessAt": "2026-11-24T18:21:17.677384+00:00",
+      "checkedAt": "2026-11-25T02:48:37.958542+00:00",
+      "lastSuccessAt": "2026-11-25T02:48:37.958542+00:00",
       "count": 158,
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market"
     }
@@ -49,6 +49,22 @@
       "summary": "The traditional thrill of opening a pack of trading cards is going digital, and the numbers are hard to ignore. In this special episode of Must Read Research on BofA Global Research Unlocked, Head of Global Research, Candace Browning sits down with Gaming Analyst Julie Hoover to explore the rise of “pack rips,” where weekly users have surged from roughly 50,000 to more than 1.7 million in just one year. With the category already generating an estimated $2 billion in annualized revenue and a potential market of $30 billion or more, they discuss why the mechanics increasingly resemble online gaming, why operators are moving in, and whether acce",
       "type": "播客",
       "topic": "行业研究",
+      "tags": [
+        "官方原文",
+        "自动采集"
+      ],
+      "source": "机构公开",
+      "access": "公开访问"
+    },
+    {
+      "org": "bofa",
+      "title": "Signals & Noise: How to talk to your family about the economy over the holidays",
+      "date": "2026-11-24",
+      "dateText": "2026-11-24",
+      "url": "https://bofaglobalresearch.podbean.com/e/signals-noise-how-to-talk-to-your-family-about-the-economy-over-the-holidays/",
+      "summary": "The economy looks strong in the aggregate, but that may be a tough sell around the holiday table. In this episode of Signals & Noise, Head of U.S. Economics Aditya Bhave tackles the questions likely to come up with family and friends, from affordability and AI-driven job fears to the Fed, housing and stocks. He explains how to reconcile resilient consumer spending and job growth with very real household concerns, and where the outlook could become more challenging. You may also enjoy listening to the Merrill Perspectives podcast, featuring conversations on the big stories, news and trends affecting your everyday financial life. \"Bank of Ameri",
+      "type": "播客",
+      "topic": "宏观经济",
       "tags": [
         "官方原文",
         "自动采集"
